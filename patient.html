@@ -49,7 +49,7 @@
           </div>
         </div>
         <div class="container-1">
-          <div class="frame-10" onclick="window.location.href='home.html';">
+          <div class="frame-10" onclick="window.location.href='index.html';">
             <div class="place inter-normal-eerie-black-24px">Home</div>
           </div>
           <div class="frame-11" onclick="window.location.href='doctor-management-site.html';">
@@ -194,8 +194,8 @@
           <div class="textbox-56-1 textbox-56-3">
             <div class="reason-for-examination archivo-bold-eerie-black-20px">Reason for examination</div>
             <div class="textfield-5 textfield-8">
-              <input class="taylorandrewhotmailcom archivo-normal-eerie-black-20px" name="reasonForExamination" placeholder="Reason for examination"
-                type="text" />
+              <input class="taylorandrewhotmailcom archivo-normal-eerie-black-20px" name="reasonForExamination"
+                placeholder="Reason for examination" type="text" />
             </div>
           </div>
           <div class="textbox-56-2 textbox-56-3">
@@ -811,136 +811,136 @@
       </div>
     </div>
 
-<script>
-  // Initialize users array in localStorage if it doesn't exist
-  if (!localStorage.getItem('patients')) {
-    localStorage.setItem('patients', JSON.stringify([]));
-  }
+    <script>
+      // Initialize users array in localStorage if it doesn't exist
+      if (!localStorage.getItem('patients')) {
+        localStorage.setItem('patients', JSON.stringify([]));
+      }
 
-  // Function to update the displayed file name
-  function updateFileName() {
-    const fileInput = document.getElementById("file-input");
-    const fileNameElement = document.getElementById("file-name");
+      // Function to update the displayed file name
+      function updateFileName() {
+        const fileInput = document.getElementById("file-input");
+        const fileNameElement = document.getElementById("file-name");
 
-    if (fileInput.files.length > 0) {
-      fileNameElement.textContent = fileInput.files[0].name;
-    } else {
-      fileNameElement.textContent = "No file chosen";
-    }
-  }
-
-  // Function to get form data as an object
-  function getFormData() {
-    const formData = {};
-    const inputs = document.querySelectorAll('input, select, textarea');
-
-    inputs.forEach(input => {
-      if (input.type !== "submit" && input.type !== "button") {
-        if (input.type === "file") {
-          formData[input.name] = input.files.length > 0 ? input.files[0].name : "";
+        if (fileInput.files.length > 0) {
+          fileNameElement.textContent = fileInput.files[0].name;
         } else {
-          formData[input.name] = input.value;
+          fileNameElement.textContent = "No file chosen";
         }
       }
-    });
 
-    // Add timestamp
-    formData.submissionDate = new Date().toISOString();
+      // Function to get form data as an object
+      function getFormData() {
+        const formData = {};
+        const inputs = document.querySelectorAll('input, select, textarea');
 
-    return formData;
-  }
-
-  // Function to save current form data to localStorage
-  function saveCurrentForm() {
-    const formData = getFormData();
-    localStorage.setItem('currentPatient', JSON.stringify(formData));
-  }
-
-  // Function to save patient to the patients array
-  function savePatient() {
-    const patients = JSON.parse(localStorage.getItem('patients'));
-    const formData = getFormData();
-
-    // Add the new patient to the array
-    patients.push(formData);
-
-    // Save back to localStorage
-    localStorage.setItem('patients', JSON.stringify(patients));
-  }
-
-  // Function to load current form data
-  function loadCurrentForm() {
-    const savedData = JSON.parse(localStorage.getItem('currentPatient'));
-    if (savedData) {
-      const inputs = document.querySelectorAll('input, select, textarea');
-      inputs.forEach(input => {
-        if (input.type !== "submit" && input.type !== "button") {
-          const value = savedData[input.name];
-          if (value !== undefined) {
+        inputs.forEach(input => {
+          if (input.type !== "submit" && input.type !== "button") {
             if (input.type === "file") {
-              document.getElementById("file-name").textContent = value || "No file chosen";
+              formData[input.name] = input.files.length > 0 ? input.files[0].name : "";
             } else {
-              input.value = value;
+              formData[input.name] = input.value;
             }
           }
-        }
-      });
-    }
-  }
+        });
 
-  // Function to clear the form
-  function clearForm() {
-    const inputs = document.querySelectorAll('input, select, textarea');
-    inputs.forEach(input => {
-      if (input.type !== "submit" && input.type !== "button") {
-        input.value = "";
+        // Add timestamp
+        formData.submissionDate = new Date().toISOString();
+
+        return formData;
       }
-    });
-    document.getElementById("file-name").textContent = "No file chosen";
-    localStorage.removeItem('currentPatient');
-  }
 
-  // Function to handle form submission
-  function handleSubmit(event) {
-    event.preventDefault();
+      // Function to save current form data to localStorage
+      function saveCurrentForm() {
+        const formData = getFormData();
+        localStorage.setItem('currentPatient', JSON.stringify(formData));
+      }
 
-    // Save to patients array
-    savePatient();
+      // Function to save patient to the patients array
+      function savePatient() {
+        const patients = JSON.parse(localStorage.getItem('patients'));
+        const formData = getFormData();
 
-    // Show success alert
-    alert("Form submitted successfully!");
+        // Add the new patient to the array
+        patients.push(formData);
 
-    // Clear the form
-    clearForm();
+        // Save back to localStorage
+        localStorage.setItem('patients', JSON.stringify(patients));
+      }
 
-    // Redirect to home page after 1 second
-    setTimeout(function () {
-      window.location.href = "home.html";
-    }, 1000);
-  }
+      // Function to load current form data
+      function loadCurrentForm() {
+        const savedData = JSON.parse(localStorage.getItem('currentPatient'));
+        if (savedData) {
+          const inputs = document.querySelectorAll('input, select, textarea');
+          inputs.forEach(input => {
+            if (input.type !== "submit" && input.type !== "button") {
+              const value = savedData[input.name];
+              if (value !== undefined) {
+                if (input.type === "file") {
+                  document.getElementById("file-name").textContent = value || "No file chosen";
+                } else {
+                  input.value = value;
+                }
+              }
+            }
+          });
+        }
+      }
 
-  // Add event listeners
-  document.addEventListener('DOMContentLoaded', function () {
-    // Load current form data when page loads
-    loadCurrentForm();
+      // Function to clear the form
+      function clearForm() {
+        const inputs = document.querySelectorAll('input, select, textarea');
+        inputs.forEach(input => {
+          if (input.type !== "submit" && input.type !== "button") {
+            input.value = "";
+          }
+        });
+        document.getElementById("file-name").textContent = "No file chosen";
+        localStorage.removeItem('currentPatient');
+      }
 
-    // Add submit handler
-    document.querySelector('.button-230').addEventListener('click', handleSubmit);
+      // Function to handle form submission
+      function handleSubmit(event) {
+        event.preventDefault();
 
-    // Auto-save current form on input changes
-    const inputs = document.querySelectorAll('input, select, textarea');
-    inputs.forEach(input => {
-      input.addEventListener('input', saveCurrentForm);
-      input.addEventListener('change', saveCurrentForm);
-    });
+        // Save to patients array
+        savePatient();
 
-    // File input handling
-    document.getElementById('file-input').addEventListener('change', function () {
-      updateFileName();
-      saveCurrentForm();
-    });
-  });
-</script>
+        // Show success alert
+        alert("Form submitted successfully!");
+
+        // Clear the form
+        clearForm();
+
+        // Redirect to home page after 1 second
+        setTimeout(function () {
+          window.location.href = "index.html";
+        }, 1000);
+      }
+
+      // Add event listeners
+      document.addEventListener('DOMContentLoaded', function () {
+        // Load current form data when page loads
+        loadCurrentForm();
+
+        // Add submit handler
+        document.querySelector('.button-230').addEventListener('click', handleSubmit);
+
+        // Auto-save current form on input changes
+        const inputs = document.querySelectorAll('input, select, textarea');
+        inputs.forEach(input => {
+          input.addEventListener('input', saveCurrentForm);
+          input.addEventListener('change', saveCurrentForm);
+        });
+
+        // File input handling
+        document.getElementById('file-input').addEventListener('change', function () {
+          updateFileName();
+          saveCurrentForm();
+        });
+      });
+    </script>
 
 
 </body>

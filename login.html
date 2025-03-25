@@ -117,7 +117,7 @@
         // Save to localStorage if "Remember me" is checked
         if (rememberMe) {
           localStorage.setItem('rememberMe', 'true');
-          localStorage.setItem('currentUser', JSON.stringify(user));         
+          localStorage.setItem('currentUser', JSON.stringify(user));
         } else {
           localStorage.removeItem('rememberMe');
           localStorage.removeItem('email');
@@ -128,7 +128,7 @@
         localStorage.setItem('currentUser', JSON.stringify(user));
 
         // Redirect to the home page or the appropriate page
-        window.location.href = 'home.html'; // Change this to your desired page
+        window.location.href = 'index.html'; // Change this to your desired page
       } else {
         errorMessage.textContent = 'Invalid email or password';
       }
