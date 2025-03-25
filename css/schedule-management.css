@@ -1,0 +1,1173 @@
+/* screen - schedule-management */
+
+.schedule-management {
+  align-items: flex-start;
+  background-color: var(--alabaster-2);
+  display: flex;
+  height: 968px;
+  width: 1920px;
+}
+
+.schedule-management .container-218 {
+  border: 0px none;
+  box-shadow: 0px 0px 1px #171a1f12 , 0px 0px 2px #171a1f1f;
+  margin-top: -17px;
+  min-height: 981px;
+  padding: 34.0px 24.0px;
+  width: 329px;
+}
+
+.schedule-management .title {
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-left: 0;
+  white-space: nowrap;
+}
+
+.schedule-management .overlap-group {
+  height: 412px;
+  margin-left: 0;
+  margin-top: 12px;
+  position: relative;
+  width: 266px;
+}
+
+.schedule-management .sidebar-menu-1 {
+  gap: 18px;
+  left: 0;
+  min-height: 412px;
+  position: absolute;
+  top: 0;
+  width: 266px;
+}
+
+.schedule-management .frame-14 {
+  align-items: flex-start;
+  background-color: var(--alice-blue-3);
+  border-radius: 16px;
+  display: flex;
+  gap: 8px;
+  height: 54px;
+  overflow: hidden;
+  padding: 11px 16px;
+  width: 266px;
+}
+
+.schedule-management .dashboard {
+  letter-spacing: 0;
+  line-height: 30px;
+  width: 206px;
+}
+
+.schedule-management .frame {
+  align-items: flex-start;
+  border-radius: 16px;
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  height: 54px;
+  overflow: hidden;
+  padding: 11px 16px;
+  transition: all 0.2s ease-in;
+  width: 266px;
+}
+
+.schedule-management .frame:hover {
+  transform: scale(1.1);
+}
+
+.schedule-management .folder {
+  align-self: center;
+  height: 20px;
+  width: 20px;
+}
+
+.schedule-management .patient-profiles {
+  letter-spacing: 0;
+  line-height: 30px;
+  width: 206px;
+}
+
+.schedule-management .schedule-management-1 {
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.schedule-management .customer-support {
+  align-self: center;
+  height: 20px;
+  width: 20px;
+}
+
+.schedule-management .place {
+  letter-spacing: 0;
+  line-height: 30px;
+  width: 206px;
+}
+
+.schedule-management .note-code {
+  align-self: center;
+  height: 20px;
+  width: 20px;
+}
+
+.schedule-management .doctor-notes {
+  letter-spacing: 0;
+  line-height: 30px;
+  width: 206px;
+}
+
+.schedule-management .code {
+  align-self: center;
+  height: 20px;
+  width: 20px;
+}
+
+.schedule-management .line-3 {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 196px;
+  width: 190px;
+}
+
+.schedule-management .personal {
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-top: 36px;
+  white-space: nowrap;
+}
+
+.schedule-management .sidebar-menu-2 {
+  gap: 17px;
+  margin-left: 0;
+  margin-top: 24px;
+  min-height: 267px;
+  width: 240px;
+}
+
+.schedule-management .frame-1 {
+  align-items: flex-start;
+  border-radius: 16px;
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  height: 54px;
+  overflow: hidden;
+  padding: 11px 16px;
+  transition: all 0.2s ease-in;
+  width: 240px;
+}
+
+.schedule-management .frame-1:hover {
+  transform: scale(1.1);
+}
+
+.schedule-management .teams {
+  letter-spacing: 0;
+  line-height: 30px;
+  width: 180px;
+}
+
+.schedule-management .frame-15 {
+  align-items: center;
+  border-radius: 16px;
+  cursor: pointer;
+  display: flex;
+  height: 54px;
+  overflow: hidden;
+  padding: 11px 16px;
+  transition: all 0.2s ease-in;
+  width: 240px;
+}
+
+.schedule-management .frame-15:hover {
+  transform: scale(1.1);
+}
+
+.schedule-management .messages {
+  align-self: flex-start;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 8px;
+  width: 134px;
+}
+
+.schedule-management .frame-16 {
+  align-items: flex-start;
+  background-color: var(--picton-blue);
+  border-radius: 10px;
+  display: flex;
+  height: 20px;
+  justify-content: flex-end;
+  margin-left: 16px;
+  min-width: 30px;
+  padding: 4px 5.9px;
+}
+
+.schedule-management .text-45 {
+  line-height: 10px;
+}
+
+.schedule-management .notifications {
+  letter-spacing: 0;
+  line-height: 30px;
+  width: 180px;
+}
+
+.schedule-management .setting {
+  letter-spacing: 0;
+  line-height: 30px;
+  width: 180px;
+}
+
+.schedule-management .container-216 {
+  border: 1px solid;
+  border-color: var(--wild-sand);
+  border-radius: 6px;
+  gap: 68px;
+  min-height: 964px;
+  padding: 16.0px 24px;
+  width: 1591px;
+}
+
+.schedule-management .flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 66px;
+  margin-left: 7.0px;
+  min-width: 1510px;
+}
+
+.schedule-management .group-container {
+  height: 21px;
+  position: relative;
+  width: 18px;
+}
+
+.schedule-management .group {
+  height: 5px;
+  left: 11px;
+  position: absolute;
+  top: 1px;
+  width: 5px;
+}
+
+.schedule-management .group-1 {
+  height: 6px;
+  left: 10px;
+  position: absolute;
+  top: 1px;
+  width: 6px;
+}
+
+.schedule-management .group-2 {
+  height: 21px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 18px;
+}
+
+.schedule-management .group-3 {
+  height: 2px;
+  left: 3px;
+  position: absolute;
+  top: 5px;
+  width: 6px;
+}
+
+.schedule-management .group-4 {
+  height: 2px;
+  left: 3px;
+  position: absolute;
+  top: 9px;
+  width: 11px;
+}
+
+.schedule-management .group-5 {
+  height: 2px;
+  left: 3px;
+  position: absolute;
+  top: 14px;
+  width: 11px;
+}
+
+.schedule-management .patient-profiles-1 {
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-left: 13px;
+  min-width: 179px;
+  white-space: nowrap;
+}
+
+.schedule-management .button-88 {
+  align-self: flex-end;
+  background-color: var(--wild-sand);
+  border-radius: 16px;
+  height: 52px;
+  margin-bottom: 3.0px;
+  margin-left: 1054px;
+  padding: 11px 13px;
+  width: 52px;
+}
+
+.schedule-management .group-6 {
+  background-image: url(../img/flat-41@2x.png);
+  background-size: 100% 100%;
+  height: 17px;
+  width: 19px;
+}
+
+.schedule-management .text {
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.schedule-management .button-89 {
+  align-self: flex-end;
+  background-color: var(--alice-blue);
+  border-radius: 16px;
+  gap: 8px;
+  height: 52px;
+  margin-left: 30px;
+  padding: 10px 20px;
+  width: 158px;
+}
+
+.schedule-management .group-container-1 {
+  height: 13px;
+  margin-left: 2.49px;
+  position: relative;
+  width: 11px;
+}
+
+.schedule-management .group-7 {
+  height: 11px;
+  left: 5px;
+  position: absolute;
+  top: 0;
+  width: 2px;
+}
+
+.schedule-management .group-8 {
+  height: 7px;
+  left: 0;
+  position: absolute;
+  top: 6px;
+  width: 11px;
+}
+
+.schedule-management .group-9 {
+  height: 2px;
+  width: 16px;
+}
+
+.schedule-management .download {
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.schedule-management .container-217 {
+  border: 1px solid;
+  border-color: var(--wild-sand);
+  border-radius: 16px;
+  gap: 74px;
+  height: 742px;
+  overflow: hidden;
+  padding: 0 2px;
+  width: 1532px;
+}
+
+.schedule-management .table-2 {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 656px;
+  margin-top: 12px;
+  overflow: hidden;
+  width: 1514px;
+}
+
+.schedule-management .overlap-group10 {
+  height: 125px;
+  margin-left: -1px;
+  margin-top: -1px;
+  position: relative;
+  width: 1514px;
+}
+
+.schedule-management .row {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 66px;
+  left: 1px;
+  min-width: 1512px;
+  position: absolute;
+  top: 59px;
+  transition: all 0.2s ease-in;
+}
+
+.schedule-management .row:hover {
+  transform: scale(1.1);
+}
+
+.schedule-management .frame-container {
+  height: 68px;
+  margin-left: -1px;
+  margin-top: -1px;
+  position: relative;
+  width: 1514px;
+}
+
+.schedule-management .frame-2 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--tuna);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  height: 68px;
+  left: 421px;
+  padding: 19.6px 12px;
+  position: absolute;
+  top: 0;
+  width: 154px;
+}
+
+.schedule-management .male {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 124px;
+}
+
+.schedule-management .frame-3 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--tuna);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  height: 68px;
+  left: 712px;
+  padding: 19.6px 12px;
+  position: absolute;
+  top: 0;
+  width: 168px;
+}
+
+.schedule-management .percent {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 142px;
+}
+
+.schedule-management .frame-4 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--tuna);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  height: 68px;
+  left: 0;
+  padding: 25.1px 12px;
+  position: absolute;
+  top: 0;
+  width: 80px;
+}
+
+.schedule-management .checkbox {
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--black-coral-pearl);
+  border-radius: 2px;
+  height: 16px;
+  width: 16px;
+}
+
+.schedule-management .frame-5 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--tuna);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  height: 68px;
+  left: 177px;
+  padding: 19.6px 12px;
+  position: absolute;
+  top: 0;
+  width: 246px;
+}
+
+.schedule-management .name {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 220px;
+}
+
+.schedule-management .frame-6 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--tuna);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  gap: 4px;
+  height: 68px;
+  left: 1296px;
+  padding: 15.1px 12px;
+  position: absolute;
+  top: 0;
+  width: 218px;
+}
+
+.schedule-management .frame-7 {
+  align-items: flex-start;
+  background-color: var(--alice-blue);
+  border-radius: 18px;
+  display: flex;
+  height: 36px;
+  overflow: hidden;
+  padding: 4px 12px;
+  width: 75px;
+}
+
+.schedule-management .frame-8 {
+  align-items: flex-start;
+  background-color: var(--alice-blue);
+  border-radius: 18px;
+  display: flex;
+  height: 36px;
+  overflow: hidden;
+  padding: 4px 12px;
+  width: 109px;
+}
+
+.schedule-management .frame-9 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--tuna);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  height: 68px;
+  left: 78px;
+  padding: 19.6px 12px;
+  position: absolute;
+  top: 0;
+  width: 101px;
+}
+
+.schedule-management .number {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 75px;
+}
+
+.schedule-management .frame-10 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--tuna);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  height: 68px;
+  left: 574px;
+  padding: 19.6px 12px;
+  position: absolute;
+  top: 0;
+  width: 140px;
+}
+
+.schedule-management .place-1 {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 114px;
+}
+
+.schedule-management .frame-11 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--tuna);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  height: 68px;
+  left: 877px;
+  padding: 19.6px 12px;
+  position: absolute;
+  top: 0;
+  width: 288px;
+}
+
+.schedule-management .ejohnsonhotmailcom {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 262px;
+}
+
+.schedule-management .frame-12 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--tuna);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  height: 68px;
+  left: 1163px;
+  padding: 15.1px 12px;
+  position: absolute;
+  top: 0;
+  width: 135px;
+}
+
+.schedule-management .frame-17 {
+  align-items: flex-start;
+  background-color: var(--alice-blue);
+  border-radius: 18px;
+  display: flex;
+  height: 36px;
+  overflow: hidden;
+  padding: 4px 12px;
+  width: 57px;
+}
+
+.schedule-management .new {
+  letter-spacing: 0;
+  line-height: 26px;
+  white-space: nowrap;
+}
+
+.schedule-management .frame-container-1 {
+  height: 60px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1514px;
+}
+
+.schedule-management .frame-18 {
+  align-items: flex-start;
+  background-color: var(--alabaster);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--tuna);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  height: 60px;
+  left: 712px;
+  padding: 14.6px 12px;
+  position: absolute;
+  top: 0;
+  width: 168px;
+}
+
+.schedule-management .frame-19 {
+  align-items: flex-start;
+  background-color: var(--alabaster);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--tuna);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  height: 60px;
+  left: 177px;
+  padding: 14.6px 12px;
+  position: absolute;
+  top: 0;
+  width: 246px;
+}
+
+.schedule-management .place-2 {
+  letter-spacing: 0;
+  line-height: 28px;
+  width: 220px;
+}
+
+.schedule-management .frame-20 {
+  align-items: flex-start;
+  background-color: var(--alabaster);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--tuna);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  height: 60px;
+  left: 877px;
+  padding: 14.6px 12px;
+  position: absolute;
+  top: 0;
+  width: 288px;
+}
+
+.schedule-management .email {
+  letter-spacing: 0;
+  line-height: 28px;
+  width: 262px;
+}
+
+.schedule-management .frame-21 {
+  align-items: flex-start;
+  background-color: var(--alabaster);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--tuna);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  height: 60px;
+  left: 1163px;
+  padding: 14.6px 12px;
+  position: absolute;
+  top: 0;
+  width: 135px;
+}
+
+.schedule-management .status {
+  letter-spacing: 0;
+  line-height: 28px;
+  width: 109px;
+}
+
+.schedule-management .frame-22 {
+  align-items: flex-start;
+  background-color: var(--alabaster);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--tuna);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  height: 60px;
+  left: 1296px;
+  padding: 14.6px 12px;
+  position: absolute;
+  top: 0;
+  width: 218px;
+}
+
+.schedule-management .action {
+  letter-spacing: 0;
+  line-height: 28px;
+  width: 192px;
+}
+
+.schedule-management .frame-23 {
+  align-items: flex-start;
+  background-color: var(--alabaster);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--tuna);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  height: 60px;
+  left: 78px;
+  padding: 14.6px 12px;
+  position: absolute;
+  top: 0;
+  width: 101px;
+}
+
+.schedule-management .frame-24 {
+  align-items: flex-start;
+  background-color: var(--alabaster);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--tuna);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  height: 60px;
+  left: 0;
+  padding: 14.6px 12.0px;
+  position: absolute;
+  top: 0;
+  width: 80px;
+}
+
+.schedule-management .frame-25 {
+  align-items: flex-start;
+  background-color: var(--alabaster);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--tuna);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  height: 60px;
+  left: 574px;
+  padding: 14.6px 12px;
+  position: absolute;
+  top: 0;
+  width: 140px;
+}
+
+.schedule-management .frame-26 {
+  align-items: flex-start;
+  background-color: var(--alabaster);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--tuna);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  height: 60px;
+  left: 421px;
+  padding: 14.6px 12px;
+  position: absolute;
+  top: 0;
+  width: 154px;
+}
+
+.schedule-management .sex {
+  letter-spacing: 0;
+  line-height: 28px;
+  width: 128px;
+}
+
+.schedule-management .table-2-item {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 66px;
+  min-width: 1512px;
+  transition: all 0.2s ease-in;
+}
+
+.schedule-management .table-2-item:hover {
+  transform: scale(1.1);
+}
+
+.schedule-management .frame-13 {
+  align-items: flex-start;
+  background-color: var(--alice-blue);
+  border-radius: 18px;
+  display: flex;
+  height: 36px;
+  overflow: hidden;
+  padding: 4px 12px;
+  width: 60px;
+}
+
+.schedule-management .place-3 {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 114px;
+}
+
+.schedule-management .adavisgmailcom {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 262px;
+}
+
+.schedule-management .overlap-group11 {
+  height: 132px;
+  position: relative;
+  width: 1512px;
+}
+
+.schedule-management .row-1 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 66px;
+  left: 0;
+  min-width: 1512px;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease-in;
+}
+
+.schedule-management .row-1:hover {
+  transform: scale(1.1);
+}
+
+.schedule-management .michaeltaylor1993yahoocom {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 262px;
+}
+
+.schedule-management .place-4 {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 114px;
+}
+
+.schedule-management .row-2 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 66px;
+  left: 0;
+  min-width: 1512px;
+  position: absolute;
+  top: 66px;
+  transition: all 0.2s ease-in;
+}
+
+.schedule-management .row-2:hover {
+  transform: scale(1.1);
+}
+
+.schedule-management .place-5 {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 114px;
+}
+
+.schedule-management .thenathanwoodgmailcom {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 262px;
+}
+
+.schedule-management .stephaniejohnsongmailcom {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 262px;
+}
+
+.schedule-management .place-6 {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 114px;
+}
+
+.schedule-management .overlap-group12 {
+  height: 199px;
+  position: relative;
+  width: 1512px;
+}
+
+.schedule-management .row-3 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 66px;
+  left: 0;
+  min-width: 1512px;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease-in;
+}
+
+.schedule-management .row-3:hover {
+  transform: scale(1.1);
+}
+
+.schedule-management .ashleyrobinsonhotmailcom {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 262px;
+}
+
+.schedule-management .row-4 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 66px;
+  left: 0;
+  min-width: 1512px;
+  position: absolute;
+  top: 66px;
+  transition: all 0.2s ease-in;
+}
+
+.schedule-management .row-4:hover {
+  transform: scale(1.1);
+}
+
+.schedule-management .name-1 {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 114px;
+}
+
+.schedule-management .sallen1996gmailcom {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 262px;
+}
+
+.schedule-management .row-5 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 66px;
+  left: 0;
+  min-width: 1512px;
+  position: absolute;
+  top: 132px;
+  transition: all 0.2s ease-in;
+}
+
+.schedule-management .row-5:hover {
+  transform: scale(1.1);
+}
+
+.schedule-management .clara_lopez_1990yahoocom {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 262px;
+}
+
+.schedule-management .jbakeryahoocom {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 262px;
+}
+
+.schedule-management .flex-row-1 {
+  align-items: center;
+  display: flex;
+  margin-left: 22px;
+  min-width: 998px;
+}
+
+.schedule-management .x1-10-of-145 {
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-bottom: 2.0px;
+  min-width: 78px;
+  white-space: nowrap;
+}
+
+.schedule-management .button-90 {
+  border-radius: 4px;
+  height: 32px;
+  margin-left: 600px;
+  padding: 5px 9px;
+  width: 32px;
+}
+
+.schedule-management .group-10 {
+  height: 9px;
+  margin-bottom: -6463.5px;
+  margin-left: -2285px;
+  width: 5px;
+}
+
+.schedule-management .text-1 {
+  line-height: 20px;
+}
+
+.schedule-management .button-97 {
+  background-color: var(--picton-blue);
+  border-radius: 16px;
+  height: 32px;
+  margin-left: 4px;
+  padding: 5px 12px;
+  width: 32px;
+}
+
+.schedule-management .number-1 {
+  margin-left: 1px;
+}
+
+.schedule-management .button-9 {
+  border-radius: 4px;
+  height: 32px;
+  margin-left: 4px;
+  padding: 5px 12.5px;
+  width: 32px;
+}
+
+.schedule-management .button-95 {
+  border-radius: 4px;
+  height: 32px;
+  margin-left: 40px;
+  padding: 5px 7px;
+  width: 29px;
+}
+
+.schedule-management .button-96 {
+  border-radius: 4px;
+  height: 32px;
+  margin-left: 7px;
+  padding: 5px 8px;
+  width: 29px;
+}
+
+.schedule-management .button-98 {
+  border-radius: 4px;
+  height: 32px;
+  margin-left: 7px;
+  padding: 5px 9px;
+  width: 32px;
+}
+
+.schedule-management .group-11 {
+  height: 9px;
+  margin-bottom: -6463.5px;
+  margin-left: -2572px;
+  width: 5px;
+}
+
+.schedule-management .text-2 {
+  line-height: 20px;
+}
+
+.schedule-management .button {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: transparent;
+  display: flex;
+  overflow: hidden;
+}
+
+.schedule-management .container {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+}
+
+.schedule-management .number-6 {
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.schedule-management .sidebar-menu {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.schedule-management .text-3 {
+  letter-spacing: 0;
+  white-space: nowrap;
+}

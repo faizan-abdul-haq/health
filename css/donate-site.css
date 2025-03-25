@@ -1,0 +1,1747 @@
+/* screen - donate-site */
+
+.donate-site {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 2938px;
+  overflow: hidden;
+  width: 1920px;
+}
+
+.donate-site .group-25 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: -156px;
+  margin-top: 20px;
+  min-height: 140px;
+  width: 2205px;
+}
+
+.donate-site .flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 50px;
+  margin-left: 7.0px;
+  min-width: 1860px;
+}
+
+.donate-site .image {
+  align-items: flex-start;
+  border: 0px none;
+  display: flex;
+  height: 40px;
+  padding: 1.9px 2.8px;
+  width: 40px;
+}
+
+.donate-site .group-container {
+  height: 36px;
+  position: relative;
+  width: 34px;
+}
+
+.donate-site .group-3 {
+  height: 17px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 34px;
+}
+
+.donate-site .group-4 {
+  height: 16px;
+  left: 0;
+  position: absolute;
+  top: 20px;
+  width: 16px;
+}
+
+.donate-site .group-5 {
+  height: 16px;
+  left: 18px;
+  position: absolute;
+  top: 20px;
+  width: 16px;
+}
+
+.donate-site .group-6 {
+  height: 9px;
+  left: 13px;
+  position: absolute;
+  top: 13px;
+  width: 9px;
+}
+
+.donate-site .cancer-detection {
+  align-self: flex-end;
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 42px;
+  margin-left: 30px;
+  min-height: 50px;
+  transition: all 0.2s ease-in;
+  white-space: nowrap;
+  width: 250px;
+}
+
+.donate-site .cancer-detection:hover {
+  transform: scale(1.1);
+}
+
+.donate-site .button {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--picton-blue);
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  gap: 6px;
+  height: 40px;
+  margin-left: 1219px;
+  margin-top: 0;
+  overflow: hidden;
+  padding: 1px 35px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.donate-site .button:hover {
+  transform: scale(1.1);
+}
+
+.donate-site .group-7 {
+  height: 12px;
+  width: 9px;
+}
+
+.donate-site .group-8 {
+  height: 3px;
+  margin-right: 4.23px;
+  width: 3px;
+}
+
+.donate-site .button-1 {
+  align-items: flex-start;
+  background-color: var(--picton-blue);
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  gap: 6px;
+  height: 40px;
+  margin-left: 21px;
+  margin-top: 0;
+  overflow: hidden;
+  padding: 1px 30.5px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.donate-site .button-1:hover {
+  transform: scale(1.1);
+}
+
+.donate-site .log-in {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  height: 24px;
+  margin-top: 0;
+  padding: 1.5px 2.4px;
+  width: 24px;
+}
+
+.donate-site .group-container-1 {
+  height: 21px;
+  position: relative;
+  width: 19px;
+}
+
+.donate-site .group-9 {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 9px;
+  width: 13px;
+}
+
+.donate-site .group-10 {
+  height: 12px;
+  left: 7px;
+  position: absolute;
+  top: 5px;
+  width: 7px;
+}
+
+.donate-site .group-11 {
+  height: 21px;
+  left: 7px;
+  position: absolute;
+  top: 0;
+  width: 12px;
+}
+
+.donate-site .container {
+  align-items: flex-start;
+  background-color: var(--sail);
+  border: 0px none;
+  box-shadow: 0px 0px 1px #171a1f12 , 0px 0px 2px #171a1f1f;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2.0px;
+  min-width: 2203px;
+  padding: 0 127.2px;
+}
+
+.donate-site .frame {
+  align-items: flex-start;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  height: 80px;
+  overflow: hidden;
+  padding: 21px 134.0px;
+  transition: all 0.2s ease-in;
+  width: 336px;
+}
+
+.donate-site .frame:hover {
+  transform: scale(1.1);
+}
+
+.donate-site .place {
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.donate-site .frame-1 {
+  align-items: flex-start;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  height: 80px;
+  overflow: hidden;
+  padding: 21px 134.0px;
+  transition: all 0.2s ease-in;
+  width: 388px;
+}
+
+.donate-site .frame-1:hover {
+  transform: scale(1.1);
+}
+
+.donate-site .frame-2 {
+  align-items: flex-start;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  height: 80px;
+  overflow: hidden;
+  padding: 21px 132.0px;
+  transition: all 0.2s ease-in;
+  width: 390px;
+}
+
+.donate-site .frame-2:hover {
+  transform: scale(1.1);
+}
+
+.donate-site .for-patient {
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-left: 2px;
+  white-space: nowrap;
+}
+
+.donate-site .frame-3 {
+  align-items: flex-start;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  height: 80px;
+  overflow: hidden;
+  padding: 21px 133.0px;
+  transition: all 0.2s ease-in;
+  width: 436px;
+}
+
+.donate-site .frame-3:hover {
+  transform: scale(1.1);
+}
+
+.donate-site .for-nutritionist {
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-left: 1px;
+  white-space: nowrap;
+}
+
+.donate-site .frame-4 {
+  align-items: flex-start;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  height: 80px;
+  overflow: hidden;
+  padding: 21px 134.0px;
+  transition: all 0.2s ease-in;
+  width: 370px;
+}
+
+.donate-site .frame-4:hover {
+  transform: scale(1.1);
+}
+
+.donate-site .overlap-group8 {
+  align-items: flex-start;
+  background-image: url(../img/image-46-1.png);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 59px;
+  min-height: 279px;
+  padding: 58.0px 90px;
+  width: 1920px;
+}
+
+.donate-site .home-donation {
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.donate-site .title {
+  letter-spacing: 0;
+  line-height: 56px;
+  white-space: nowrap;
+}
+
+.donate-site .overlap-group9 {
+  align-self: center;
+  height: 2059px;
+  margin-left: 11.0px;
+  margin-top: 40px;
+  position: relative;
+  width: 1841px;
+}
+
+.donate-site .button-94 {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 4px;
+  display: flex;
+  height: 32px;
+  left: 1187px;
+  overflow: hidden;
+  padding: 5px 9px;
+  position: absolute;
+  top: 1403px;
+  width: 32px;
+}
+
+.donate-site .menu-5 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  gap: 1px;
+  height: 12px;
+  margin-left: 1px;
+  padding: 4.6px 0.8px;
+  width: 12px;
+}
+
+.donate-site .group {
+  height: 3px;
+  width: 3px;
+}
+
+.donate-site .text {
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.donate-site .container-167 {
+  align-items: center;
+  border: 1px solid;
+  border-color: var(--french-gray);
+  border-radius: 16px;
+  box-shadow: 0px 4px 9px #171a1f1c , 0px 0px 2px #171a1f1f;
+  flex-direction: column;
+  height: 788px;
+  left: 1305px;
+  overflow: hidden;
+  padding: 23.0px 0;
+  position: absolute;
+  top: 0;
+  width: 536px;
+}
+
+.donate-site .name {
+  letter-spacing: 0;
+  line-height: 36px;
+  min-height: 72px;
+  width: 488px;
+}
+
+.donate-site .tag-36 {
+  align-items: flex-start;
+  align-self: flex-start;
+  display: flex;
+  gap: 4px;
+  margin-left: 24px;
+  margin-top: 5px;
+  min-width: 184px;
+}
+
+.donate-site .frame-5 {
+  align-items: flex-start;
+  background-color: var(--wild-sand);
+  border-radius: 22px;
+  display: flex;
+  height: 44px;
+  overflow: hidden;
+  padding: 8px 16px;
+  width: 106px;
+}
+
+.donate-site .heathcare {
+  color: var(--tuna);
+  font-family: var(--font-family-archivo);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 26px;
+  white-space: nowrap;
+}
+
+.donate-site .frame-6 {
+  align-items: flex-start;
+  background-color: var(--wild-sand);
+  border-radius: 22px;
+  display: flex;
+  height: 44px;
+  overflow: hidden;
+  padding: 8px 16px;
+  width: 74px;
+}
+
+.donate-site .africa {
+  color: var(--tuna);
+  font-family: var(--font-family-archivo);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 26px;
+  white-space: nowrap;
+}
+
+.donate-site .x24347usd-raised-of-100000-goal {
+  align-self: flex-start;
+  color: transparent;
+  font-family: var(--font-family-archivo);
+  font-size: var(--font-size-xxxl);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 32px;
+  margin-left: 24px;
+  margin-top: 9px;
+  min-height: 48px;
+}
+
+.donate-site .span0 {
+  color: var(--tuna);
+  font-weight: 600;
+  line-height: 48px;
+}
+
+.donate-site .span1 {
+  color: var(--manatee);
+  font-family: var(--font-family-poppins);
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.donate-site .frame-7 {
+  align-items: flex-start;
+  background-color: var(--alice-blue-2);
+  border-radius: 3px;
+  display: flex;
+  margin-top: 3px;
+  overflow: hidden;
+  width: 488px;
+}
+
+.donate-site .rectangle {
+  background-color: var(--anakiwa);
+  border: 0px none;
+  height: 6px;
+  width: 388px;
+}
+
+.donate-site .x1-k-donations {
+  align-self: flex-start;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 24px;
+  margin-top: 11px;
+  width: 82px;
+}
+
+.donate-site .button-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 35px;
+  margin-left: 11.0px;
+  margin-top: 13px;
+  min-width: 387px;
+}
+
+.donate-site .button-47 {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: var(--picton-blue);
+  border-radius: 16px;
+  cursor: pointer;
+  display: flex;
+  height: 52px;
+  overflow: hidden;
+  padding: 11px 64px;
+  transition: all 0.2s ease-in;
+  width: 176px;
+}
+
+.donate-site .button-47:hover {
+  transform: scale(1.1);
+}
+
+.donate-site .share {
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.donate-site .button-48 {
+  align-items: flex-start;
+  background-color: var(--picton-blue);
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 16px;
+  cursor: pointer;
+  display: flex;
+  height: 52px;
+  overflow: hidden;
+  padding: 11px 35px;
+  transition: all 0.2s ease-in;
+  width: 176px;
+}
+
+.donate-site .button-48:hover {
+  transform: scale(1.1);
+}
+
+.donate-site .donate-now {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-left: 1px;
+  white-space: nowrap;
+}
+
+.donate-site .container-168 {
+  align-items: flex-end;
+  border: 0px none;
+  border-radius: 6px;
+  height: 60px;
+  margin-top: 18px;
+  min-width: 488px;
+  padding: 2.0px 4px;
+}
+
+.donate-site .image-15 {
+  align-items: flex-start;
+  align-self: flex-start;
+  border: 0px none;
+  display: flex;
+  height: 48px;
+  margin-top: 2.0px;
+  padding: 2.9px 2.3px;
+  width: 48px;
+}
+
+.donate-site .group-1 {
+  align-items: center;
+  background-image: url(../img/layer-1-58@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 42px;
+  padding: 4.0px 2.4px;
+  width: 43px;
+}
+
+.donate-site .layer_-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 2px;
+  height: 4px;
+  margin-left: 9.44px;
+  min-width: 4px;
+}
+
+.donate-site .layer_1 {
+  align-self: flex-end;
+  height: 3px;
+  width: 1px;
+}
+
+.donate-site .layer_1-1 {
+  height: 3px;
+  width: 1px;
+}
+
+.donate-site .layer_1-2 {
+  height: 18px;
+  left: 14px;
+  position: absolute;
+  top: 0;
+  width: 14px;
+}
+
+.donate-site .layer_1-3 {
+  height: 15px;
+  left: 0;
+  position: absolute;
+  top: 14px;
+  width: 33px;
+}
+
+.donate-site .overlap-group1 {
+  height: 54px;
+  margin-left: 12px;
+  position: relative;
+  width: 83px;
+}
+
+.donate-site .sarahallen {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.donate-site .price {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 26px;
+  white-space: nowrap;
+}
+
+.donate-site .x4d {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-left: 308px;
+  min-width: 21px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.donate-site .container-1 {
+  align-items: flex-end;
+  border: 0px none;
+  border-radius: 6px;
+  height: 60px;
+  margin-top: 12px;
+  min-width: 488px;
+  padding: 2.0px 4px;
+}
+
+.donate-site .overlap-group2 {
+  height: 54px;
+  margin-left: 12px;
+  position: relative;
+  width: 104px;
+}
+
+.donate-site .taylorandrew {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.donate-site .x4d-1 {
+  margin-left: 287px;
+  min-width: 21px;
+}
+
+.donate-site .overlap-group3 {
+  height: 54px;
+  margin-left: 12px;
+  position: relative;
+  width: 131px;
+}
+
+.donate-site .matthewjackson {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.donate-site .x4d-2 {
+  margin-left: 260px;
+  min-width: 21px;
+}
+
+.donate-site .image-155 {
+  align-items: flex-start;
+  align-self: center;
+  border: 0px none;
+  display: flex;
+  height: 48px;
+  margin-bottom: 4.0px;
+  padding: 2.9px 2.3px;
+  width: 48px;
+}
+
+.donate-site .overlap-group {
+  height: 54px;
+  margin-left: 12px;
+  position: relative;
+  width: 111px;
+}
+
+.donate-site .elizabethclark {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.donate-site .x4d-3 {
+  margin-bottom: 0;
+  margin-left: 280px;
+  min-width: 21px;
+}
+
+.donate-site .container-171 {
+  align-items: flex-end;
+  border: 0px none;
+  border-radius: 6px;
+  height: 60px;
+  margin-top: 27px;
+  min-width: 488px;
+  padding: 2.0px 4px;
+}
+
+.donate-site .elizabethclark-1 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.donate-site .x4d-4 {
+  margin-bottom: 0;
+  margin-left: 280px;
+  min-width: 21px;
+}
+
+.donate-site .button-49 {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: var(--manatee);
+  border-radius: 6px;
+  display: flex;
+  height: 36px;
+  overflow: hidden;
+  padding: 6px 67px;
+  width: 176px;
+}
+
+.donate-site .see-all {
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.donate-site .button-50 {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: var(--manatee);
+  border-radius: 6px;
+  display: flex;
+  gap: 6px;
+  height: 36px;
+  overflow: hidden;
+  padding: 6px 20px;
+  width: 176px;
+}
+
+.donate-site .star {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  height: 16px;
+  margin-left: 1px;
+  padding: 1.0px 0.8px;
+  width: 16px;
+}
+
+.donate-site .group-12 {
+  height: 14px;
+  width: 14px;
+}
+
+.donate-site .see-top-donations {
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.donate-site .container-166 {
+  align-items: center;
+  border: 0px none;
+  border-radius: 6px;
+  flex-direction: column;
+  left: 0;
+  min-height: 2059px;
+  position: absolute;
+  top: 0;
+  width: 1332px;
+}
+
+.donate-site .image-151 {
+  height: 794px;
+  margin-left: 58.0px;
+  margin-top: -3px;
+  width: 1142px;
+}
+
+.donate-site .flex-row-1 {
+  align-items: flex-end;
+  display: flex;
+  height: 125px;
+  margin-left: 64.0px;
+  margin-top: 24px;
+  min-width: 1142px;
+}
+
+.donate-site .overlap-group7 {
+  align-items: flex-start;
+  background-image: url(../img/image-162-1@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 124px;
+  min-width: 121px;
+  padding: 41px 22px;
+}
+
+.donate-site .icon-button-1 {
+  align-items: center;
+  background-color: #cfd2da;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 18px;
+  display: flex;
+  height: 36px;
+  overflow: hidden;
+  padding: 7.0px;
+  width: 36px;
+}
+
+.donate-site .chevron-left-large {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: 22px;
+  margin-top: 0;
+  padding: 0 5.5px;
+  transition: all 0.2s ease-in;
+  width: 22px;
+}
+
+.donate-site .chevron-left-large:hover {
+  transform: scale(1.1);
+}
+
+.donate-site .group-13 {
+  background-image: url(../img/group-694@2x.png);
+  background-size: 100% 100%;
+  height: 17px;
+  width: 10px;
+}
+
+.donate-site .image-1 {
+  height: 124px;
+  margin-left: 7px;
+  width: 121px;
+}
+
+.donate-site .image-1-1 {
+  height: 124px;
+  margin-left: 6px;
+  width: 121px;
+}
+
+.donate-site .image-159 {
+  align-self: flex-start;
+  height: 124px;
+  margin-left: 8px;
+  width: 121px;
+}
+
+.donate-site .image-160 {
+  align-self: flex-start;
+  height: 124px;
+  margin-left: 6px;
+  width: 121px;
+}
+
+.donate-site .overlap-group6 {
+  align-items: flex-start;
+  background-image: url(../img/image-161-1@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 124px;
+  justify-content: flex-end;
+  margin-left: 6px;
+  min-width: 121px;
+  padding: 41px 19px;
+}
+
+.donate-site .icon-button-2 {
+  align-items: center;
+  background-color: #cfd2da;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 18px;
+  cursor: pointer;
+  display: flex;
+  height: 36px;
+  overflow: hidden;
+  padding: 7.0px;
+  transition: all 0.2s ease-in;
+  width: 36px;
+}
+
+.donate-site .icon-button-2:hover {
+  transform: scale(1.1);
+}
+
+.donate-site .chevron-right-large {
+  align-items: center;
+  display: flex;
+  height: 22px;
+  margin-top: 0;
+  padding: 0 5.8px;
+  width: 22px;
+}
+
+.donate-site .group-14 {
+  background-image: url(../img/group-693@2x.png);
+  background-size: 100% 100%;
+  height: 17px;
+  margin-left: 1px;
+  width: 10px;
+}
+
+.donate-site .name-1 {
+  letter-spacing: 0;
+  line-height: 48px;
+  margin-left: 32.0px;
+  margin-top: 27px;
+  width: 1100px;
+}
+
+.donate-site .cancer-is-a-journey {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 7.0px;
+  margin-top: 12px;
+  min-height: 196px;
+  width: 1075px;
+}
+
+.donate-site .button-container-1 {
+  align-items: flex-start;
+  align-self: flex-start;
+  display: flex;
+  gap: 24px;
+  margin-left: 132px;
+  margin-top: 12px;
+  min-width: 690px;
+}
+
+.donate-site .button-52 {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: var(--picton-blue);
+  border-radius: 16px;
+  cursor: pointer;
+  display: flex;
+  height: 52px;
+  overflow: hidden;
+  padding: 10px 139px;
+  transition: all 0.2s ease-in;
+  width: 333px;
+}
+
+.donate-site .button-52:hover {
+  transform: scale(1.1);
+}
+
+.donate-site .share-1 {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 1px;
+  white-space: nowrap;
+}
+
+.donate-site .button-53 {
+  align-items: flex-start;
+  background-color: var(--picton-blue);
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 16px;
+  cursor: pointer;
+  display: flex;
+  height: 52px;
+  overflow: hidden;
+  padding: 10px 107.5px;
+  transition: all 0.2s ease-in;
+  width: 333px;
+}
+
+.donate-site .button-53:hover {
+  transform: scale(1.1);
+}
+
+.donate-site .donate-now-1 {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 1px;
+  white-space: nowrap;
+}
+
+.donate-site .line-1 {
+  align-self: flex-end;
+  height: 1px;
+  margin-right: -543px;
+  margin-top: 64px;
+  object-fit: cover;
+  width: 1797px;
+}
+
+.donate-site .words-of-support-27 {
+  align-self: flex-start;
+  letter-spacing: 0;
+  line-height: 48px;
+  margin-left: 78px;
+  margin-top: 48px;
+  white-space: nowrap;
+}
+
+.donate-site .lets-donate-in-orde {
+  align-self: flex-start;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 78px;
+  margin-top: 12px;
+  white-space: nowrap;
+}
+
+.donate-site .container-172 {
+  align-items: flex-start;
+  border: 0px none;
+  border-radius: 6px;
+  box-shadow: 0px 0px 1px #171a1f12 , 0px 0px 2px #171a1f1f;
+  flex-direction: column;
+  gap: 2px;
+  margin-left: 10.0px;
+  margin-top: 16px;
+  min-height: 132px;
+  padding: 16.0px 0;
+  width: 1186px;
+}
+
+.donate-site .flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  gap: 12px;
+  margin-left: 16px;
+  min-width: 180px;
+}
+
+.donate-site .image-1-2 {
+  align-items: flex-start;
+  border: 0px none;
+  display: flex;
+  height: 48px;
+  padding: 2.9px 2.3px;
+  width: 48px;
+}
+
+.donate-site .group-2 {
+  align-items: center;
+  background-image: url(../img/layer-1-53@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 42px;
+  padding: 4.0px 2.4px;
+  width: 43px;
+}
+
+.donate-site .overlap-group1-1 {
+  align-self: center;
+  height: 54px;
+  margin-top: 0;
+  position: relative;
+  width: 120px;
+}
+
+.donate-site .name-2 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.donate-site .x4d-5 {
+  left: 45px;
+  position: absolute;
+  top: 26px;
+}
+
+.donate-site .sending-love-and-str {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 44px;
+  width: 1154px;
+}
+
+.donate-site .container-17 {
+  align-items: flex-start;
+  border: 0px none;
+  border-radius: 6px;
+  box-shadow: 0px 0px 1px #171a1f12 , 0px 0px 2px #171a1f1f;
+  flex-direction: column;
+  gap: 2px;
+  margin-left: 10.0px;
+  margin-top: 24px;
+  min-height: 132px;
+  padding: 16.0px 0;
+  width: 1186px;
+}
+
+.donate-site .flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+  gap: 12px;
+  margin-left: 16px;
+  min-width: 155px;
+}
+
+.donate-site .overlap-group2-1 {
+  align-self: center;
+  height: 54px;
+  margin-top: 0;
+  position: relative;
+  width: 95px;
+}
+
+.donate-site .name-3 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.donate-site .x5d {
+  left: 41px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: right;
+  top: 26px;
+  white-space: nowrap;
+}
+
+.donate-site .every-small-act-of-k {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 44px;
+  width: 1154px;
+}
+
+.donate-site .flex-row-4 {
+  align-items: flex-start;
+  display: flex;
+  gap: 12px;
+  margin-left: 16px;
+  min-width: 150px;
+}
+
+.donate-site .overlap-group3-1 {
+  align-self: center;
+  height: 54px;
+  margin-top: 0;
+  position: relative;
+  width: 90px;
+}
+
+.donate-site .josegarcia {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.donate-site .x9d {
+  left: 40px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: right;
+  top: 26px;
+  white-space: nowrap;
+}
+
+.donate-site .keep-fighting-stay {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 44px;
+  width: 1154px;
+}
+
+.donate-site .button-54 {
+  align-items: flex-start;
+  align-self: flex-start;
+  border: 1px solid;
+  border-color: var(--picton-blue);
+  border-radius: 16px;
+  cursor: pointer;
+  display: flex;
+  height: 52px;
+  margin-left: 78px;
+  margin-top: 24px;
+  overflow: hidden;
+  padding: 10px 42.5px;
+  transition: all 0.2s ease-in;
+  width: 186px;
+}
+
+.donate-site .button-54:hover {
+  transform: scale(1.1);
+}
+
+.donate-site .show-more {
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.donate-site .container-1-1 {
+  align-items: center;
+  background-color: var(--mercury);
+  border: 0px none;
+  box-shadow: 0px 0px 1px #171a1f12 , 0px 0px 2px #171a1f1f;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+  min-height: 392px;
+  padding: 24px 131px;
+  width: 1920px;
+}
+
+.donate-site .flex-row-5 {
+  align-items: center;
+  display: flex;
+  height: 153px;
+  margin-right: 3.0px;
+  margin-top: 34px;
+  min-width: 863px;
+}
+
+.donate-site .flex-col {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 53px;
+  min-height: 153px;
+  width: 751px;
+}
+
+.donate-site .overlap-group-1 {
+  height: 66px;
+  position: relative;
+  width: 751px;
+}
+
+.donate-site .subscribe-to-our-newsletter {
+  left: 302px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 265px;
+}
+
+.donate-site .textbox-2 {
+  border-radius: 6px 0px 0px 6px;
+  gap: 6px;
+  left: 0;
+  min-width: 751px;
+  position: absolute;
+  top: 29px;
+}
+
+.donate-site .mail {
+  align-self: center;
+  height: 16px;
+  margin-bottom: 1.0px;
+  width: 16px;
+}
+
+.donate-site .input-your-email {
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.donate-site .flex-row-6 {
+  align-items: flex-start;
+  display: flex;
+  height: 34px;
+  margin-right: 31px;
+  min-width: 550px;
+}
+
+.donate-site .services {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 30px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.donate-site .services:hover {
+  transform: scale(1.1);
+}
+
+.donate-site .resources {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 45px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.donate-site .resources:hover {
+  transform: scale(1.1);
+}
+
+.donate-site .organization {
+  align-self: flex-end;
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 55px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.donate-site .organization:hover {
+  transform: scale(1.1);
+}
+
+.donate-site .button-9 {
+  align-items: flex-start;
+  background-color: var(--picton-blue);
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 0px 6px 6px 0px;
+  cursor: pointer;
+  display: flex;
+  height: 36px;
+  margin-bottom: 57.0px;
+  overflow: hidden;
+  padding: 6px 23.5px;
+  transition: all 0.2s ease-in;
+  width: 112px;
+}
+
+.donate-site .button-9:hover {
+  transform: scale(1.1);
+}
+
+.donate-site .subscribe {
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 1px;
+  white-space: nowrap;
+}
+
+.donate-site .flex-row-7 {
+  align-items: flex-start;
+  display: flex;
+  height: 56px;
+  margin-left: 24.0px;
+  margin-top: 8px;
+  min-width: 550px;
+}
+
+.donate-site .for-patient-1 {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.donate-site .for-patient-1:hover {
+  transform: scale(1.1);
+}
+
+.donate-site .for-doctor-1 {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.donate-site .for-doctor-1:hover {
+  transform: scale(1.1);
+}
+
+.donate-site .flex-col-1 {
+  align-items: flex-start;
+  gap: 12px;
+  margin-left: 45px;
+  min-height: 56px;
+  width: 150px;
+}
+
+.donate-site .review-us {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.donate-site .review-us:hover {
+  transform: scale(1.1);
+}
+
+.donate-site .need-to-know {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.donate-site .need-to-know:hover {
+  transform: scale(1.1);
+}
+
+.donate-site .about-us {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.donate-site .about-us:hover {
+  transform: scale(1.1);
+}
+
+.donate-site .contact-us {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.donate-site .contact-us:hover {
+  transform: scale(1.1);
+}
+
+.donate-site .flex-col-2 {
+  align-items: center;
+  align-self: flex-start;
+  gap: 22px;
+  margin-top: 12px;
+  min-height: 81px;
+  width: 1657px;
+}
+
+.donate-site .for-nutritionist-1 {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-right: 375.0px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.donate-site .for-nutritionist-1:hover {
+  transform: scale(1.1);
+}
+
+.donate-site .flex-row-8 {
+  align-items: center;
+  display: flex;
+  min-width: 1657px;
+}
+
+.donate-site .textbox-1 {
+  border-radius: 6px;
+  gap: 41px;
+  min-width: 129px;
+}
+
+.donate-site .language {
+  letter-spacing: 0;
+  line-height: 22px;
+  min-width: 47px;
+  white-space: nowrap;
+}
+
+.donate-site .chevron-down-large {
+  align-self: center;
+  height: 16px;
+  margin-bottom: 1.0px;
+  width: 16px;
+}
+
+.donate-site .copyright {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 530px;
+  margin-top: 1.0px;
+  min-width: 116px;
+  transition: all 0.2s ease-in;
+  white-space: nowrap;
+}
+
+.donate-site .copyright:hover {
+  transform: scale(1.1);
+}
+
+.donate-site .text-36 {
+  margin-left: 17px;
+}
+
+.donate-site .privacy {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 6px;
+  margin-top: 1.0px;
+  min-width: 46px;
+  transition: all 0.2s ease-in;
+  white-space: nowrap;
+}
+
+.donate-site .privacy:hover {
+  transform: scale(1.1);
+}
+
+.donate-site .text-3 {
+  margin-left: 9px;
+}
+
+.donate-site .terms {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 6px;
+  margin-top: 1.0px;
+  min-width: 39px;
+  transition: all 0.2s ease-in;
+  white-space: nowrap;
+}
+
+.donate-site .terms:hover {
+  transform: scale(1.1);
+}
+
+.donate-site .sitemap {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 7px;
+  margin-top: 1.0px;
+  min-width: 53px;
+  transition: all 0.2s ease-in;
+  white-space: nowrap;
+}
+
+.donate-site .sitemap:hover {
+  transform: scale(1.1);
+}
+
+.donate-site .logo-twitter-1 {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 24px;
+  margin-left: 525px;
+  margin-top: 1.0px;
+  padding: 4.2px 2.3px;
+  transition: all 0.2s ease-in;
+  width: 24px;
+}
+
+.donate-site .logo-twitter-1:hover {
+  transform: scale(1.1);
+}
+
+.donate-site .group-15 {
+  background-image: url(../img/group-457@2x.png);
+  background-size: 100% 100%;
+  height: 16px;
+  width: 19px;
+}
+
+.donate-site .logo-facebook-1 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 24px;
+  margin-left: 16px;
+  margin-top: 1.0px;
+  padding: 2.4px 2.4px;
+  transition: all 0.2s ease-in;
+  width: 24px;
+}
+
+.donate-site .logo-facebook-1:hover {
+  transform: scale(1.1);
+}
+
+.donate-site .group-16 {
+  background-image: url(../img/group-458@2x.png);
+  background-size: 100% 100%;
+  height: 19px;
+  width: 19px;
+}
+
+.donate-site .logo-linkedin-1 {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: 24px;
+  margin-left: 16px;
+  margin-top: 1.0px;
+  padding: 0 3px;
+  transition: all 0.2s ease-in;
+  width: 24px;
+}
+
+.donate-site .logo-linkedin-1:hover {
+  transform: scale(1.1);
+}
+
+.donate-site .group-17 {
+  background-image: url(../img/group-459@2x.png);
+  background-size: 100% 100%;
+  height: 18px;
+  width: 18px;
+}
+
+.donate-site .logo-youtube-1 {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 24px;
+  margin-left: 16px;
+  margin-top: 1.0px;
+  padding: 5.2px 2.4px;
+  transition: all 0.2s ease-in;
+  width: 24px;
+}
+
+.donate-site .logo-youtube-1:hover {
+  transform: scale(1.1);
+}
+
+.donate-site .group-18 {
+  background-image: url(../img/group-555@2x.png);
+  background-size: 100% 100%;
+  height: 14px;
+  width: 19px;
+}
+
+.donate-site .container-2 {
+  background-color: var(--white);
+  display: flex;
+}
+
+.donate-site .flex-col-3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.donate-site .text-1 {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-top: 1.0px;
+  width: 7px;
+}
+
+.donate-site .textbox {
+  align-items: flex-start;
+  background-color: var(--gallery);
+  border: 1px solid;
+  border-color: transparent;
+  display: flex;
+  height: 37px;
+  padding: 6.5px 12px;
+}
+
+.donate-site .x4d-6 {
+  letter-spacing: 0;
+  line-height: 28px;
+  text-align: right;
+  white-space: nowrap;
+}

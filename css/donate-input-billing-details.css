@@ -1,0 +1,1061 @@
+/* screen - donate-input-billing-details */
+
+.donate-input-billing-details {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 1364px;
+  overflow: hidden;
+  width: 1920px;
+}
+
+.donate-input-billing-details .group-25 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: -156px;
+  margin-top: 20px;
+  min-height: 140px;
+  width: 2205px;
+}
+
+.donate-input-billing-details .flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 50px;
+  margin-left: 7.0px;
+  min-width: 1860px;
+}
+
+.donate-input-billing-details .image {
+  align-items: flex-start;
+  border: 0px none;
+  display: flex;
+  height: 40px;
+  padding: 1.9px 2.8px;
+  width: 40px;
+}
+
+.donate-input-billing-details .group-container {
+  height: 36px;
+  position: relative;
+  width: 34px;
+}
+
+.donate-input-billing-details .group {
+  height: 17px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 34px;
+}
+
+.donate-input-billing-details .group-1 {
+  height: 16px;
+  left: 0;
+  position: absolute;
+  top: 20px;
+  width: 16px;
+}
+
+.donate-input-billing-details .group-2 {
+  height: 16px;
+  left: 18px;
+  position: absolute;
+  top: 20px;
+  width: 16px;
+}
+
+.donate-input-billing-details .group-3 {
+  height: 9px;
+  left: 13px;
+  position: absolute;
+  top: 13px;
+  width: 9px;
+}
+
+.donate-input-billing-details .cancer-detection {
+  align-self: flex-end;
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 42px;
+  margin-left: 30px;
+  min-height: 50px;
+  transition: all 0.2s ease-in;
+  white-space: nowrap;
+  width: 250px;
+}
+
+.donate-input-billing-details .cancer-detection:hover {
+  transform: scale(1.1);
+}
+
+.donate-input-billing-details .button {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--picton-blue);
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  gap: 6px;
+  height: 40px;
+  margin-left: 1219px;
+  margin-top: 0;
+  overflow: hidden;
+  padding: 1px 35px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.donate-input-billing-details .button:hover {
+  transform: scale(1.1);
+}
+
+.donate-input-billing-details .group-4 {
+  height: 12px;
+  width: 9px;
+}
+
+.donate-input-billing-details .group-5 {
+  height: 3px;
+  margin-right: 4.23px;
+  width: 3px;
+}
+
+.donate-input-billing-details .button-1 {
+  align-items: flex-start;
+  background-color: var(--picton-blue);
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  gap: 6px;
+  height: 40px;
+  margin-left: 21px;
+  margin-top: 0;
+  overflow: hidden;
+  padding: 1px 30.5px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.donate-input-billing-details .button-1:hover {
+  transform: scale(1.1);
+}
+
+.donate-input-billing-details .log-in {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  height: 24px;
+  margin-top: 0;
+  padding: 1.5px 2.4px;
+  width: 24px;
+}
+
+.donate-input-billing-details .group-container-1 {
+  height: 21px;
+  position: relative;
+  width: 19px;
+}
+
+.donate-input-billing-details .group-6 {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 9px;
+  width: 13px;
+}
+
+.donate-input-billing-details .group-7 {
+  height: 12px;
+  left: 7px;
+  position: absolute;
+  top: 5px;
+  width: 7px;
+}
+
+.donate-input-billing-details .group-8 {
+  height: 21px;
+  left: 7px;
+  position: absolute;
+  top: 0;
+  width: 12px;
+}
+
+.donate-input-billing-details .container {
+  align-items: flex-start;
+  background-color: var(--sail);
+  border: 0px none;
+  box-shadow: 0px 0px 1px #171a1f12 , 0px 0px 2px #171a1f1f;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2.0px;
+  min-width: 2203px;
+  padding: 0 127.2px;
+}
+
+.donate-input-billing-details .frame {
+  align-items: flex-start;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  height: 80px;
+  overflow: hidden;
+  padding: 21px 134.0px;
+  transition: all 0.2s ease-in;
+  width: 336px;
+}
+
+.donate-input-billing-details .frame:hover {
+  transform: scale(1.1);
+}
+
+.donate-input-billing-details .place {
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.donate-input-billing-details .frame-1 {
+  align-items: flex-start;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  height: 80px;
+  overflow: hidden;
+  padding: 21px 134.0px;
+  transition: all 0.2s ease-in;
+  width: 388px;
+}
+
+.donate-input-billing-details .frame-1:hover {
+  transform: scale(1.1);
+}
+
+.donate-input-billing-details .frame-2 {
+  align-items: flex-start;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  height: 80px;
+  overflow: hidden;
+  padding: 21px 132.0px;
+  transition: all 0.2s ease-in;
+  width: 390px;
+}
+
+.donate-input-billing-details .frame-2:hover {
+  transform: scale(1.1);
+}
+
+.donate-input-billing-details .for-patient {
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-left: 2px;
+  white-space: nowrap;
+}
+
+.donate-input-billing-details .frame-3 {
+  align-items: flex-start;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  height: 80px;
+  overflow: hidden;
+  padding: 21px 133.0px;
+  transition: all 0.2s ease-in;
+  width: 436px;
+}
+
+.donate-input-billing-details .frame-3:hover {
+  transform: scale(1.1);
+}
+
+.donate-input-billing-details .for-nutritionist {
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-left: 1px;
+  white-space: nowrap;
+}
+
+.donate-input-billing-details .frame-4 {
+  align-items: flex-start;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  height: 80px;
+  overflow: hidden;
+  padding: 21px 134.0px;
+  transition: all 0.2s ease-in;
+  width: 370px;
+}
+
+.donate-input-billing-details .frame-4:hover {
+  transform: scale(1.1);
+}
+
+.donate-input-billing-details .container-260 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 0px none;
+  border-radius: 6px;
+  display: flex;
+  gap: 345px;
+  height: 724px;
+  margin-top: 7px;
+  min-width: 1920px;
+  padding: 18.0px 132px;
+}
+
+.donate-input-billing-details .button-246 {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  height: 52px;
+  margin-top: 41.0px;
+  overflow: hidden;
+  padding: 11px 20.0px;
+  transition: all 0.2s ease-in;
+  width: 208px;
+}
+
+.donate-input-billing-details .button-246:hover {
+  transform: scale(1.1);
+}
+
+.donate-input-billing-details .group-9 {
+  background-image: url(../img/group-601@2x.png);
+  background-size: 100% 100%;
+  height: 12px;
+  width: 7px;
+}
+
+.donate-input-billing-details .flex-col {
+  align-items: center;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  min-height: 634px;
+  width: 556px;
+}
+
+.donate-input-billing-details .overlap-group {
+  height: 12px;
+  margin-left: 2.0px;
+  position: relative;
+  width: 416px;
+}
+
+.donate-input-billing-details .container-261 {
+  align-items: flex-start;
+  background-color: var(--anakiwa);
+  border: 0px none;
+  display: flex;
+  height: 4px;
+  left: 10px;
+  overflow: hidden;
+  position: absolute;
+  top: 5px;
+  width: 197px;
+}
+
+.donate-input-billing-details .rectangle-13 {
+  background-color: var(--desert-sand);
+  border: 4px solid;
+  margin-left: 192px;
+  margin-top: -5.0px;
+}
+
+.donate-input-billing-details .rectangle-14 {
+  background-color: var(--sail);
+  border: 4px solid;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.donate-input-billing-details .container-262 {
+  background-color: var(--anakiwa);
+  border: 0px none;
+  height: 4px;
+  left: 212px;
+  position: absolute;
+  top: 5px;
+  width: 197px;
+}
+
+.donate-input-billing-details .rectangle-15 {
+  background-color: var(--sail);
+  border: 0px none;
+  left: 404px;
+  position: absolute;
+  top: 0;
+}
+
+.donate-input-billing-details .rectangle-16 {
+  background-color: var(--sail);
+  border: 0px none;
+  left: 202px;
+  position: absolute;
+  top: 0;
+}
+
+.donate-input-billing-details .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  gap: 46px;
+  height: 28px;
+  margin-top: 6px;
+  min-width: 556px;
+}
+
+.donate-input-billing-details .donation-amount {
+  letter-spacing: 0;
+  line-height: 28px;
+  text-align: center;
+  width: 154px;
+}
+
+.donate-input-billing-details .payment-details {
+  letter-spacing: 0;
+  line-height: 28px;
+  text-align: center;
+  width: 157px;
+}
+
+.donate-input-billing-details .billing-details {
+  letter-spacing: 0;
+  line-height: 28px;
+  text-align: center;
+  width: 153px;
+}
+
+.donate-input-billing-details .flex-col-1 {
+  align-items: center;
+  margin-right: 6.0px;
+  margin-top: 30px;
+  min-height: 558px;
+  width: 504px;
+}
+
+.donate-input-billing-details .title {
+  letter-spacing: 0;
+  line-height: 68px;
+  margin-right: 27.0px;
+  min-width: 281px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.donate-input-billing-details .personal-info {
+  align-self: flex-start;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 1px;
+  margin-top: 24px;
+  white-space: nowrap;
+}
+
+.donate-input-billing-details .textbox-119 {
+  flex-direction: column;
+  gap: 1px;
+  margin-top: 12px;
+  min-height: 81px;
+  width: 504px;
+}
+
+.donate-input-billing-details .first-name {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: -1px;
+  white-space: nowrap;
+}
+
+.donate-input-billing-details .textfield {
+  align-items: flex-start;
+  background-color: var(--wild-sand);
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6px;
+  display: flex;
+  height: 53px;
+  margin-left: -1px;
+  min-width: 505px;
+  padding: 11.5px 20px;
+}
+
+.donate-input-billing-details .your-first-name {
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.donate-input-billing-details .last-name {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: -1px;
+  white-space: nowrap;
+}
+
+.donate-input-billing-details .your-last-name {
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.donate-input-billing-details .email-address {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: -1px;
+  white-space: nowrap;
+}
+
+.donate-input-billing-details .your-email-address {
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.donate-input-billing-details .contact-number {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: -1px;
+  white-space: nowrap;
+}
+
+.donate-input-billing-details .your-email-address-1 {
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.donate-input-billing-details .button-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 24px;
+  margin-top: 30px;
+  min-width: 424px;
+}
+
+.donate-input-billing-details .button-243 {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: var(--picton-blue);
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  height: 52px;
+  overflow: hidden;
+  padding: 11px 79.5px;
+  transition: all 0.2s ease-in;
+  width: 200px;
+}
+
+.donate-input-billing-details .button-243:hover {
+  transform: scale(1.1);
+}
+
+.donate-input-billing-details .place-1 {
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.donate-input-billing-details .button-242 {
+  align-items: flex-start;
+  background-color: var(--picton-blue);
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  height: 52px;
+  overflow: hidden;
+  padding: 11px 62px;
+  transition: all 0.2s ease-in;
+  width: 200px;
+}
+
+.donate-input-billing-details .button-242:hover {
+  transform: scale(1.1);
+}
+
+.donate-input-billing-details .container-1 {
+  align-items: center;
+  background-color: var(--mercury);
+  border: 0px none;
+  box-shadow: 0px 0px 1px #171a1f12 , 0px 0px 2px #171a1f1f;
+  display: flex;
+  flex-direction: column;
+  margin-top: 81px;
+  min-height: 392px;
+  padding: 24px 131px;
+  width: 1920px;
+}
+
+.donate-input-billing-details .flex-row-2 {
+  align-items: center;
+  display: flex;
+  height: 153px;
+  margin-right: 3.0px;
+  margin-top: 34px;
+  min-width: 863px;
+}
+
+.donate-input-billing-details .flex-col-2 {
+  align-items: flex-end;
+  gap: 53px;
+  min-height: 153px;
+  width: 751px;
+}
+
+.donate-input-billing-details .overlap-group1 {
+  height: 66px;
+  position: relative;
+  width: 751px;
+}
+
+.donate-input-billing-details .subscribe-to-our-newsletter {
+  left: 302px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 265px;
+}
+
+.donate-input-billing-details .textbox-2 {
+  background-color: var(--gallery);
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6px 0px 0px 6px;
+  gap: 6px;
+  height: 37px;
+  left: 0;
+  min-width: 751px;
+  padding: 6.5px 12px;
+  position: absolute;
+  top: 29px;
+}
+
+.donate-input-billing-details .mail {
+  align-self: center;
+  height: 16px;
+  margin-bottom: 1.0px;
+  width: 16px;
+}
+
+.donate-input-billing-details .input-your-email {
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.donate-input-billing-details .flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+  height: 34px;
+  margin-right: 31px;
+  min-width: 550px;
+}
+
+.donate-input-billing-details .services {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 30px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.donate-input-billing-details .services:hover {
+  transform: scale(1.1);
+}
+
+.donate-input-billing-details .resources {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 45px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.donate-input-billing-details .resources:hover {
+  transform: scale(1.1);
+}
+
+.donate-input-billing-details .organization {
+  align-self: flex-end;
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 55px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.donate-input-billing-details .organization:hover {
+  transform: scale(1.1);
+}
+
+.donate-input-billing-details .button-9 {
+  align-items: flex-start;
+  background-color: var(--picton-blue);
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 0px 6px 6px 0px;
+  cursor: pointer;
+  display: flex;
+  height: 36px;
+  margin-bottom: 57.0px;
+  overflow: hidden;
+  padding: 6px 23.5px;
+  transition: all 0.2s ease-in;
+  width: 112px;
+}
+
+.donate-input-billing-details .button-9:hover {
+  transform: scale(1.1);
+}
+
+.donate-input-billing-details .subscribe {
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 1px;
+  white-space: nowrap;
+}
+
+.donate-input-billing-details .flex-row-4 {
+  align-items: flex-start;
+  display: flex;
+  height: 56px;
+  margin-left: 24.0px;
+  margin-top: 8px;
+  min-width: 550px;
+}
+
+.donate-input-billing-details .for-patient-1 {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.donate-input-billing-details .for-patient-1:hover {
+  transform: scale(1.1);
+}
+
+.donate-input-billing-details .for-doctor-1 {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.donate-input-billing-details .for-doctor-1:hover {
+  transform: scale(1.1);
+}
+
+.donate-input-billing-details .flex-col-3 {
+  align-items: flex-start;
+  gap: 12px;
+  margin-left: 45px;
+  min-height: 56px;
+  width: 150px;
+}
+
+.donate-input-billing-details .review-us {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.donate-input-billing-details .review-us:hover {
+  transform: scale(1.1);
+}
+
+.donate-input-billing-details .need-to-know {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.donate-input-billing-details .need-to-know:hover {
+  transform: scale(1.1);
+}
+
+.donate-input-billing-details .about-us {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.donate-input-billing-details .about-us:hover {
+  transform: scale(1.1);
+}
+
+.donate-input-billing-details .contact-us {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.donate-input-billing-details .contact-us:hover {
+  transform: scale(1.1);
+}
+
+.donate-input-billing-details .flex-col-4 {
+  align-items: center;
+  align-self: flex-start;
+  gap: 22px;
+  margin-top: 12px;
+  min-height: 81px;
+  width: 1657px;
+}
+
+.donate-input-billing-details .for-nutritionist-1 {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-right: 375.0px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.donate-input-billing-details .for-nutritionist-1:hover {
+  transform: scale(1.1);
+}
+
+.donate-input-billing-details .flex-row-5 {
+  align-items: center;
+  display: flex;
+  min-width: 1657px;
+}
+
+.donate-input-billing-details .textbox-1 {
+  background-color: var(--gallery);
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6px;
+  gap: 41px;
+  height: 37px;
+  min-width: 129px;
+  padding: 6.5px 12px;
+}
+
+.donate-input-billing-details .language {
+  letter-spacing: 0;
+  line-height: 22px;
+  min-width: 47px;
+  white-space: nowrap;
+}
+
+.donate-input-billing-details .chevron-down-large {
+  align-self: center;
+  height: 16px;
+  margin-bottom: 1.0px;
+  width: 16px;
+}
+
+.donate-input-billing-details .copyright {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 530px;
+  margin-top: 1.0px;
+  min-width: 116px;
+  transition: all 0.2s ease-in;
+  white-space: nowrap;
+}
+
+.donate-input-billing-details .copyright:hover {
+  transform: scale(1.1);
+}
+
+.donate-input-billing-details .text-23 {
+  margin-left: 17px;
+}
+
+.donate-input-billing-details .privacy {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 6px;
+  margin-top: 1.0px;
+  min-width: 46px;
+  transition: all 0.2s ease-in;
+  white-space: nowrap;
+}
+
+.donate-input-billing-details .privacy:hover {
+  transform: scale(1.1);
+}
+
+.donate-input-billing-details .text-2 {
+  margin-left: 9px;
+}
+
+.donate-input-billing-details .terms {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 6px;
+  margin-top: 1.0px;
+  min-width: 39px;
+  transition: all 0.2s ease-in;
+  white-space: nowrap;
+}
+
+.donate-input-billing-details .terms:hover {
+  transform: scale(1.1);
+}
+
+.donate-input-billing-details .sitemap {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 7px;
+  margin-top: 1.0px;
+  min-width: 53px;
+  transition: all 0.2s ease-in;
+  white-space: nowrap;
+}
+
+.donate-input-billing-details .sitemap:hover {
+  transform: scale(1.1);
+}
+
+.donate-input-billing-details .logo-twitter-1 {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 24px;
+  margin-left: 525px;
+  margin-top: 1.0px;
+  padding: 4.2px 2.3px;
+  transition: all 0.2s ease-in;
+  width: 24px;
+}
+
+.donate-input-billing-details .logo-twitter-1:hover {
+  transform: scale(1.1);
+}
+
+.donate-input-billing-details .group-10 {
+  background-image: url(../img/group-457@2x.png);
+  background-size: 100% 100%;
+  height: 16px;
+  width: 19px;
+}
+
+.donate-input-billing-details .logo-facebook-1 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 24px;
+  margin-left: 16px;
+  margin-top: 1.0px;
+  padding: 2.4px 2.4px;
+  transition: all 0.2s ease-in;
+  width: 24px;
+}
+
+.donate-input-billing-details .logo-facebook-1:hover {
+  transform: scale(1.1);
+}
+
+.donate-input-billing-details .group-11 {
+  background-image: url(../img/group-458@2x.png);
+  background-size: 100% 100%;
+  height: 19px;
+  width: 19px;
+}
+
+.donate-input-billing-details .logo-linkedin-1 {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: 24px;
+  margin-left: 16px;
+  margin-top: 1.0px;
+  padding: 0 3px;
+  transition: all 0.2s ease-in;
+  width: 24px;
+}
+
+.donate-input-billing-details .logo-linkedin-1:hover {
+  transform: scale(1.1);
+}
+
+.donate-input-billing-details .group-12 {
+  background-image: url(../img/group-459@2x.png);
+  background-size: 100% 100%;
+  height: 18px;
+  width: 18px;
+}
+
+.donate-input-billing-details .logo-youtube-1 {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 24px;
+  margin-left: 16px;
+  margin-top: 1.0px;
+  padding: 5.2px 2.4px;
+  transition: all 0.2s ease-in;
+  width: 24px;
+}
+
+.donate-input-billing-details .logo-youtube-1:hover {
+  transform: scale(1.1);
+}
+
+.donate-input-billing-details .group-13 {
+  background-image: url(../img/group-456@2x.png);
+  background-size: 100% 100%;
+  height: 14px;
+  width: 19px;
+}
+
+.donate-input-billing-details .flex-col-5 {
+  display: flex;
+  flex-direction: column;
+}
+
+.donate-input-billing-details .rectangle {
+  border-radius: 6px;
+  height: 12px;
+  width: 12px;
+}
+
+.donate-input-billing-details .text {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-top: 1.0px;
+  width: 7px;
+}
+
+.donate-input-billing-details .textbox {
+  align-items: flex-start;
+  display: flex;
+}

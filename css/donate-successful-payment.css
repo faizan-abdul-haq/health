@@ -1,0 +1,935 @@
+/* screen - donate-successful-payment */
+
+.donate-successful-payment {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 1354px;
+  overflow: hidden;
+  width: 1920px;
+}
+
+.donate-successful-payment .group-25 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: -156px;
+  margin-top: 20px;
+  min-height: 140px;
+  width: 2205px;
+}
+
+.donate-successful-payment .flex-row {
+  height: 50px;
+  margin-left: 7.0px;
+  min-width: 1860px;
+}
+
+.donate-successful-payment .image {
+  align-items: flex-start;
+  border: 0px none;
+  display: flex;
+  height: 40px;
+  padding: 1.9px 2.8px;
+  width: 40px;
+}
+
+.donate-successful-payment .group-container {
+  height: 36px;
+  position: relative;
+  width: 34px;
+}
+
+.donate-successful-payment .group {
+  height: 17px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 34px;
+}
+
+.donate-successful-payment .group-1 {
+  height: 16px;
+  left: 0;
+  position: absolute;
+  top: 20px;
+  width: 16px;
+}
+
+.donate-successful-payment .group-2 {
+  height: 16px;
+  left: 18px;
+  position: absolute;
+  top: 20px;
+  width: 16px;
+}
+
+.donate-successful-payment .group-3 {
+  height: 9px;
+  left: 13px;
+  position: absolute;
+  top: 13px;
+  width: 9px;
+}
+
+.donate-successful-payment .cancer-detection {
+  align-self: flex-end;
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 42px;
+  margin-left: 30px;
+  min-height: 50px;
+  transition: all 0.2s ease-in;
+  white-space: nowrap;
+  width: 250px;
+}
+
+.donate-successful-payment .cancer-detection:hover {
+  transform: scale(1.1);
+}
+
+.donate-successful-payment .button {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--picton-blue);
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  gap: 6px;
+  height: 40px;
+  margin-left: 1219px;
+  margin-top: 0;
+  overflow: hidden;
+  padding: 1px 35px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.donate-successful-payment .button:hover {
+  transform: scale(1.1);
+}
+
+.donate-successful-payment .group-4 {
+  height: 12px;
+  width: 9px;
+}
+
+.donate-successful-payment .group-5 {
+  height: 3px;
+  margin-right: 4.23px;
+  width: 3px;
+}
+
+.donate-successful-payment .button-1 {
+  align-items: flex-start;
+  background-color: var(--picton-blue);
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  gap: 6px;
+  height: 40px;
+  margin-left: 21px;
+  margin-top: 0;
+  overflow: hidden;
+  padding: 1px 30.5px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.donate-successful-payment .button-1:hover {
+  transform: scale(1.1);
+}
+
+.donate-successful-payment .log-in {
+  align-items: flex-end;
+  align-self: center;
+  display: flex;
+  height: 24px;
+  margin-top: 0;
+  padding: 1.5px 2.4px;
+  width: 24px;
+}
+
+.donate-successful-payment .group-container-1 {
+  height: 21px;
+  position: relative;
+  width: 19px;
+}
+
+.donate-successful-payment .group-6 {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 9px;
+  width: 13px;
+}
+
+.donate-successful-payment .group-7 {
+  height: 12px;
+  left: 7px;
+  position: absolute;
+  top: 5px;
+  width: 7px;
+}
+
+.donate-successful-payment .group-8 {
+  height: 21px;
+  left: 7px;
+  position: absolute;
+  top: 0;
+  width: 12px;
+}
+
+.donate-successful-payment .container {
+  align-items: flex-start;
+  background-color: var(--sail);
+  border: 0px none;
+  box-shadow: 0px 0px 1px #171a1f12 , 0px 0px 2px #171a1f1f;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2.0px;
+  min-width: 2203px;
+  padding: 0 127.2px;
+}
+
+.donate-successful-payment .frame {
+  align-items: flex-start;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  height: 80px;
+  overflow: hidden;
+  padding: 21px 134.0px;
+  transition: all 0.2s ease-in;
+  width: 336px;
+}
+
+.donate-successful-payment .frame:hover {
+  transform: scale(1.1);
+}
+
+.donate-successful-payment .place {
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.donate-successful-payment .frame-1 {
+  align-items: flex-start;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  height: 80px;
+  overflow: hidden;
+  padding: 21px 134.0px;
+  transition: all 0.2s ease-in;
+  width: 388px;
+}
+
+.donate-successful-payment .frame-1:hover {
+  transform: scale(1.1);
+}
+
+.donate-successful-payment .frame-2 {
+  align-items: flex-start;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  height: 80px;
+  overflow: hidden;
+  padding: 21px 132.0px;
+  transition: all 0.2s ease-in;
+  width: 390px;
+}
+
+.donate-successful-payment .frame-2:hover {
+  transform: scale(1.1);
+}
+
+.donate-successful-payment .for-patient {
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-left: 2px;
+  white-space: nowrap;
+}
+
+.donate-successful-payment .frame-3 {
+  align-items: flex-start;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  height: 80px;
+  overflow: hidden;
+  padding: 21px 133.0px;
+  transition: all 0.2s ease-in;
+  width: 436px;
+}
+
+.donate-successful-payment .frame-3:hover {
+  transform: scale(1.1);
+}
+
+.donate-successful-payment .for-nutritionist {
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-left: 1px;
+  white-space: nowrap;
+}
+
+.donate-successful-payment .frame-4 {
+  align-items: flex-start;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  height: 80px;
+  overflow: hidden;
+  padding: 21px 134.0px;
+  transition: all 0.2s ease-in;
+  width: 370px;
+}
+
+.donate-successful-payment .frame-4:hover {
+  transform: scale(1.1);
+}
+
+.donate-successful-payment .container-272 {
+  background-color: var(--white);
+  border-radius: 6px;
+  flex-direction: column;
+  min-height: 752px;
+  padding: 48px 0;
+  width: 1920px;
+}
+
+.donate-successful-payment .image-155 {
+  height: 334px;
+  width: 362px;
+}
+
+.donate-successful-payment .title {
+  letter-spacing: 0;
+  line-height: 68px;
+  margin-right: 47.0px;
+  margin-top: 36px;
+  min-width: 587px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.donate-successful-payment .a-receipt-has-been-sent-to-your-email {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 9.0px;
+  margin-top: 4px;
+  min-width: 323px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.donate-successful-payment .container-273 {
+  background-color: var(--white);
+  border-radius: 6px;
+  height: 60px;
+  margin-top: 24px;
+  min-width: 632px;
+  padding: 1.0px 4px;
+}
+
+.donate-successful-payment .image-156 {
+  align-items: flex-start;
+  border: 0px none;
+  display: flex;
+  height: 48px;
+  margin-bottom: 4.0px;
+  padding: 2.9px 2.3px;
+  width: 48px;
+}
+
+.donate-successful-payment .group-9 {
+  align-items: center;
+  background-image: url(../img/layer-1-53@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 42px;
+  padding: 4.0px 2.4px;
+  width: 43px;
+}
+
+.donate-successful-payment .layer_-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 2px;
+  height: 4px;
+  margin-left: 9.44px;
+  min-width: 4px;
+}
+
+.donate-successful-payment .layer_1 {
+  align-self: flex-end;
+  height: 3px;
+  width: 1px;
+}
+
+.donate-successful-payment .layer_1-1 {
+  height: 3px;
+  width: 1px;
+}
+
+.donate-successful-payment .layer_1-2 {
+  height: 18px;
+  left: 14px;
+  position: absolute;
+  top: 0;
+  width: 14px;
+}
+
+.donate-successful-payment .layer_1-3 {
+  height: 15px;
+  left: 0;
+  position: absolute;
+  top: 14px;
+  width: 33px;
+}
+
+.donate-successful-payment .flex-col {
+  align-self: flex-end;
+  flex-direction: column;
+  margin-left: 12px;
+  min-height: 54px;
+  width: 177px;
+}
+
+.donate-successful-payment .your-donation {
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.donate-successful-payment .empower-cancer-patient {
+  color: var(--black-coral-pearl);
+  font-family: var(--font-family-archivo);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 26px;
+  white-space: nowrap;
+}
+
+.donate-successful-payment .price {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 329px;
+  margin-top: 8.0px;
+  min-width: 47px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.donate-successful-payment .line-34 {
+  height: 1px;
+  margin-left: 2.0px;
+  margin-top: 4px;
+  object-fit: cover;
+  width: 632px;
+}
+
+.donate-successful-payment .button-251 {
+  align-items: flex-start;
+  background-color: var(--picton-blue);
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  height: 52px;
+  margin-top: 32px;
+  overflow: hidden;
+  padding: 11px 32.5px;
+  transition: all 0.2s ease-in;
+  width: 200px;
+}
+
+.donate-successful-payment .button-251:hover {
+  transform: scale(1.1);
+}
+
+.donate-successful-payment .go-to-homepage {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-left: 1px;
+  transition: all 0.2s ease-in;
+  white-space: nowrap;
+}
+
+.donate-successful-payment .go-to-homepage:hover {
+  transform: scale(1.1);
+}
+
+.donate-successful-payment .container-1 {
+  background-color: var(--mercury);
+  box-shadow: 0px 0px 1px #171a1f12 , 0px 0px 2px #171a1f1f;
+  flex-direction: column;
+  margin-top: 50px;
+  min-height: 392px;
+  padding: 24px 131px;
+  width: 1920px;
+}
+
+.donate-successful-payment .flex-row-1 {
+  align-items: center;
+  display: flex;
+  height: 153px;
+  margin-right: 3.0px;
+  margin-top: 34px;
+  min-width: 863px;
+}
+
+.donate-successful-payment .flex-col-1 {
+  align-items: flex-end;
+  gap: 53px;
+  min-height: 153px;
+  width: 751px;
+}
+
+.donate-successful-payment .overlap-group1 {
+  height: 66px;
+  position: relative;
+  width: 751px;
+}
+
+.donate-successful-payment .subscribe-to-our-newsletter {
+  left: 302px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 265px;
+}
+
+.donate-successful-payment .textbox-2 {
+  border-radius: 6px 0px 0px 6px;
+  gap: 6px;
+  left: 0;
+  min-width: 751px;
+  position: absolute;
+  top: 29px;
+}
+
+.donate-successful-payment .mail {
+  align-self: center;
+  height: 16px;
+  margin-bottom: 1.0px;
+  width: 16px;
+}
+
+.donate-successful-payment .input-your-email {
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.donate-successful-payment .flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 34px;
+  margin-right: 31px;
+  min-width: 550px;
+}
+
+.donate-successful-payment .services {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 30px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.donate-successful-payment .services:hover {
+  transform: scale(1.1);
+}
+
+.donate-successful-payment .resources {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 45px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.donate-successful-payment .resources:hover {
+  transform: scale(1.1);
+}
+
+.donate-successful-payment .organization {
+  align-self: flex-end;
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 55px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.donate-successful-payment .organization:hover {
+  transform: scale(1.1);
+}
+
+.donate-successful-payment .button-9 {
+  align-items: flex-start;
+  background-color: var(--picton-blue);
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 0px 6px 6px 0px;
+  display: flex;
+  height: 36px;
+  margin-bottom: 57.0px;
+  overflow: hidden;
+  padding: 6px 23.5px;
+  width: 112px;
+}
+
+.donate-successful-payment .subscribe {
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 1px;
+  white-space: nowrap;
+}
+
+.donate-successful-payment .flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+  height: 56px;
+  margin-left: 24.0px;
+  margin-top: 8px;
+  min-width: 550px;
+}
+
+.donate-successful-payment .for-patient-1 {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.donate-successful-payment .for-patient-1:hover {
+  transform: scale(1.1);
+}
+
+.donate-successful-payment .for-doctor-1 {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.donate-successful-payment .for-doctor-1:hover {
+  transform: scale(1.1);
+}
+
+.donate-successful-payment .flex-col-2 {
+  align-items: flex-start;
+  gap: 12px;
+  margin-left: 45px;
+  min-height: 56px;
+  width: 150px;
+}
+
+.donate-successful-payment .review-us {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.donate-successful-payment .review-us:hover {
+  transform: scale(1.1);
+}
+
+.donate-successful-payment .need-to-know {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.donate-successful-payment .need-to-know:hover {
+  transform: scale(1.1);
+}
+
+.donate-successful-payment .about-us {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.donate-successful-payment .about-us:hover {
+  transform: scale(1.1);
+}
+
+.donate-successful-payment .contact-us {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.donate-successful-payment .contact-us:hover {
+  transform: scale(1.1);
+}
+
+.donate-successful-payment .flex-col-3 {
+  align-items: center;
+  align-self: flex-start;
+  gap: 22px;
+  margin-top: 12px;
+  min-height: 81px;
+  width: 1657px;
+}
+
+.donate-successful-payment .for-nutritionist-1 {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-right: 375.0px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.donate-successful-payment .for-nutritionist-1:hover {
+  transform: scale(1.1);
+}
+
+.donate-successful-payment .flex-row-4 {
+  align-items: center;
+  display: flex;
+  min-width: 1657px;
+}
+
+.donate-successful-payment .textbox-1 {
+  border-radius: 6px;
+  gap: 41px;
+  min-width: 129px;
+}
+
+.donate-successful-payment .language {
+  letter-spacing: 0;
+  line-height: 22px;
+  min-width: 47px;
+  white-space: nowrap;
+}
+
+.donate-successful-payment .chevron-down-large {
+  align-self: center;
+  height: 16px;
+  margin-bottom: 1.0px;
+  width: 16px;
+}
+
+.donate-successful-payment .copyright {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 530px;
+  margin-top: 1.0px;
+  min-width: 116px;
+  transition: all 0.2s ease-in;
+  white-space: nowrap;
+}
+
+.donate-successful-payment .copyright:hover {
+  transform: scale(1.1);
+}
+
+.donate-successful-payment .text-17 {
+  margin-left: 17px;
+}
+
+.donate-successful-payment .privacy {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 6px;
+  margin-top: 1.0px;
+  min-width: 46px;
+  transition: all 0.2s ease-in;
+  white-space: nowrap;
+}
+
+.donate-successful-payment .privacy:hover {
+  transform: scale(1.1);
+}
+
+.donate-successful-payment .text-1 {
+  margin-left: 9px;
+}
+
+.donate-successful-payment .terms {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 6px;
+  margin-top: 1.0px;
+  min-width: 39px;
+  transition: all 0.2s ease-in;
+  white-space: nowrap;
+}
+
+.donate-successful-payment .terms:hover {
+  transform: scale(1.1);
+}
+
+.donate-successful-payment .sitemap {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 7px;
+  margin-top: 1.0px;
+  min-width: 53px;
+  transition: all 0.2s ease-in;
+  white-space: nowrap;
+}
+
+.donate-successful-payment .sitemap:hover {
+  transform: scale(1.1);
+}
+
+.donate-successful-payment .logo-twitter-1 {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: 24px;
+  margin-left: 525px;
+  margin-top: 1.0px;
+  padding: 0 2.3px;
+  transition: all 0.2s ease-in;
+  width: 24px;
+}
+
+.donate-successful-payment .logo-twitter-1:hover {
+  transform: scale(1.1);
+}
+
+.donate-successful-payment .group-10 {
+  background-image: url(../img/group-457@2x.png);
+  background-size: 100% 100%;
+  height: 16px;
+  width: 19px;
+}
+
+.donate-successful-payment .logo-facebook-1 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 24px;
+  margin-left: 16px;
+  margin-top: 1.0px;
+  padding: 2.4px 2.4px;
+  transition: all 0.2s ease-in;
+  width: 24px;
+}
+
+.donate-successful-payment .logo-facebook-1:hover {
+  transform: scale(1.1);
+}
+
+.donate-successful-payment .group-11 {
+  background-image: url(../img/group-458@2x.png);
+  background-size: 100% 100%;
+  height: 19px;
+  width: 19px;
+}
+
+.donate-successful-payment .logo-linkedin-1 {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: 24px;
+  margin-left: 16px;
+  margin-top: 1.0px;
+  padding: 0 3px;
+  transition: all 0.2s ease-in;
+  width: 24px;
+}
+
+.donate-successful-payment .logo-linkedin-1:hover {
+  transform: scale(1.1);
+}
+
+.donate-successful-payment .group-12 {
+  background-image: url(../img/group-459@2x.png);
+  background-size: 100% 100%;
+  height: 18px;
+  width: 18px;
+}
+
+.donate-successful-payment .logo-youtube-1 {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: 24px;
+  margin-left: 16px;
+  margin-top: 1.0px;
+  padding: 0 2.4px;
+  transition: all 0.2s ease-in;
+  width: 24px;
+}
+
+.donate-successful-payment .logo-youtube-1:hover {
+  transform: scale(1.1);
+}
+
+.donate-successful-payment .group-13 {
+  background-image: url(../img/group-456@2x.png);
+  background-size: 100% 100%;
+  height: 14px;
+  width: 19px;
+}
+
+.donate-successful-payment .container-2 {
+  align-items: center;
+  border: 0px none;
+  display: flex;
+}
+
+.donate-successful-payment .flex {
+  align-items: flex-start;
+  display: flex;
+}
+
+.donate-successful-payment .flex-col-4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.donate-successful-payment .text {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-top: 1.0px;
+  width: 7px;
+}
+
+.donate-successful-payment .textbox {
+  align-items: flex-start;
+  background-color: var(--gallery);
+  border: 1px solid;
+  border-color: transparent;
+  display: flex;
+  height: 37px;
+  padding: 6.5px 12px;
+}

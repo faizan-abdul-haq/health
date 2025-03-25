@@ -1,0 +1,1904 @@
+/* screen - patient-profile-site */
+
+.patient-profile-site {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 3622px;
+  overflow: hidden;
+  width: 1920px;
+}
+
+.patient-profile-site .group-25 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: -156px;
+  margin-top: 20px;
+  min-height: 140px;
+  width: 2205px;
+}
+
+.patient-profile-site .flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 50px;
+  margin-left: 7.0px;
+  min-width: 1860px;
+}
+
+.patient-profile-site .image {
+  align-items: flex-start;
+  border: 0px none;
+  display: flex;
+  height: 40px;
+  padding: 1.9px 2.8px;
+  width: 40px;
+}
+
+.patient-profile-site .group-container {
+  height: 36px;
+  position: relative;
+  width: 34px;
+}
+
+.patient-profile-site .group-2 {
+  height: 17px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 34px;
+}
+
+.patient-profile-site .group-3 {
+  height: 16px;
+  left: 0;
+  position: absolute;
+  top: 20px;
+  width: 16px;
+}
+
+.patient-profile-site .group-4 {
+  height: 16px;
+  left: 18px;
+  position: absolute;
+  top: 20px;
+  width: 16px;
+}
+
+.patient-profile-site .group-5 {
+  height: 9px;
+  left: 13px;
+  position: absolute;
+  top: 13px;
+  width: 9px;
+}
+
+.patient-profile-site .cancer-detection {
+  align-self: flex-end;
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 42px;
+  margin-left: 30px;
+  min-height: 50px;
+  transition: all 0.2s ease-in;
+  white-space: nowrap;
+  width: 250px;
+}
+
+.patient-profile-site .cancer-detection:hover {
+  transform: scale(1.1);
+}
+
+.patient-profile-site .button {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--picton-blue);
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  gap: 6px;
+  height: 40px;
+  margin-left: 1219px;
+  margin-top: 0;
+  overflow: hidden;
+  padding: 1px 35px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.patient-profile-site .button:hover {
+  transform: scale(1.1);
+}
+
+.patient-profile-site .group-6 {
+  height: 12px;
+  width: 9px;
+}
+
+.patient-profile-site .group-7 {
+  height: 3px;
+  margin-right: 4.23px;
+  width: 3px;
+}
+
+.patient-profile-site .button-1 {
+  align-items: flex-start;
+  background-color: var(--picton-blue);
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  gap: 6px;
+  height: 40px;
+  margin-left: 21px;
+  margin-top: 0;
+  overflow: hidden;
+  padding: 1px 30.5px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.patient-profile-site .button-1:hover {
+  transform: scale(1.1);
+}
+
+.patient-profile-site .log-in {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  height: 24px;
+  margin-top: 0;
+  padding: 1.5px 2.4px;
+  width: 24px;
+}
+
+.patient-profile-site .group-container-1 {
+  height: 21px;
+  position: relative;
+  width: 19px;
+}
+
+.patient-profile-site .group-8 {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 9px;
+  width: 13px;
+}
+
+.patient-profile-site .group-9 {
+  height: 12px;
+  left: 7px;
+  position: absolute;
+  top: 5px;
+  width: 7px;
+}
+
+.patient-profile-site .group-10 {
+  height: 21px;
+  left: 7px;
+  position: absolute;
+  top: 0;
+  width: 12px;
+}
+
+.patient-profile-site .container {
+  align-items: flex-start;
+  background-color: var(--sail);
+  border: 0px none;
+  box-shadow: 0px 0px 1px #171a1f12 , 0px 0px 2px #171a1f1f;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2.0px;
+  min-width: 2203px;
+  padding: 0 127.2px;
+}
+
+.patient-profile-site .frame-1 {
+  align-items: flex-start;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  height: 80px;
+  overflow: hidden;
+  padding: 21px 134.0px;
+  transition: all 0.2s ease-in;
+  width: 336px;
+}
+
+.patient-profile-site .frame-1:hover {
+  transform: scale(1.1);
+}
+
+.patient-profile-site .place {
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.patient-profile-site .frame-2 {
+  align-items: flex-start;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  height: 80px;
+  overflow: hidden;
+  padding: 21px 134.0px;
+  transition: all 0.2s ease-in;
+  width: 388px;
+}
+
+.patient-profile-site .frame-2:hover {
+  transform: scale(1.1);
+}
+
+.patient-profile-site .frame-3 {
+  align-items: flex-start;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  height: 80px;
+  overflow: hidden;
+  padding: 21px 132.0px;
+  transition: all 0.2s ease-in;
+  width: 390px;
+}
+
+.patient-profile-site .frame-3:hover {
+  transform: scale(1.1);
+}
+
+.patient-profile-site .for-patient {
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-left: 2px;
+  white-space: nowrap;
+}
+
+.patient-profile-site .frame-4 {
+  align-items: flex-start;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  height: 80px;
+  overflow: hidden;
+  padding: 21px 133.0px;
+  transition: all 0.2s ease-in;
+  width: 436px;
+}
+
+.patient-profile-site .frame-4:hover {
+  transform: scale(1.1);
+}
+
+.patient-profile-site .for-nutritionist {
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-left: 1px;
+  white-space: nowrap;
+}
+
+.patient-profile-site .frame-5 {
+  align-items: flex-start;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  height: 80px;
+  overflow: hidden;
+  padding: 21px 134.0px;
+  transition: all 0.2s ease-in;
+  width: 370px;
+}
+
+.patient-profile-site .frame-5:hover {
+  transform: scale(1.1);
+}
+
+.patient-profile-site .overlap-group7 {
+  height: 3462px;
+  position: relative;
+  width: 1922px;
+}
+
+.patient-profile-site .overlap-group6 {
+  height: 3462px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1922px;
+}
+
+.patient-profile-site .container-218 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 0px none;
+  box-shadow: 0px 0px 1px #171a1f12 , 0px 0px 2px #171a1f1f;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 3299px;
+  padding: 16.0px 0;
+  position: absolute;
+  top: 0;
+  width: 340px;
+}
+
+.patient-profile-site .title {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: 48px;
+  margin-right: 27.0px;
+  min-width: 149px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.patient-profile-site .overlap-group {
+  height: 558px;
+  margin-left: 24px;
+  margin-top: 17px;
+  position: relative;
+  width: 240px;
+}
+
+.patient-profile-site .sidebar-menu-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  left: 0;
+  min-height: 558px;
+  position: absolute;
+  top: 0;
+  width: 240px;
+}
+
+.patient-profile-site .frame-6 {
+  align-items: flex-start;
+  background-color: var(--alice-blue-3);
+  border-radius: 16px;
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  height: 54px;
+  overflow: hidden;
+  padding: 11px 16px;
+  transition: all 0.2s ease-in;
+  width: 240px;
+}
+
+.patient-profile-site .frame-6:hover {
+  transform: scale(1.1);
+}
+
+.patient-profile-site .dashboard {
+  letter-spacing: 0;
+  line-height: 30px;
+  width: 180px;
+}
+
+.patient-profile-site .frame-7 {
+  align-items: center;
+  border-radius: 16px;
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  height: 56px;
+  overflow: hidden;
+  padding: 12.0px 16px;
+  transition: all 0.2s ease-in;
+  width: 240px;
+}
+
+.patient-profile-site .frame-7:hover {
+  transform: scale(1.1);
+}
+
+.patient-profile-site .folder {
+  height: 32px;
+  width: 32px;
+}
+
+.patient-profile-site .my-profile {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: 2.0px;
+  width: 168px;
+}
+
+.patient-profile-site .frame {
+  align-items: flex-start;
+  border-radius: 16px;
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  height: 54px;
+  overflow: hidden;
+  padding: 11px 16px;
+  transition: all 0.2s ease-in;
+  width: 240px;
+}
+
+.patient-profile-site .frame:hover {
+  transform: scale(1.1);
+}
+
+.patient-profile-site .view-schedule {
+  letter-spacing: 0;
+  line-height: 30px;
+  width: 180px;
+}
+
+.patient-profile-site .place-1 {
+  width: 180px;
+}
+
+.patient-profile-site .nutritionist-note {
+  letter-spacing: 0;
+  line-height: 30px;
+  width: 180px;
+}
+
+.patient-profile-site .newsletter {
+  align-self: center;
+  height: 20px;
+  width: 20px;
+}
+
+.patient-profile-site .doctor-note {
+  letter-spacing: 0;
+  line-height: 30px;
+  width: 180px;
+}
+
+.patient-profile-site .feedback {
+  align-self: center;
+  height: 20px;
+  width: 20px;
+}
+
+.patient-profile-site .review {
+  letter-spacing: 0;
+  line-height: 30px;
+  width: 180px;
+}
+
+.patient-profile-site .setting {
+  letter-spacing: 0;
+  line-height: 30px;
+  width: 180px;
+}
+
+.patient-profile-site .line-3 {
+  left: 0;
+  position: absolute;
+  top: 230px;
+  width: 190px;
+}
+
+.patient-profile-site .container-305 {
+  align-items: center;
+  background-color: var(--white);
+  border: 0px none;
+  border-radius: 6px;
+  box-shadow: 0px 0px 1px #171a1f12 , 0px 0px 2px #171a1f1f;
+  cursor: pointer;
+  display: flex;
+  gap: 30px;
+  height: 90px;
+  margin-top: 2353px;
+  min-width: 352px;
+  padding: 12px 30px;
+  transition: all 0.2s ease-in;
+}
+
+.patient-profile-site .container-305:hover {
+  transform: scale(1.1);
+}
+
+.patient-profile-site .avatar-5 {
+  align-items: center;
+  align-self: flex-end;
+  background-color: var(--roman-coffee);
+  border-radius: 32px;
+  height: 64px;
+  padding: 0 23px;
+  width: 64px;
+}
+
+.patient-profile-site .j {
+  letter-spacing: 0;
+  line-height: 32px;
+  min-width: 18px;
+  white-space: nowrap;
+}
+
+.patient-profile-site .name {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: 8.0px;
+  min-width: 161px;
+  white-space: nowrap;
+}
+
+.patient-profile-site .container-1 {
+  align-items: center;
+  background-color: var(--mercury);
+  border: 0px none;
+  box-shadow: 0px 0px 1px #171a1f12 , 0px 0px 2px #171a1f1f;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 380px;
+  padding: 24px 131px;
+  position: absolute;
+  top: 3082px;
+  width: 1920px;
+}
+
+.patient-profile-site .flex-row-1 {
+  align-items: center;
+  display: flex;
+  height: 153px;
+  margin-right: 3.0px;
+  margin-top: 34px;
+  min-width: 863px;
+}
+
+.patient-profile-site .flex-col {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 53px;
+  min-height: 153px;
+  width: 751px;
+}
+
+.patient-profile-site .overlap-group1 {
+  height: 66px;
+  position: relative;
+  width: 751px;
+}
+
+.patient-profile-site .subscribe-to-our-newsletter {
+  left: 301px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 265px;
+}
+
+.patient-profile-site .textbox-2 {
+  background-color: var(--gallery);
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6px 0px 0px 6px;
+  gap: 6px;
+  height: 37px;
+  left: 0;
+  min-width: 751px;
+  padding: 6.5px 12px;
+  position: absolute;
+  top: 29px;
+}
+
+.patient-profile-site .mail {
+  align-self: center;
+  height: 16px;
+  margin-bottom: 1.0px;
+  width: 16px;
+}
+
+.patient-profile-site .input-your-email {
+  background-color: transparent;
+  border: 0;
+  height: 22px;
+  letter-spacing: 0;
+  line-height: 22px;
+  padding: 0;
+  white-space: nowrap;
+  width: 99px;
+}
+
+.patient-profile-site .flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 34px;
+  margin-right: 31px;
+  min-width: 550px;
+}
+
+.patient-profile-site .services {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 30px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.patient-profile-site .services:hover {
+  transform: scale(1.1);
+}
+
+.patient-profile-site .resources {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 45px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.patient-profile-site .resources:hover {
+  transform: scale(1.1);
+}
+
+.patient-profile-site .organization {
+  align-self: flex-end;
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 55px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.patient-profile-site .organization:hover {
+  transform: scale(1.1);
+}
+
+.patient-profile-site .button-9 {
+  align-items: flex-start;
+  background-color: var(--picton-blue);
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 0px 6px 6px 0px;
+  cursor: pointer;
+  display: flex;
+  height: 36px;
+  margin-bottom: 57.0px;
+  overflow: hidden;
+  padding: 6px 23.5px;
+  transition: all 0.2s ease-in;
+  width: 112px;
+}
+
+.patient-profile-site .button-9:hover {
+  transform: scale(1.1);
+}
+
+.patient-profile-site .subscribe {
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 1px;
+  white-space: nowrap;
+}
+
+.patient-profile-site .flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+  height: 56px;
+  margin-left: 24.0px;
+  margin-top: 8px;
+  min-width: 550px;
+}
+
+.patient-profile-site .for-patient-1 {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.patient-profile-site .for-patient-1:hover {
+  transform: scale(1.1);
+}
+
+.patient-profile-site .for-doctor-1 {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.patient-profile-site .for-doctor-1:hover {
+  transform: scale(1.1);
+}
+
+.patient-profile-site .flex-col-1 {
+  align-items: flex-start;
+  gap: 12px;
+  margin-left: 45px;
+  min-height: 56px;
+  width: 150px;
+}
+
+.patient-profile-site .review-us {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.patient-profile-site .review-us:hover {
+  transform: scale(1.1);
+}
+
+.patient-profile-site .need-to-know {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.patient-profile-site .need-to-know:hover {
+  transform: scale(1.1);
+}
+
+.patient-profile-site .about-us {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.patient-profile-site .about-us:hover {
+  transform: scale(1.1);
+}
+
+.patient-profile-site .contact-us {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.patient-profile-site .contact-us:hover {
+  transform: scale(1.1);
+}
+
+.patient-profile-site .flex-col-2 {
+  align-items: center;
+  align-self: flex-start;
+  gap: 10px;
+  margin-top: 12px;
+  min-height: 69px;
+  width: 1657px;
+}
+
+.patient-profile-site .for-nutritionist-1 {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-right: 375.0px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.patient-profile-site .for-nutritionist-1:hover {
+  transform: scale(1.1);
+}
+
+.patient-profile-site .flex-row-4 {
+  align-items: center;
+  display: flex;
+  min-width: 1657px;
+}
+
+.patient-profile-site .textbox-1 {
+  background-color: var(--gallery);
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6px;
+  gap: 41px;
+  height: 37px;
+  min-width: 129px;
+  padding: 6.5px 12px;
+}
+
+.patient-profile-site .language {
+  letter-spacing: 0;
+  line-height: 22px;
+  min-width: 47px;
+  white-space: nowrap;
+}
+
+.patient-profile-site .chevron-down-large {
+  align-self: center;
+  height: 16px;
+  margin-bottom: 1.0px;
+  width: 16px;
+}
+
+.patient-profile-site .copyright {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 530px;
+  margin-top: 1.0px;
+  min-width: 116px;
+  transition: all 0.2s ease-in;
+  white-space: nowrap;
+}
+
+.patient-profile-site .copyright:hover {
+  transform: scale(1.1);
+}
+
+.patient-profile-site .text-11 {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 17px;
+  margin-top: 1.0px;
+  width: 7px;
+}
+
+.patient-profile-site .privacy {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 6px;
+  margin-top: 1.0px;
+  min-width: 46px;
+  transition: all 0.2s ease-in;
+  white-space: nowrap;
+}
+
+.patient-profile-site .privacy:hover {
+  transform: scale(1.1);
+}
+
+.patient-profile-site .text {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 9px;
+  margin-top: 1.0px;
+  width: 7px;
+}
+
+.patient-profile-site .terms {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 6px;
+  margin-top: 1.0px;
+  min-width: 39px;
+  transition: all 0.2s ease-in;
+  white-space: nowrap;
+}
+
+.patient-profile-site .terms:hover {
+  transform: scale(1.1);
+}
+
+.patient-profile-site .sitemap {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 7px;
+  margin-top: 1.0px;
+  min-width: 53px;
+  transition: all 0.2s ease-in;
+  white-space: nowrap;
+}
+
+.patient-profile-site .sitemap:hover {
+  transform: scale(1.1);
+}
+
+.patient-profile-site .logo-twitter-1 {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 24px;
+  margin-left: 525px;
+  margin-top: 1.0px;
+  padding: 4.2px 2.3px;
+  transition: all 0.2s ease-in;
+  width: 24px;
+}
+
+.patient-profile-site .logo-twitter-1:hover {
+  transform: scale(1.1);
+}
+
+.patient-profile-site .group-11 {
+  background-image: url(../img/group-457@2x.png);
+  background-size: 100% 100%;
+  height: 16px;
+  width: 19px;
+}
+
+.patient-profile-site .logo-facebook-1 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 24px;
+  margin-left: 16px;
+  margin-top: 1.0px;
+  padding: 2.4px 2.4px;
+  transition: all 0.2s ease-in;
+  width: 24px;
+}
+
+.patient-profile-site .logo-facebook-1:hover {
+  transform: scale(1.1);
+}
+
+.patient-profile-site .group-12 {
+  background-image: url(../img/group-458@2x.png);
+  background-size: 100% 100%;
+  height: 19px;
+  width: 19px;
+}
+
+.patient-profile-site .logo-linkedin-1 {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: 24px;
+  margin-left: 16px;
+  margin-top: 1.0px;
+  padding: 0 3px;
+  transition: all 0.2s ease-in;
+  width: 24px;
+}
+
+.patient-profile-site .logo-linkedin-1:hover {
+  transform: scale(1.1);
+}
+
+.patient-profile-site .group-13 {
+  background-image: url(../img/group-459@2x.png);
+  background-size: 100% 100%;
+  height: 18px;
+  width: 18px;
+}
+
+.patient-profile-site .logo-youtube-1 {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 24px;
+  margin-left: 16px;
+  margin-top: 1.0px;
+  padding: 5.2px 2.4px;
+  transition: all 0.2s ease-in;
+  width: 24px;
+}
+
+.patient-profile-site .logo-youtube-1:hover {
+  transform: scale(1.1);
+}
+
+.patient-profile-site .group-14 {
+  background-image: url(../img/group-456@2x.png);
+  background-size: 100% 100%;
+  height: 14px;
+  width: 19px;
+}
+
+.patient-profile-site .group-22 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 340px;
+  min-height: 2144px;
+  position: absolute;
+  top: 938px;
+  width: 1583px;
+}
+
+.patient-profile-site .flex-row-5 {
+  align-items: flex-start;
+  display: flex;
+  height: 54px;
+  margin-left: 22.0px;
+  min-width: 1484px;
+}
+
+.patient-profile-site .button-120:hover {
+  transform: scale(1.1);
+}
+
+.patient-profile-site .group-container-2 {
+  height: 17px;
+  position: relative;
+  width: 17px;
+}
+
+.patient-profile-site .group-container-3 {
+  height: 17px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 17px;
+}
+
+.patient-profile-site .group-15 {
+  height: 2px;
+  left: 8px;
+  position: absolute;
+  top: 2px;
+  width: 10px;
+}
+
+.patient-profile-site .overlap-group-container {
+  height: 17px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 14px;
+}
+
+.patient-profile-site .group-container-4 {
+  height: 6px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 7px;
+}
+
+.patient-profile-site .group {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 2px;
+  width: 4px;
+}
+
+.patient-profile-site .group-1 {
+  height: 6px;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  width: 5px;
+}
+
+.patient-profile-site .group-container-5 {
+  height: 6px;
+  left: 0;
+  position: absolute;
+  top: 6px;
+  width: 14px;
+}
+
+.patient-profile-site .group-16 {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 2px;
+  width: 11px;
+}
+
+.patient-profile-site .group-17 {
+  height: 6px;
+  left: 9px;
+  position: absolute;
+  top: 0;
+  width: 5px;
+}
+
+.patient-profile-site .group-container-6 {
+  height: 6px;
+  left: 0;
+  position: absolute;
+  top: 11px;
+  width: 7px;
+}
+
+.patient-profile-site .group-18 {
+  height: 2px;
+  left: 8px;
+  position: absolute;
+  top: 14px;
+  width: 10px;
+}
+
+.patient-profile-site .group-19 {
+  height: 2px;
+  left: 15px;
+  position: absolute;
+  top: 8px;
+  width: 2px;
+}
+
+.patient-profile-site .text-2 {
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.patient-profile-site .button-121 {
+  align-items: flex-start;
+  background-color: var(--picton-blue);
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 16px;
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  height: 52px;
+  margin-left: 6px;
+  margin-top: 0;
+  overflow: hidden;
+  padding: 10px 20px;
+  transition: all 0.2s ease-in;
+  width: 158px;
+}
+
+.patient-profile-site .button-121:hover {
+  transform: scale(1.1);
+}
+
+.patient-profile-site .download {
+  align-items: flex-end;
+  align-self: center;
+  display: flex;
+  height: 20px;
+  padding: 2.0px 2.0px;
+  width: 20px;
+}
+
+.patient-profile-site .group-container-7 {
+  height: 16px;
+  position: relative;
+  width: 16px;
+}
+
+.patient-profile-site .group-20 {
+  height: 12px;
+  left: 7px;
+  position: absolute;
+  top: 0;
+  width: 2px;
+}
+
+.patient-profile-site .group-21 {
+  height: 5px;
+  left: 4px;
+  position: absolute;
+  top: 8px;
+  width: 8px;
+}
+
+.patient-profile-site .group-23 {
+  height: 10px;
+  left: 0;
+  position: absolute;
+  top: 6px;
+  width: 16px;
+}
+
+.patient-profile-site .container-262 {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--wild-sand);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 2.0px;
+  margin-top: 15px;
+  min-height: 687px;
+  padding: 23px 36px;
+  width: 1580px;
+}
+
+.patient-profile-site .dropdown-button-2 {
+  align-items: flex-start;
+  align-self: flex-end;
+  background-color: var(--wild-sand);
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 16px;
+  display: flex;
+  gap: 7px;
+  height: 53px;
+  min-width: 114px;
+  padding: 10.5px 20px;
+}
+
+.patient-profile-site .number {
+  letter-spacing: 0;
+  line-height: 30px;
+  min-width: 46px;
+  white-space: nowrap;
+}
+
+.patient-profile-site .chevron-down-large-1 {
+  align-self: center;
+  height: 20px;
+  margin-bottom: 1.0px;
+  width: 20px;
+}
+
+.patient-profile-site .frame-8 {
+  align-items: center;
+  display: flex;
+  gap: 4px;
+  height: 22px;
+  justify-content: flex-end;
+  min-width: 122px;
+}
+
+.patient-profile-site .ellipse {
+  background-color: var(--gold);
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6px;
+  height: 12px;
+  margin-top: 0;
+  width: 12px;
+}
+
+.patient-profile-site .overlap-group-1 {
+  height: 308px;
+  position: relative;
+  width: 1267px;
+}
+
+.patient-profile-site .group-24 {
+  height: 308px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1266px;
+}
+
+.patient-profile-site .rectangle-1 {
+  height: 130px;
+}
+
+.patient-profile-site .rectangle-2 {
+  height: 39px;
+}
+
+.patient-profile-site .rectangle-3 {
+  height: 295px;
+}
+
+.patient-profile-site .rectangle-4 {
+  height: 195px;
+  margin-bottom: 0;
+}
+
+.patient-profile-site .rectangle-5 {
+  height: 209px;
+  margin-bottom: 0;
+}
+
+.patient-profile-site .rectangle-6 {
+  height: 211px;
+}
+
+.patient-profile-site .rectangle-7 {
+  height: 135px;
+}
+
+.patient-profile-site .rectangle-8 {
+  height: 43px;
+  margin-bottom: 0;
+}
+
+.patient-profile-site .frame-9 {
+  height: 308px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1267px;
+}
+
+.patient-profile-site .container-266 {
+  align-items: center;
+  background-color: var(--white);
+  border: 0px none;
+  border-radius: 6px;
+  box-shadow: 0px 0px 1px #171a1f12 , 0px 0px 2px #171a1f1f;
+  display: flex;
+  height: 78px;
+  justify-content: flex-end;
+  margin-left: 22.0px;
+  margin-top: 57px;
+  min-width: 1308px;
+  padding: 1.0px 6px;
+}
+
+.patient-profile-site .chevron-left-large {
+  align-items: flex-end;
+  align-self: center;
+  display: flex;
+  height: 16px;
+  margin-left: 1px;
+  padding: 2.0px 4.0px;
+  width: 16px;
+}
+
+.patient-profile-site .group-26 {
+  background-image: url(../img/group-549@2x.png);
+  background-size: 100% 100%;
+  height: 12px;
+  width: 7px;
+}
+
+.patient-profile-site .text-1 {
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.patient-profile-site .family-history {
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-bottom: 2.0px;
+  margin-left: 52px;
+  min-height: 60px;
+  text-align: center;
+  width: 92px;
+}
+
+.patient-profile-site .chronic-pancreatitis {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 55px;
+  margin-top: 4.0px;
+  min-height: 60px;
+  width: 109px;
+}
+
+.patient-profile-site .chevron-right-large {
+  align-items: flex-end;
+  align-self: center;
+  display: flex;
+  height: 16px;
+  margin-left: 1px;
+  padding: 2.0px 4.2px;
+  width: 16px;
+}
+
+.patient-profile-site .group-27 {
+  background-image: url(../img/group-550@2x.png);
+  background-size: 100% 100%;
+  height: 12px;
+  width: 7px;
+}
+
+.patient-profile-site .container-323 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 0px none;
+  border-radius: 6px;
+  box-shadow: 0px 0px 1px #171a1f12 , 0px 0px 2px #171a1f1f;
+  display: flex;
+  flex-direction: column;
+  margin-right: 2.0px;
+  margin-top: 8px;
+  min-height: 679px;
+  padding: 36.5px 39px;
+  width: 1581px;
+}
+
+.patient-profile-site .nutritionist-comments {
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-left: 19.5px;
+  white-space: nowrap;
+}
+
+.patient-profile-site .container-276 {
+  align-items: flex-end;
+  background-color: var(--alabaster);
+  border: 0px none;
+  border-radius: 8px;
+  box-shadow: 0px 0px 1px #171a1f12 , 0px 0px 2px #171a1f1f;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 36px;
+  min-height: 60px;
+  width: 1449px;
+}
+
+.patient-profile-site .flex-row-6 {
+  align-items: center;
+  display: flex;
+  margin-right: 4px;
+  margin-top: 12px;
+  min-width: 1425px;
+}
+
+.patient-profile-site .avatar-62 {
+  align-items: flex-start;
+  background-color: var(--wafer);
+  border-radius: 18px;
+  width: 36px;
+}
+
+.patient-profile-site .rectangle {
+  height: 36px;
+  width: 36px;
+}
+
+.patient-profile-site .dr-ann {
+  min-width: 65px;
+  white-space: nowrap;
+}
+
+.patient-profile-site .x1050-am {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-left: 1232px;
+  margin-top: 0;
+  min-width: 77px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.patient-profile-site .container-277 {
+  align-items: center;
+  background-color: var(--alabaster);
+  border: 0px none;
+  border-radius: 8px;
+  box-shadow: 0px 0px 1px #171a1f12 , 0px 0px 2px #171a1f1f;
+  display: flex;
+  height: 60px;
+  justify-content: flex-end;
+  margin-top: 221px;
+  min-width: 1449px;
+  padding: 0 14px;
+}
+
+.patient-profile-site .avatar-63 {
+  align-items: flex-start;
+  background-color: var(--swiss-coffee);
+  border-radius: 18px;
+  width: 36px;
+}
+
+.patient-profile-site .dr-min {
+  width: 71px;
+}
+
+.patient-profile-site .x1050-am-1 {
+  line-height: 28px;
+  margin-left: 1216px;
+  margin-top: 0;
+  min-width: 77px;
+}
+
+.patient-profile-site .lifestyle-and-habit {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-left: 16px;
+  margin-top: 8px;
+  min-height: 184px;
+  width: 1433px;
+}
+
+.patient-profile-site .container-323-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 0px none;
+  border-radius: 6px;
+  box-shadow: 0px 0px 1px #171a1f12 , 0px 0px 2px #171a1f1f;
+  display: flex;
+  flex-direction: column;
+  margin-right: 1.0px;
+  margin-top: 68px;
+  min-height: 633px;
+  padding: 0 39px;
+  width: 1580px;
+}
+
+.patient-profile-site .doctor-comments {
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-left: 15.5px;
+  margin-top: 39px;
+  white-space: nowrap;
+}
+
+.patient-profile-site .container-276-1 {
+  align-items: center;
+  background-color: var(--alabaster);
+  border: 0px none;
+  border-radius: 8px;
+  box-shadow: 0px 0px 1px #171a1f12 , 0px 0px 2px #171a1f1f;
+  display: flex;
+  height: 60px;
+  margin-top: 34px;
+  min-width: 1449px;
+  padding: 0 20px;
+}
+
+.patient-profile-site .name-1 {
+  margin-left: 15px;
+  margin-top: 0;
+  min-width: 142px;
+}
+
+.patient-profile-site .x1050-am-2 {
+  color: var(--mako);
+  font-family: var(--font-family-archivo);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  line-height: 30px;
+  margin-left: 1118px;
+  margin-top: 2.0px;
+  min-width: 86px;
+}
+
+.patient-profile-site .medical-recommendati {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-left: 16px;
+  min-height: 168px;
+  width: 1433px;
+}
+
+.patient-profile-site .container-277-1 {
+  align-items: center;
+  background-color: var(--alabaster);
+  border: 0px none;
+  border-radius: 8px;
+  box-shadow: 0px 0px 1px #171a1f12 , 0px 0px 2px #171a1f1f;
+  display: flex;
+  height: 60px;
+  margin-top: 12px;
+  min-width: 1449px;
+  padding: 9.0px 20px;
+}
+
+.patient-profile-site .avatar-63-1 {
+  align-items: flex-start;
+  background-color: var(--swiss-coffee);
+  border: 0px none;
+  border-radius: 18px;
+  display: flex;
+  margin-top: 0;
+  overflow: hidden;
+  width: 36px;
+}
+
+.patient-profile-site .name-2 {
+  margin-left: 15px;
+  margin-top: 0;
+  min-width: 137px;
+}
+
+.patient-profile-site .x1050-am-3 {
+  align-self: flex-start;
+  color: var(--mako);
+  font-family: var(--font-family-archivo);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  line-height: 30px;
+  margin-left: 1123px;
+  min-width: 86px;
+}
+
+.patient-profile-site .prescribed-medicatio {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-left: 16px;
+  min-height: 224px;
+  width: 1433px;
+}
+
+.patient-profile-site .container-215 {
+  align-items: flex-end;
+  background-color: var(--white);
+  border: 0px none;
+  box-shadow: 0px 0px 1px #171a1f12 , 0px 0px 2px #171a1f1f;
+  display: flex;
+  height: 58px;
+  left: 340px;
+  min-width: 1580px;
+  padding: 6.0px 32px;
+  position: absolute;
+  top: 0;
+}
+
+.patient-profile-site .container-217 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 0px none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 1px #171a1f12 , 0px 0px 2px #171a1f1f;
+  display: flex;
+  flex-direction: column;
+  left: 340px;
+  min-height: 880px;
+  padding: 24.0px 0;
+  position: absolute;
+  top: 58px;
+  width: 1580px;
+}
+
+.patient-profile-site .general-information {
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-left: 60px;
+  white-space: nowrap;
+}
+
+.patient-profile-site .line-31 {
+  margin-top: 15px;
+  width: 1580px;
+}
+
+.patient-profile-site .flex-row-7 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  height: 451px;
+  margin-left: 2.0px;
+  margin-top: 6px;
+  min-width: 1530px;
+}
+
+.patient-profile-site .flex-col-3 {
+  align-items: flex-start;
+  align-self: flex-end;
+  min-height: 440px;
+  width: 400px;
+}
+
+.patient-profile-site .textbox-53 {
+  flex-direction: column;
+  gap: 1px;
+  margin-top: 33px;
+  min-height: 83px;
+  width: 400px;
+}
+
+.patient-profile-site .place-2 {
+  margin-top: -1px;
+  white-space: nowrap;
+}
+
+.patient-profile-site .textfield {
+  align-items: flex-start;
+  background-color: var(--wild-sand);
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6px;
+  display: flex;
+  height: 53px;
+  margin-left: -1px;
+  min-width: 401px;
+  padding: 10.5px 20px;
+}
+
+.patient-profile-site .textbox-5 {
+  flex-direction: column;
+  gap: 1px;
+  margin-top: 15px;
+  min-height: 83px;
+  width: 400px;
+}
+
+.patient-profile-site .date {
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.patient-profile-site .phone {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: -1px;
+  white-space: nowrap;
+}
+
+.patient-profile-site .textbox-container {
+  align-self: center;
+  flex-direction: column;
+  margin-bottom: 18.0px;
+  margin-left: 118px;
+  min-height: 285px;
+  width: 400px;
+}
+
+.patient-profile-site .textbox-56-2 {
+  width: 400px;
+}
+
+.patient-profile-site .email {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: -1px;
+  white-space: nowrap;
+}
+
+.patient-profile-site .taylorandrewhotmailcom {
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.patient-profile-site .sex {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: -1px;
+  white-space: nowrap;
+}
+
+.patient-profile-site .male {
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.patient-profile-site .textbox-56 {
+  flex-direction: column;
+  gap: 1px;
+  margin-top: 21px;
+  min-height: 83px;
+  width: 400px;
+}
+
+.patient-profile-site .flex-col-4 {
+  align-items: flex-start;
+  margin-left: 117px;
+  min-height: 359px;
+  width: 495px;
+}
+
+.patient-profile-site .button-207 {
+  align-items: flex-start;
+  align-self: flex-end;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  height: 52px;
+  overflow: hidden;
+  padding: 10px 19px;
+  transition: all 0.2s ease-in;
+  width: 103px;
+}
+
+.patient-profile-site .button-207:hover {
+  transform: scale(1.1);
+}
+
+.patient-profile-site .group-28 {
+  background-image: url(../img/flat-22@2x.png);
+  background-size: 100% 100%;
+  height: 16px;
+  margin-left: 1px;
+  width: 16px;
+}
+
+.patient-profile-site .textbox-56-3 {
+  margin-top: 22px;
+  width: 400px;
+}
+
+.patient-profile-site .place-3 {
+  white-space: nowrap;
+}
+
+.patient-profile-site .line-30 {
+  align-self: center;
+  margin-top: 34px;
+  width: 1532px;
+}
+
+.patient-profile-site .textbox-container-1 {
+  margin-top: 45px;
+}
+
+.patient-profile-site .textbox-56-1 {
+  width: 440px;
+}
+
+.patient-profile-site .textfield-1 {
+  align-items: flex-start;
+  background-color: var(--wild-sand);
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6px;
+  display: flex;
+  height: 53px;
+  margin-left: -1px;
+  min-width: 441px;
+  padding: 10.5px 20px;
+}
+
+.patient-profile-site .address {
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.patient-profile-site .place-4 {
+  white-space: nowrap;
+}
+
+.patient-profile-site .textbox-container-2 {
+  margin-top: 15px;
+}
+
+.patient-profile-site .avatar {
+  border: 0px none;
+  display: flex;
+  overflow: hidden;
+}
+
+.patient-profile-site .dr {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 15px;
+  margin-top: 0;
+}
+
+.patient-profile-site .flex-col-5 {
+  display: flex;
+  flex-direction: column;
+}
+
+.patient-profile-site .line {
+  height: 1px;
+  object-fit: cover;
+}
+
+.patient-profile-site .user-name {
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.patient-profile-site .number-4 {
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.patient-profile-site .place-5 {
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.patient-profile-site .rectangle-9 {
+  background-color: var(--gold);
+  border: 0px none;
+  width: 95px;
+}
+
+.patient-profile-site .textbox {
+  align-items: flex-start;
+  display: flex;
+}
+
+.patient-profile-site .textbox-container-3 {
+  align-items: flex-start;
+  display: flex;
+  gap: 200px;
+  height: 83px;
+  margin-left: 26px;
+  min-width: 1080px;
+}
+
+.patient-profile-site .x1050-am-4 {
+  letter-spacing: 0;
+  text-align: right;
+  white-space: nowrap;
+}

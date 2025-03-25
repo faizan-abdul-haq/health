@@ -1,0 +1,2259 @@
+/* screen - doctor-management-site */
+
+.doctor-management-site {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 2290px;
+  overflow: hidden;
+  width: 1920px;
+}
+
+.doctor-management-site .group-25 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: -156px;
+  margin-top: 20px;
+  min-height: 140px;
+  width: 2205px;
+}
+
+.doctor-management-site .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 50px;
+  margin-left: 7.0px;
+  min-width: 1860px;
+}
+
+.doctor-management-site .image {
+  align-items: flex-start;
+  border: 0px none;
+  display: flex;
+  height: 40px;
+  padding: 1.9px 2.8px;
+  width: 40px;
+}
+
+.doctor-management-site .group-container-1 {
+  height: 36px;
+  position: relative;
+  width: 34px;
+}
+
+.doctor-management-site .group-9 {
+  height: 17px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 34px;
+}
+
+.doctor-management-site .group-10 {
+  height: 16px;
+  left: 0;
+  position: absolute;
+  top: 20px;
+  width: 16px;
+}
+
+.doctor-management-site .group-11 {
+  height: 16px;
+  left: 18px;
+  position: absolute;
+  top: 20px;
+  width: 16px;
+}
+
+.doctor-management-site .group-12 {
+  height: 9px;
+  left: 13px;
+  position: absolute;
+  top: 13px;
+  width: 9px;
+}
+
+.doctor-management-site .cancer-detection {
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: 42px;
+  margin-left: 30px;
+  min-height: 50px;
+  white-space: nowrap;
+  width: 250px;
+}
+
+.doctor-management-site .button {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--picton-blue);
+  border-radius: 10px;
+  display: flex;
+  gap: 6px;
+  height: 40px;
+  margin-left: 1219px;
+  margin-top: 0;
+  overflow: hidden;
+  padding: 1px 35px;
+  width: 150px;
+}
+
+.doctor-management-site .group-13 {
+  height: 12px;
+  width: 9px;
+}
+
+.doctor-management-site .group-14 {
+  height: 3px;
+  margin-right: 4.23px;
+  width: 3px;
+}
+
+.doctor-management-site .button-1 {
+  background-color: var(--picton-blue);
+  border-color: transparent;
+  border-radius: 10px;
+  gap: 6px;
+  height: 40px;
+  margin-left: 21px;
+  margin-top: 0;
+  padding: 1px 30.5px;
+  width: 150px;
+}
+
+.doctor-management-site .log-in {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  height: 24px;
+  margin-top: 0;
+  padding: 1.5px 2.4px;
+  width: 24px;
+}
+
+.doctor-management-site .group-container-2 {
+  height: 21px;
+  position: relative;
+  width: 19px;
+}
+
+.doctor-management-site .group-15 {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 9px;
+  width: 13px;
+}
+
+.doctor-management-site .group-16 {
+  height: 12px;
+  left: 7px;
+  position: absolute;
+  top: 5px;
+  width: 7px;
+}
+
+.doctor-management-site .group-17 {
+  height: 21px;
+  left: 7px;
+  position: absolute;
+  top: 0;
+  width: 12px;
+}
+
+.doctor-management-site .container {
+  align-items: flex-start;
+  background-color: var(--sail);
+  border: 0px none;
+  box-shadow: 0px 0px 1px #171a1f12 , 0px 0px 2px #171a1f1f;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2.0px;
+  min-width: 2203px;
+  padding: 0 127.2px;
+}
+
+.doctor-management-site .frame-14 {
+  align-items: flex-start;
+  border-radius: 6px;
+  display: flex;
+  height: 80px;
+  overflow: hidden;
+  padding: 21px 134.0px;
+  width: 336px;
+}
+
+.doctor-management-site .place {
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .frame-15 {
+  align-items: flex-start;
+  border-radius: 6px;
+  display: flex;
+  height: 80px;
+  overflow: hidden;
+  padding: 21px 134.0px;
+  width: 388px;
+}
+
+.doctor-management-site .frame-16 {
+  align-items: flex-start;
+  border-radius: 6px;
+  display: flex;
+  height: 80px;
+  overflow: hidden;
+  padding: 21px 132.0px;
+  width: 390px;
+}
+
+.doctor-management-site .for-patient {
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-left: 2px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .frame-17 {
+  align-items: flex-start;
+  border-radius: 6px;
+  display: flex;
+  height: 80px;
+  overflow: hidden;
+  padding: 21px 133.0px;
+  width: 436px;
+}
+
+.doctor-management-site .for-nutritionist {
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-left: 1px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .frame-18 {
+  align-items: flex-start;
+  border-radius: 6px;
+  display: flex;
+  height: 80px;
+  overflow: hidden;
+  padding: 21px 134.0px;
+  width: 370px;
+}
+
+.doctor-management-site .overlap-group14 {
+  align-items: flex-start;
+  background-image: url(../img/image-46.png);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 59px;
+  min-height: 279px;
+  padding: 58.0px 90px;
+  width: 1920px;
+}
+
+.doctor-management-site .home-for-doctor {
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .title {
+  letter-spacing: 0;
+  line-height: 56px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .overlap-group15 {
+  height: 1851px;
+  margin-left: -12px;
+  position: relative;
+  width: 1967px;
+}
+
+.doctor-management-site .overlap-group12 {
+  height: 408px;
+  left: 12px;
+  position: absolute;
+  top: 1443px;
+  width: 1920px;
+}
+
+.doctor-management-site .container-1 {
+  align-items: center;
+  background-color: var(--mercury);
+  border: 0px none;
+  box-shadow: 0px 0px 1px #171a1f12 , 0px 0px 2px #171a1f1f;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 392px;
+  padding: 24px 131px;
+  position: absolute;
+  top: 16px;
+  width: 1920px;
+}
+
+.doctor-management-site .flex-row-2 {
+  align-items: center;
+  display: flex;
+  height: 153px;
+  margin-right: 3.0px;
+  margin-top: 34px;
+  min-width: 863px;
+}
+
+.doctor-management-site .flex-col-1 {
+  align-items: flex-end;
+  gap: 53px;
+  min-height: 153px;
+  width: 751px;
+}
+
+.doctor-management-site .overlap-group {
+  height: 66px;
+  position: relative;
+  width: 751px;
+}
+
+.doctor-management-site .subscribe-to-our-newsletter {
+  left: 302px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 265px;
+}
+
+.doctor-management-site .textbox-2 {
+  background-color: var(--gallery);
+  border-radius: 6px 0px 0px 6px;
+  gap: 6px;
+  height: 37px;
+  left: 0;
+  min-width: 751px;
+  padding: 6.5px 12px;
+  position: absolute;
+  top: 29px;
+}
+
+.doctor-management-site .mail {
+  align-self: center;
+  height: 16px;
+  margin-bottom: 1.0px;
+  width: 16px;
+}
+
+.doctor-management-site .input-your-email {
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+  height: 34px;
+  margin-right: 31px;
+  min-width: 550px;
+}
+
+.doctor-management-site .services {
+  letter-spacing: 0;
+  line-height: 30px;
+  width: 150px;
+}
+
+.doctor-management-site .resources {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 45px;
+  width: 150px;
+}
+
+.doctor-management-site .organization {
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 55px;
+  width: 150px;
+}
+
+.doctor-management-site .button-9-1 {
+  align-items: flex-start;
+  background-color: var(--picton-blue);
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 0px 6px 6px 0px;
+  display: flex;
+  height: 36px;
+  margin-bottom: 57.0px;
+  overflow: hidden;
+  padding: 6px 23.5px;
+  width: 112px;
+}
+
+.doctor-management-site .subscribe {
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 1px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .flex-row-4 {
+  align-items: flex-start;
+  display: flex;
+  height: 56px;
+  margin-left: 24.0px;
+  margin-top: 8px;
+  min-width: 550px;
+}
+
+.doctor-management-site .for-patient-1 {
+  letter-spacing: 0;
+  line-height: 22px;
+  width: 150px;
+}
+
+.doctor-management-site .for-doctor-1 {
+  letter-spacing: 0;
+  line-height: 22px;
+  width: 150px;
+}
+
+.doctor-management-site .flex-col-2 {
+  align-items: flex-start;
+  gap: 12px;
+  margin-left: 45px;
+  min-height: 56px;
+  width: 150px;
+}
+
+.doctor-management-site .review-us {
+  letter-spacing: 0;
+  line-height: 22px;
+  width: 150px;
+}
+
+.doctor-management-site .need-to-know {
+  letter-spacing: 0;
+  line-height: 22px;
+  width: 150px;
+}
+
+.doctor-management-site .about-us {
+  letter-spacing: 0;
+  line-height: 22px;
+  width: 150px;
+}
+
+.doctor-management-site .contact-us {
+  letter-spacing: 0;
+  line-height: 22px;
+  width: 150px;
+}
+
+.doctor-management-site .flex-col-3 {
+  align-items: center;
+  align-self: flex-start;
+  gap: 22px;
+  margin-top: 12px;
+  min-height: 81px;
+  width: 1657px;
+}
+
+.doctor-management-site .for-nutritionist-1 {
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-right: 375.0px;
+  width: 150px;
+}
+
+.doctor-management-site .flex-row-5 {
+  align-items: center;
+  display: flex;
+  min-width: 1657px;
+}
+
+.doctor-management-site .textbox-1 {
+  background-color: var(--gallery);
+  border-radius: 6px;
+  gap: 41px;
+  height: 37px;
+  min-width: 129px;
+  padding: 6.5px 12px;
+}
+
+.doctor-management-site .language {
+  letter-spacing: 0;
+  line-height: 22px;
+  min-width: 47px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .chevron-down-large {
+  align-self: center;
+  height: 16px;
+  margin-bottom: 1.0px;
+  width: 16px;
+}
+
+.doctor-management-site .copyright {
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 530px;
+  margin-top: 1.0px;
+  min-width: 116px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .text-53 {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 17px;
+  margin-top: 1.0px;
+  width: 7px;
+}
+
+.doctor-management-site .privacy {
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 6px;
+  margin-top: 1.0px;
+  min-width: 46px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .text-5 {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 9px;
+  margin-top: 1.0px;
+  width: 7px;
+}
+
+.doctor-management-site .terms {
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 6px;
+  margin-top: 1.0px;
+  min-width: 39px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .sitemap {
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 7px;
+  margin-top: 1.0px;
+  min-width: 53px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .logo-twitter-1 {
+  align-items: flex-end;
+  display: flex;
+  height: 24px;
+  margin-left: 525px;
+  margin-top: 1.0px;
+  padding: 4.2px 2.3px;
+  width: 24px;
+}
+
+.doctor-management-site .group-18 {
+  background-image: url(../img/group-1@2x.png);
+  background-size: 100% 100%;
+  height: 16px;
+  width: 19px;
+}
+
+.doctor-management-site .logo-facebook-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 24px;
+  margin-left: 16px;
+  margin-top: 1.0px;
+  padding: 2.4px 2.4px;
+  width: 24px;
+}
+
+.doctor-management-site .group-19 {
+  background-image: url(../img/group-2@2x.png);
+  background-size: 100% 100%;
+  height: 19px;
+  width: 19px;
+}
+
+.doctor-management-site .logo-linkedin-1 {
+  align-items: center;
+  display: flex;
+  height: 24px;
+  margin-left: 16px;
+  margin-top: 1.0px;
+  padding: 0 3px;
+  width: 24px;
+}
+
+.doctor-management-site .group-20 {
+  background-image: url(../img/group-3@2x.png);
+  background-size: 100% 100%;
+  height: 18px;
+  width: 18px;
+}
+
+.doctor-management-site .logo-youtube-1 {
+  align-items: flex-end;
+  display: flex;
+  height: 24px;
+  margin-left: 16px;
+  margin-top: 1.0px;
+  padding: 5.2px 2.4px;
+  width: 24px;
+}
+
+.doctor-management-site .group-21 {
+  background-image: url(../img/group-145@2x.png);
+  background-size: 100% 100%;
+  height: 14px;
+  width: 19px;
+}
+
+.doctor-management-site .button-94 {
+  border-color: transparent;
+  border-radius: 4px;
+  height: 32px;
+  left: 1232px;
+  padding: 5px 9px;
+  position: absolute;
+  top: 0;
+  width: 32px;
+}
+
+.doctor-management-site .menu-5 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  gap: 1px;
+  height: 12px;
+  margin-left: 1px;
+  padding: 4.6px 0.8px;
+  width: 12px;
+}
+
+.doctor-management-site .group {
+  height: 3px;
+  width: 3px;
+}
+
+.doctor-management-site .text {
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .container-container {
+  height: 1459px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1967px;
+}
+
+.doctor-management-site .container-218 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 0px none;
+  box-shadow: 0px 0px 1px #171a1f12 , 0px 0px 2px #171a1f1f;
+  display: flex;
+  flex-direction: column;
+  left: 12px;
+  min-height: 1425px;
+  padding: 32.0px 24px;
+  position: absolute;
+  top: 0;
+  width: 340px;
+}
+
+.doctor-management-site .overlap-group1 {
+  height: 414px;
+  margin-top: 35px;
+  position: relative;
+  width: 266px;
+}
+
+.doctor-management-site .sidebar-menu-1 {
+  gap: 18px;
+  left: 0;
+  min-height: 414px;
+  position: absolute;
+  top: 0;
+}
+
+.doctor-management-site .frame-19 {
+  align-items: flex-start;
+  background-color: var(--alice-blue-3);
+  border-radius: 16px;
+  display: flex;
+  gap: 8px;
+  height: 54px;
+  overflow: hidden;
+  padding: 11px 16px;
+  width: 266px;
+}
+
+.doctor-management-site .dashboard {
+  letter-spacing: 0;
+  line-height: 30px;
+  width: 206px;
+}
+
+.doctor-management-site .frame-20 {
+  align-items: center;
+  border-radius: 16px;
+  display: flex;
+  gap: 8px;
+  height: 56px;
+  overflow: hidden;
+  padding: 0 16px;
+  width: 266px;
+}
+
+.doctor-management-site .folder {
+  height: 32px;
+  width: 32px;
+}
+
+.doctor-management-site .patient-profiles {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: 2.0px;
+  width: 194px;
+}
+
+.doctor-management-site .frame {
+  align-items: flex-start;
+  border-radius: 16px;
+  display: flex;
+  gap: 8px;
+  height: 54px;
+  overflow: hidden;
+  padding: 11px 16px;
+  width: 266px;
+}
+
+.doctor-management-site .place-1 {
+  letter-spacing: 0;
+  line-height: 30px;
+  width: 206px;
+}
+
+.doctor-management-site .nutritionist-note {
+  letter-spacing: 0;
+  line-height: 30px;
+  width: 206px;
+}
+
+.doctor-management-site .line-3 {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 196px;
+  width: 190px;
+}
+
+.doctor-management-site .personal {
+  letter-spacing: 0;
+  line-height: 48px;
+  margin-left: 6px;
+  margin-top: 14px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .sidebar-menu-2 {
+  gap: 17px;
+  margin-top: 15px;
+  min-height: 259px;
+}
+
+.doctor-management-site .teams {
+  letter-spacing: 0;
+  line-height: 30px;
+  width: 206px;
+}
+
+.doctor-management-site .frame-21 {
+  align-items: center;
+  border-radius: 16px;
+  display: flex;
+  height: 54px;
+  overflow: hidden;
+  padding: 11px 16px;
+  width: 266px;
+}
+
+.doctor-management-site .messages {
+  align-self: flex-start;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 8px;
+  width: 160px;
+}
+
+.doctor-management-site .frame-22 {
+  align-items: flex-start;
+  background-color: var(--picton-blue);
+  border-radius: 10px;
+  display: flex;
+  height: 20px;
+  justify-content: flex-end;
+  margin-left: 16px;
+  min-width: 30px;
+  padding: 4px 5.9px;
+}
+
+.doctor-management-site .text-54 {
+  letter-spacing: 0;
+  line-height: 10px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .frame-1 {
+  align-items: flex-start;
+  border-radius: 16px;
+  display: flex;
+  gap: 8px;
+  height: 50px;
+  overflow: hidden;
+  padding: 9px 16px;
+  width: 266px;
+}
+
+.doctor-management-site .notifications {
+  letter-spacing: 0;
+  line-height: 30px;
+  width: 206px;
+}
+
+.doctor-management-site .setting {
+  letter-spacing: 0;
+  line-height: 30px;
+  width: 206px;
+}
+
+.doctor-management-site .flex-row-6 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  gap: 1128px;
+  margin-right: 39.0px;
+  margin-top: 27px;
+  min-width: 1502px;
+}
+
+.doctor-management-site .textbox-50 {
+  background-color: var(--alice-blue);
+  border-radius: 6px;
+  gap: 8px;
+  height: 53px;
+  min-width: 205px;
+  padding: 10.5px 20px;
+}
+
+.doctor-management-site .search {
+  align-self: center;
+  height: 20px;
+  margin-bottom: 1.0px;
+  width: 20px;
+}
+
+.doctor-management-site .search-1 {
+  color: #66b2ec;
+  font-family: var(--font-family-archivo);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .container-container-1 {
+  height: 1350px;
+  position: relative;
+  width: 1595px;
+}
+
+.doctor-management-site .flex-row-7 {
+  align-items: flex-start;
+  display: flex;
+  height: 55px;
+  margin-left: 8.0px;
+  min-width: 1506px;
+}
+
+.doctor-management-site .group-container-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-height: 21px;
+  width: 8px;
+}
+
+.doctor-management-site .group-1 {
+  height: 12px;
+  width: 8px;
+}
+
+.doctor-management-site .group-2 {
+  height: 7px;
+  width: 8px;
+}
+
+.doctor-management-site .group-container-4 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  margin-bottom: 0;
+  min-height: 21px;
+  width: 8px;
+}
+
+.doctor-management-site .textbox-49 {
+  align-self: flex-end;
+  background-color: var(--wild-sand);
+  border-radius: 16px;
+  gap: 7px;
+  height: 53px;
+  margin-left: 1160px;
+  min-width: 202px;
+  padding: 10.5px 20px;
+}
+
+.doctor-management-site .container-container-2 {
+  align-items: flex-start;
+  display: flex;
+  min-width: 1524px;
+}
+
+.doctor-management-site .flex-col-4 {
+  align-items: flex-start;
+  align-self: flex-end;
+  min-height: 315px;
+  width: 393px;
+}
+
+.doctor-management-site .number-3 {
+  letter-spacing: 0;
+  line-height: 56px;
+  margin-left: 8.0px;
+  margin-top: 2px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .rectangle {
+  background-color: var(--picton-blue);
+  border: 0px none;
+  height: 122px;
+  margin-bottom: 8.4px;
+  width: 32px;
+}
+
+.doctor-management-site .rectangle-1 {
+  align-self: center;
+  height: 155px;
+  margin-bottom: 4.2px;
+}
+
+.doctor-management-site .rectangle-2 {
+  height: 113px;
+  margin-bottom: 8.4px;
+}
+
+.doctor-management-site .rectangle-3 {
+  height: 101px;
+  margin-bottom: 8.4px;
+}
+
+.doctor-management-site .rectangle-4 {
+  align-self: flex-start;
+  height: 160px;
+}
+
+.doctor-management-site .rectangle-5 {
+  height: 56px;
+  margin-bottom: 8.4px;
+}
+
+.doctor-management-site .rectangle-6 {
+  height: 51px;
+  margin-bottom: 8.4px;
+}
+
+.doctor-management-site .flex-row {
+  align-items: center;
+  display: flex;
+  height: 30px;
+  margin-top: 17px;
+  min-width: 237px;
+}
+
+.doctor-management-site .group-3 {
+  background-image: url(../img/group-321@2x.png);
+  background-size: 100% 100%;
+  height: 6px;
+  width: 12px;
+}
+
+.doctor-management-site .percent {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 4px;
+  min-width: 62px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .button-87 {
+  background-color: var(--picton-blue);
+  border-color: transparent;
+  border-radius: 12px;
+  height: 44px;
+  margin-top: 1.0px;
+  padding: 8px 11px;
+  width: 44px;
+}
+
+.doctor-management-site .group-container {
+  height: 17px;
+  position: relative;
+  width: 17px;
+}
+
+.doctor-management-site .group-4 {
+  height: 7px;
+  left: 9px;
+  position: absolute;
+  top: 9px;
+  width: 6px;
+}
+
+.doctor-management-site .group-5 {
+  height: 7px;
+  left: 3px;
+  position: absolute;
+  top: 9px;
+  width: 6px;
+}
+
+.doctor-management-site .group-6 {
+  height: 8px;
+  left: 5px;
+  position: absolute;
+  top: 3px;
+  width: 7px;
+}
+
+.doctor-management-site .group-7 {
+  height: 17px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 17px;
+}
+
+.doctor-management-site .text-1 {
+  letter-spacing: 0;
+  line-height: 26px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .flex-col {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  min-height: 310px;
+  width: 393px;
+}
+
+.doctor-management-site .overlap-group1-1 {
+  height: 89px;
+  margin-left: 8.0px;
+  position: relative;
+  width: 352px;
+}
+
+.doctor-management-site .number {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 56px;
+  position: absolute;
+  top: 33px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .text-2 {
+  letter-spacing: 0;
+  line-height: 26px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .overlap-group2 {
+  height: 89px;
+  margin-left: 8.0px;
+  position: relative;
+  width: 151px;
+}
+
+.doctor-management-site .text-3 {
+  letter-spacing: 0;
+  line-height: 26px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .container-216 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--wild-sand);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  left: 4px;
+  min-height: 902px;
+  padding: 11.0px 27px;
+  position: absolute;
+  top: 448px;
+  width: 1591px;
+}
+
+.doctor-management-site .flex-row-8 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  height: 71px;
+  margin-right: 23px;
+  min-width: 1504px;
+}
+
+.doctor-management-site .group-container-5 {
+  height: 21px;
+  position: relative;
+  width: 18px;
+}
+
+.doctor-management-site .group-22 {
+  height: 5px;
+  left: 11px;
+  position: absolute;
+  top: 1px;
+  width: 5px;
+}
+
+.doctor-management-site .group-23 {
+  height: 6px;
+  left: 10px;
+  position: absolute;
+  top: 1px;
+  width: 6px;
+}
+
+.doctor-management-site .group-24 {
+  height: 21px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 18px;
+}
+
+.doctor-management-site .group-26 {
+  height: 2px;
+  left: 3px;
+  position: absolute;
+  top: 5px;
+  width: 6px;
+}
+
+.doctor-management-site .group-27 {
+  height: 2px;
+  left: 3px;
+  position: absolute;
+  top: 9px;
+  width: 11px;
+}
+
+.doctor-management-site .group-28 {
+  height: 2px;
+  left: 3px;
+  position: absolute;
+  top: 14px;
+  width: 11px;
+}
+
+.doctor-management-site .patient-profiles-1 {
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-left: 12px;
+  min-width: 179px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .button-88 {
+  align-self: flex-end;
+  background-color: var(--wild-sand);
+  border-color: transparent;
+  border-radius: 16px;
+  height: 52px;
+  margin-bottom: 3.0px;
+  margin-left: 1049px;
+  padding: 11px 13px;
+  width: 52px;
+}
+
+.doctor-management-site .group-29 {
+  background-image: url(../img/flat-20@2x.png);
+  background-size: 100% 100%;
+  height: 17px;
+  width: 19px;
+}
+
+.doctor-management-site .text-4 {
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .button-89 {
+  align-self: flex-end;
+  background-color: var(--alice-blue);
+  border-color: transparent;
+  border-radius: 16px;
+  gap: 8px;
+  height: 52px;
+  margin-left: 30px;
+  padding: 10px 20px;
+  width: 158px;
+}
+
+.doctor-management-site .group-container-6 {
+  height: 13px;
+  margin-left: 2.49px;
+  position: relative;
+  width: 11px;
+}
+
+.doctor-management-site .group-30 {
+  height: 11px;
+  left: 5px;
+  position: absolute;
+  top: 0;
+  width: 2px;
+}
+
+.doctor-management-site .group-31 {
+  height: 7px;
+  left: 0;
+  position: absolute;
+  top: 6px;
+  width: 11px;
+}
+
+.doctor-management-site .group-32 {
+  height: 2px;
+  width: 16px;
+}
+
+.doctor-management-site .download {
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .container-217 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--wild-sand);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 74px;
+  height: 698px;
+  overflow: hidden;
+  padding: 0 1.2px;
+  width: 1517px;
+}
+
+.doctor-management-site .table-2 {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: var(--white);
+  display: flex;
+  margin-left: 0.84px;
+  margin-top: 12px;
+  overflow: hidden;
+  width: 1514px;
+}
+
+.doctor-management-site .overlap-group-container {
+  height: 664px;
+  margin-left: -1px;
+  margin-top: -1px;
+  position: relative;
+  width: 1514px;
+}
+
+.doctor-management-site .frame-container {
+  height: 69px;
+  left: 0;
+  position: absolute;
+  top: 59px;
+  width: 1514px;
+}
+
+.doctor-management-site .frame-2 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--tuna);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  height: 69px;
+  left: 421px;
+  padding: 20.0px 12px;
+  position: absolute;
+  top: 0;
+  width: 154px;
+}
+
+.doctor-management-site .male {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 124px;
+}
+
+.doctor-management-site .frame-3 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--tuna);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  height: 69px;
+  left: 573px;
+  padding: 20.0px 12px;
+  position: absolute;
+  top: 0;
+  width: 140px;
+}
+
+.doctor-management-site .place-2 {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 114px;
+}
+
+.doctor-management-site .frame-4 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--tuna);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  height: 69px;
+  left: 712px;
+  padding: 20.0px 12px;
+  position: absolute;
+  top: 0;
+  width: 168px;
+}
+
+.doctor-management-site .frame-5 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--tuna);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  gap: 4px;
+  height: 69px;
+  left: 1296px;
+  padding: 15.5px 12px;
+  position: absolute;
+  top: 0;
+  width: 218px;
+}
+
+.doctor-management-site .frame-6 {
+  align-items: flex-start;
+  background-color: var(--alice-blue);
+  border-radius: 18px;
+  display: flex;
+  height: 36px;
+  overflow: hidden;
+  padding: 4px 12px;
+  width: 75px;
+}
+
+.doctor-management-site .frame-7 {
+  align-items: flex-start;
+  background-color: var(--alice-blue);
+  border-radius: 18px;
+  display: flex;
+  height: 36px;
+  overflow: hidden;
+  padding: 4px 12px;
+  width: 109px;
+}
+
+.doctor-management-site .frame-8 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--tuna);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  height: 69px;
+  left: 78px;
+  padding: 20.0px 12px;
+  position: absolute;
+  top: 0;
+  width: 101px;
+}
+
+.doctor-management-site .number-1 {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 75px;
+}
+
+.doctor-management-site .frame-9 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--tuna);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  height: 69px;
+  left: 177px;
+  padding: 20.0px 12px;
+  position: absolute;
+  top: 0;
+  width: 246px;
+}
+
+.doctor-management-site .name {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 220px;
+}
+
+.doctor-management-site .frame-10 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--tuna);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  height: 69px;
+  left: 0;
+  padding: 25.5px 12px;
+  position: absolute;
+  top: 0;
+  width: 80px;
+}
+
+.doctor-management-site .checkbox {
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--black-coral-pearl);
+  border-radius: 2px;
+  height: 16px;
+  width: 16px;
+}
+
+.doctor-management-site .frame-11 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--tuna);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  height: 69px;
+  left: 877px;
+  padding: 20.0px 12px;
+  position: absolute;
+  top: 0;
+  width: 288px;
+}
+
+.doctor-management-site .ejohnsonhotmailcom {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 262px;
+}
+
+.doctor-management-site .frame-12 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--tuna);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  height: 69px;
+  left: 1163px;
+  padding: 15.5px 12px;
+  position: absolute;
+  top: 0;
+  width: 135px;
+}
+
+.doctor-management-site .frame-23 {
+  align-items: flex-start;
+  background-color: var(--alice-blue);
+  border-radius: 18px;
+  display: flex;
+  height: 36px;
+  overflow: hidden;
+  padding: 4px 12px;
+  width: 57px;
+}
+
+.doctor-management-site .new {
+  letter-spacing: 0;
+  line-height: 26px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .frame-container-1 {
+  height: 69px;
+  top: 126px;
+}
+
+.doctor-management-site .place-3 {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 114px;
+}
+
+.doctor-management-site .adavisgmailcom {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 262px;
+}
+
+.doctor-management-site .frame-13 {
+  align-items: flex-start;
+  background-color: var(--alice-blue);
+  border-radius: 18px;
+  display: flex;
+  height: 36px;
+  overflow: hidden;
+  padding: 4px 12px;
+  width: 60px;
+}
+
+.doctor-management-site .frame-container-2 {
+  height: 69px;
+  top: 193px;
+}
+
+.doctor-management-site .michaeltaylor1993yahoocom {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 262px;
+}
+
+.doctor-management-site .place-4 {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 114px;
+}
+
+.doctor-management-site .frame-container-3 {
+  height: 69px;
+  top: 260px;
+}
+
+.doctor-management-site .thenathanwoodgmailcom {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 262px;
+}
+
+.doctor-management-site .place-5 {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 114px;
+}
+
+.doctor-management-site .frame-container-4 {
+  height: 69px;
+  top: 327px;
+}
+
+.doctor-management-site .place-6 {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 114px;
+}
+
+.doctor-management-site .stephaniejohnsongmailcom {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 262px;
+}
+
+.doctor-management-site .frame-container-5 {
+  height: 69px;
+  top: 394px;
+}
+
+.doctor-management-site .ashleyrobinsonhotmailcom {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 262px;
+}
+
+.doctor-management-site .frame-container-6 {
+  height: 69px;
+  top: 461px;
+}
+
+.doctor-management-site .sallen1996gmailcom {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 262px;
+}
+
+.doctor-management-site .name-1 {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 114px;
+}
+
+.doctor-management-site .frame-container-7 {
+  height: 69px;
+  top: 528px;
+}
+
+.doctor-management-site .clara_lopez_1990yahoocom {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 262px;
+}
+
+.doctor-management-site .jbakeryahoocom {
+  letter-spacing: 0;
+  line-height: 26px;
+  width: 262px;
+}
+
+.doctor-management-site .frame-24 {
+  align-items: flex-start;
+  background-color: var(--alabaster);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--tuna);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  height: 61px;
+  left: 573px;
+  padding: 15.0px 12px;
+  position: absolute;
+  top: 0;
+  width: 140px;
+}
+
+.doctor-management-site .frame-25 {
+  align-items: flex-start;
+  background-color: var(--alabaster);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--tuna);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  height: 61px;
+  left: 0;
+  padding: 15.0px 12.0px;
+  position: absolute;
+  top: 0;
+  width: 80px;
+}
+
+.doctor-management-site .frame-26 {
+  align-items: flex-start;
+  background-color: var(--alabaster);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--tuna);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  height: 61px;
+  left: 421px;
+  padding: 15.0px 12px;
+  position: absolute;
+  top: 0;
+  width: 154px;
+}
+
+.doctor-management-site .sex {
+  letter-spacing: 0;
+  line-height: 28px;
+  width: 128px;
+}
+
+.doctor-management-site .frame-27 {
+  align-items: flex-start;
+  background-color: var(--alabaster);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--tuna);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  height: 61px;
+  left: 1296px;
+  padding: 15.0px 12px;
+  position: absolute;
+  top: 0;
+  width: 218px;
+}
+
+.doctor-management-site .action {
+  letter-spacing: 0;
+  line-height: 28px;
+  width: 192px;
+}
+
+.doctor-management-site .frame-28 {
+  align-items: flex-start;
+  background-color: var(--alabaster);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--tuna);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  height: 61px;
+  left: 78px;
+  padding: 15.0px 12px;
+  position: absolute;
+  top: 0;
+  width: 101px;
+}
+
+.doctor-management-site .frame-29 {
+  align-items: flex-start;
+  background-color: var(--alabaster);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--tuna);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  height: 61px;
+  left: 712px;
+  padding: 15.0px 12px;
+  position: absolute;
+  top: 0;
+  width: 168px;
+}
+
+.doctor-management-site .frame-30 {
+  align-items: flex-start;
+  background-color: var(--alabaster);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--tuna);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  height: 61px;
+  left: 177px;
+  padding: 15.0px 12px;
+  position: absolute;
+  top: 0;
+  width: 246px;
+}
+
+.doctor-management-site .frame-31 {
+  align-items: flex-start;
+  background-color: var(--alabaster);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--tuna);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  height: 61px;
+  left: 1163px;
+  padding: 15.0px 12px;
+  position: absolute;
+  top: 0;
+  width: 135px;
+}
+
+.doctor-management-site .status {
+  letter-spacing: 0;
+  line-height: 28px;
+  width: 109px;
+}
+
+.doctor-management-site .frame-32 {
+  align-items: flex-start;
+  background-color: var(--alabaster);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--tuna);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  height: 61px;
+  left: 877px;
+  padding: 15.0px 12px;
+  position: absolute;
+  top: 0;
+  width: 288px;
+}
+
+.doctor-management-site .email {
+  letter-spacing: 0;
+  line-height: 28px;
+  width: 262px;
+}
+
+.doctor-management-site .flex-row-9 {
+  align-items: center;
+  display: flex;
+  margin-left: 22.84px;
+  min-width: 998px;
+}
+
+.doctor-management-site .x1-10-of-145 {
+  line-height: 22px;
+  margin-bottom: 2.0px;
+  min-width: 78px;
+}
+
+.doctor-management-site .button-90 {
+  border-color: transparent;
+  border-radius: 4px;
+  height: 32px;
+  margin-left: 600px;
+  padding: 5px 9px;
+  width: 32px;
+}
+
+.doctor-management-site .group-33 {
+  height: 9px;
+  margin-bottom: -8221.5px;
+  margin-left: -2296px;
+  width: 5px;
+}
+
+.doctor-management-site .text-6 {
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .button-97 {
+  background-color: var(--picton-blue);
+  border-color: transparent;
+  border-radius: 16px;
+  height: 32px;
+  margin-left: 4px;
+  padding: 5px 12px;
+  width: 32px;
+}
+
+.doctor-management-site .number-2 {
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-left: 1px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .button-9 {
+  border-color: transparent;
+  border-radius: 4px;
+  height: 32px;
+  margin-left: 4px;
+  padding: 5px 12.5px;
+  width: 32px;
+}
+
+.doctor-management-site .number-4 {
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .number-5 {
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .number-6 {
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .button-95 {
+  border-color: transparent;
+  border-radius: 4px;
+  height: 32px;
+  margin-left: 40px;
+  padding: 5px 7px;
+  width: 29px;
+}
+
+.doctor-management-site .button-96 {
+  border-color: transparent;
+  border-radius: 4px;
+  height: 32px;
+  margin-left: 7px;
+  padding: 5px 8px;
+  width: 29px;
+}
+
+.doctor-management-site .number-7 {
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .button-98 {
+  border-color: transparent;
+  border-radius: 4px;
+  height: 32px;
+  margin-left: 7px;
+  padding: 5px 9px;
+  width: 32px;
+}
+
+.doctor-management-site .group-34 {
+  height: 9px;
+  margin-bottom: -8221.5px;
+  margin-left: -2583px;
+  width: 5px;
+}
+
+.doctor-management-site .text-7 {
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .container-305 {
+  align-items: center;
+  background-color: var(--white);
+  border: 0px none;
+  border-radius: 6px;
+  box-shadow: 0px 0px 1px #171a1f12 , 0px 0px 2px #171a1f1f;
+  display: flex;
+  gap: 30px;
+  height: 90px;
+  left: 0;
+  min-width: 340px;
+  padding: 12px 30px;
+  position: absolute;
+  top: 1369px;
+}
+
+.doctor-management-site .avatar-5 {
+  align-items: center;
+  align-self: flex-end;
+  background-color: var(--roman-coffee);
+  border: 0px none;
+  border-radius: 32px;
+  display: flex;
+  height: 64px;
+  overflow: hidden;
+  padding: 0 23px;
+  width: 64px;
+}
+
+.doctor-management-site .j {
+  letter-spacing: 0;
+  line-height: 32px;
+  min-width: 18px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .name-2 {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: 8.0px;
+  min-width: 161px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .button-194 {
+  border-color: transparent;
+  border-radius: 6px;
+  height: 36px;
+  left: 1541px;
+  padding: 6px 9px;
+  position: absolute;
+  top: 1391px;
+  width: 36px;
+}
+
+.doctor-management-site .chevron-left-large {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  height: 16px;
+  margin-left: 1px;
+  padding: 0 4.0px;
+  width: 16px;
+}
+
+.doctor-management-site .group-35 {
+  background-image: url(../img/group-354@2x.png);
+  background-size: 100% 100%;
+  height: 12px;
+  width: 7px;
+}
+
+.doctor-management-site .text-8 {
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .button-195 {
+  background-color: var(--white);
+  border-color: var(--mercury);
+  border-radius: 6px;
+  height: 36px;
+  left: 1616px;
+  padding: 6px 12px;
+  position: absolute;
+  top: 1391px;
+  width: 32px;
+}
+
+.doctor-management-site .number-8 {
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .button-196 {
+  background-color: var(--white);
+  border-color: var(--mercury);
+  border-radius: 6px;
+  height: 36px;
+  left: 1652px;
+  padding: 6px 11.5px;
+  position: absolute;
+  top: 1391px;
+  width: 33px;
+}
+
+.doctor-management-site .number-9 {
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 1px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .button-197 {
+  background-color: var(--white);
+  border-color: var(--mercury);
+  border-radius: 6px;
+  height: 36px;
+  left: 1689px;
+  padding: 6px 12.5px;
+  position: absolute;
+  top: 1391px;
+  width: 33px;
+}
+
+.doctor-management-site .number-10 {
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .button-198 {
+  background-color: var(--white);
+  border-color: var(--mercury);
+  border-radius: 6px;
+  height: 36px;
+  left: 1726px;
+  padding: 6px 9px;
+  position: absolute;
+  top: 1391px;
+  width: 36px;
+}
+
+.doctor-management-site .group-8 {
+  height: 4px;
+  width: 4px;
+}
+
+.doctor-management-site .text-9 {
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .button-199 {
+  background-color: var(--white);
+  border-color: var(--mercury);
+  border-radius: 6px;
+  height: 36px;
+  left: 1766px;
+  padding: 6px 11px;
+  position: absolute;
+  top: 1391px;
+  width: 39px;
+}
+
+.doctor-management-site .number-11 {
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 1px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .button-200 {
+  background-color: var(--white);
+  border-color: var(--mercury);
+  border-radius: 6px;
+  height: 36px;
+  left: 1809px;
+  padding: 6px 12px;
+  position: absolute;
+  top: 1391px;
+  width: 39px;
+}
+
+.doctor-management-site .number-12 {
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .button-201 {
+  border-color: transparent;
+  border-radius: 6px;
+  height: 36px;
+  left: 1850px;
+  padding: 6px 9px;
+  position: absolute;
+  top: 1391px;
+  width: 36px;
+}
+
+.doctor-management-site .chevron-right-large {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  height: 16px;
+  margin-left: 1px;
+  padding: 0 4.2px;
+  width: 16px;
+}
+
+.doctor-management-site .group-36 {
+  background-image: url(../img/group-14@2x.png);
+  background-size: 100% 100%;
+  height: 12px;
+  width: 7px;
+}
+
+.doctor-management-site .text-10 {
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .button-202 {
+  background-color: var(--picton-blue);
+  border-color: transparent;
+  border-radius: 6px;
+  height: 36px;
+  left: 1581px;
+  padding: 6px 11px;
+  position: absolute;
+  top: 1391px;
+  width: 31px;
+}
+
+.doctor-management-site .number-13 {
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 1px;
+  white-space: nowrap;
+}
+
+.doctor-management-site .button-2 {
+  align-items: flex-start;
+  border: 1px solid;
+  display: flex;
+  overflow: hidden;
+}
+
+.doctor-management-site .flex-col-5 {
+  display: flex;
+  flex-direction: column;
+}
+
+.doctor-management-site .rectangle-7 {
+  background-color: var(--picton-blue);
+  border: 0px none;
+  width: 32px;
+}
+
+.doctor-management-site .sidebar-menu {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  width: 266px;
+}
+
+.doctor-management-site .textbox {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: transparent;
+  display: flex;
+}

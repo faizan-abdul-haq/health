@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=1920, maximum-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+  <meta name="og:type" content="website" />
+  <meta name="twitter:card" content="photo" />
+  <link rel="stylesheet" type="text/css" href="css/login.css" />
+  <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+  <link rel="stylesheet" type="text/css" href="css/globals.css" />
+</head>
+
+<body style="margin: 0; background: #daecfa">
+  <input type="hidden" id="anPageName" name="page" value="login" />
+  <div class="container-center-horizontal">
+    <form class="login screen" name="form1" id="loginForm">
+      <div class="image">
+        <div class="group-container">
+          <img class="group" src="img/group-460@2x.png" alt="Group" />
+          <img class="group-1" src="img/group-461@2x.png" alt="Group" />
+          <img class="group-2" src="img/group-462@2x.png" alt="Group" />
+          <img class="group-3" src="img/group-463@2x.png" alt="Group" />
+        </div>
+      </div>
+      <div class="cancer-detection archivo-bold-picton-blue-28px" onclick="window.location.href='cancer-types.html';">
+        Cancer Detection</div>
+      <div class="container-2 container">
+        <h1 class="title">Welcome back</h1>
+        <div class="please-enter-your-details">Please enter your details</div>
+        <div class="textbox-1">
+          <div class="enter-your-email archivo-bold-eerie-black-24px">Enter your email</div>
+          <div class="textfield">
+            <input type="email" id="email" class="text archivo-normal-eerie-black-18px" required />
+          </div>
+        </div>
+        <div class="textbox-1-1">
+          <div class="password archivo-bold-eerie-black-24px">Password</div>
+          <div class="textfield">
+            <input type="password" id="password" class="text archivo-normal-eerie-black-18px" required />
+          </div>
+        </div>
+        <div class="flex-row">
+          <div class="checkbox-1">
+            <input type="checkbox" id="rememberMe" />
+            <div class="remember archivo-normal-eerie-black-20px">Remember</div>
+          </div>
+          <div class="forgot-password archivo-bold-eerie-black-20px">Forgot password</div>
+        </div>
+        <div class="button-1" id="loginButton">
+          <div class="sign-in archivo-normal-white-24px">Sign in</div>
+        </div>
+        <div class="container-1 container">
+          <div class="google-1">
+            <div class="group-4"></div>
+          </div>
+          <div class="textbox-2">
+            <div class="sign-in-with-google">Sign in with Google</div>
+          </div>
+        </div>
+        <p class="dont-have-an-account-sign-up-here" onclick="window.location.href='sign-up.html';">Don&#39;t have an
+          account? Sign up here</p>
+      </div>
+      <div id="errorMessage" style="color: red; text-align: center; margin-top: 10px;"></div>
+    </form>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Check if there are saved credentials for auto-login
+      if (localStorage.getItem('rememberMe') === 'true') {
+        const savedEmail = localStorage.getItem('email');
+        const savedPassword = localStorage.getItem('password');
+
+        if (savedEmail && savedPassword) {
+          document.getElementById('email').value = savedEmail;
+          document.getElementById('password').value = savedPassword;
+          document.getElementById('rememberMe').checked = true;
+        }
+      }
+
+      // Handle login form submission
+      document.getElementById('loginButton').addEventListener('click', function (e) {
+        e.preventDefault();
+        loginUser();
+      });
+
+      // Allow form submission with Enter key
+      document.getElementById('loginForm').addEventListener('keypress', function (e) {
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          loginUser();
+        }
+      });
+    });
+
+    function loginUser() {
+      const email = document.getElementById('email').value;
+      const password = document.getElementById('password').value;
+      const rememberMe = document.getElementById('rememberMe').checked;
+      const errorMessage = document.getElementById('errorMessage');
+
+      // Simple validation
+      if (!email || !password) {
+        errorMessage.textContent = 'Please enter both email and password';
+        return;
+      }
+
+      // Get users from localStorage or create empty array
+      const users = JSON.parse(localStorage.getItem('users')) || [];
+
+      // Find user with matching credentials
+      const user = users.find(u => u.email === email && u.password === password);
+
+      if (user) {
+        // Save to localStorage if "Remember me" is checked
+        if (rememberMe) {
+          localStorage.setItem('rememberMe', 'true');
+          localStorage.setItem('currentUser', JSON.stringify(user));         
+        } else {
+          localStorage.removeItem('rememberMe');
+          localStorage.removeItem('email');
+          localStorage.removeItem('password');
+        }
+
+        // Save current user to localStorage as an object
+        localStorage.setItem('currentUser', JSON.stringify(user));
+
+        // Redirect to the home page or the appropriate page
+        window.location.href = 'home.html'; // Change this to your desired page
+      } else {
+        errorMessage.textContent = 'Invalid email or password';
+      }
+    }
+
+    /* Handle form validity in older browsers */
+    if (!HTMLFormElement.prototype.reportValidity) {
+      HTMLFormElement.prototype.reportValidity = function () {
+        if (this.checkValidity()) return true;
+        var btn = document.createElement("button");
+        this.appendChild(btn);
+        btn.click();
+        this.removeChild(btn);
+        return false;
+      };
+    }
+
+    function SubmitForm(form_name) {
+      var form = document.getElementsByName(form_name)[0];
+      if (form.reportValidity()) {
+        form.submit();
+        if (window.submitted) window.submitted();
+      }
+    }
+
+  </script>
+</body>
+
+</html>

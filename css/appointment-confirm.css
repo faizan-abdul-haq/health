@@ -1,0 +1,540 @@
+/* screen - appointment-confirm */
+
+.appointment-confirm {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  width: 1920px;
+}
+
+.appointment-confirm .container-8 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  box-shadow: 0px 0px 1px #171a1f12 , 0px 0px 2px #171a1f1f;
+  display: flex;
+  gap: 23px;
+  height: 1168px;
+  min-width: 1920px;
+  padding: 10.0px 52px;
+}
+
+.appointment-confirm .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 527px;
+  width: 362px;
+}
+
+.appointment-confirm .title {
+  letter-spacing: 0;
+  line-height: 36px;
+  min-height: 40px;
+  white-space: nowrap;
+}
+
+.appointment-confirm .image-47 {
+  height: 403px;
+  margin-top: 18px;
+  width: 362px;
+}
+
+.appointment-confirm .free-appointment-booking {
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-top: 24px;
+  min-height: 42px;
+  white-space: nowrap;
+}
+
+.appointment-confirm .flex-col-1 {
+  align-items: flex-end;
+  margin-top: 1.0px;
+  min-height: 1106px;
+  width: 1248px;
+}
+
+.appointment-confirm .textbox-2 {
+  flex-direction: column;
+  gap: 1px;
+  min-height: 105px;
+  width: 875px;
+}
+
+.appointment-confirm .patientinformation {
+  color: var(--mako);
+  font-family: var(--font-family-archivo);
+  font-size: 23px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-top: -1px;
+  white-space: nowrap;
+}
+
+.appointment-confirm .textfield {
+  align-items: flex-start;
+  background-color: var(--wild-sand);
+  border: 1px solid;
+  border-color: var(--eerie-black-2);
+  border-radius: 4px;
+  display: flex;
+  height: 69px;
+  margin-left: -1px;
+  min-width: 876px;
+  padding: 15.5px 20px;
+}
+
+.appointment-confirm .name {
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.appointment-confirm .flex-row {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  height: 39px;
+  margin-right: 276.0px;
+  margin-top: 5px;
+  min-width: 230px;
+}
+
+.appointment-confirm .radio-btn-checked-1 {
+  align-items: center;
+  display: flex;
+  height: 26px;
+  margin-top: 1.0px;
+  padding: 0 1.8px;
+  width: 26px;
+}
+
+.appointment-confirm .group {
+  background-image: url(../img/group-847@2x.png);
+  background-size: 100% 100%;
+  height: 22px;
+  width: 22px;
+}
+
+.appointment-confirm .male {
+  color: #66686f;
+  font-family: var(--font-family-archivo);
+  font-size: 23px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-left: 7px;
+  min-height: 39px;
+  white-space: nowrap;
+  width: 58px;
+}
+
+.appointment-confirm .o-female {
+  align-self: flex-end;
+  color: #727273;
+  font-family: var(--font-family-archivo);
+  font-size: 23px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-bottom: 0;
+  margin-left: 25px;
+  min-height: 39px;
+  white-space: nowrap;
+  width: 114px;
+}
+
+.appointment-confirm .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  gap: 159px;
+  height: 943px;
+  margin-top: 14px;
+  min-width: 1248px;
+}
+
+.appointment-confirm .textarea-5 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--french-gray);
+  border-radius: 10px;
+  display: flex;
+  height: 133px;
+  margin-top: 165px;
+  min-width: 213px;
+  padding: 11.5px 20px;
+}
+
+.appointment-confirm .doctor-jenifer-1600-25112020 {
+  letter-spacing: 0;
+  line-height: 36px;
+  min-height: 108px;
+  width: 172px;
+}
+
+.appointment-confirm .flex-col-2 {
+  align-items: flex-start;
+  min-height: 943px;
+  width: 876px;
+}
+
+.appointment-confirm .textbox-3 {
+  background-color: var(--wild-sand);
+  border: 1px solid;
+  border-color: var(--eerie-black);
+  border-radius: 6px;
+  height: 71px;
+  min-width: 876px;
+  padding: 16.5px 20px;
+}
+
+.appointment-confirm .phone {
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.appointment-confirm .textbox-6 {
+  background-color: var(--wild-sand);
+  border: 1px solid;
+  border-color: var(--eerie-black);
+  border-radius: 4px;
+  height: 69px;
+  margin-top: 7px;
+  min-width: 876px;
+  padding: 15.5px 20px;
+}
+
+.appointment-confirm .abcgmailca {
+  color: #7d8086;
+  font-family: var(--font-family-archivo);
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.appointment-confirm .textbox-4 {
+  background-color: var(--wild-sand);
+  border: 1px solid;
+  border-color: var(--eerie-black-2);
+  border-radius: 4px;
+  height: 71px;
+  margin-top: 8px;
+  min-width: 876px;
+  padding: 16.5px 20px;
+}
+
+.appointment-confirm .number {
+  color: #75797e;
+  font-family: var(--font-family-archivo);
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.appointment-confirm .textbox-5 {
+  background-color: var(--wild-sand);
+  border: 1px solid;
+  border-color: var(--eerie-black);
+  border-radius: 4px;
+  height: 71px;
+  margin-top: 5px;
+  min-width: 876px;
+  padding: 16.5px 20px;
+}
+
+.appointment-confirm .place {
+  color: #7d8086;
+  font-family: var(--font-family-archivo);
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.appointment-confirm .overlap-group2 {
+  height: 153px;
+  margin-top: 1px;
+  position: relative;
+  width: 876px;
+}
+
+.appointment-confirm .textbox-1 {
+  background-color: var(--wild-sand);
+  border: 1px solid;
+  border-color: var(--eerie-black);
+  border-radius: 6px;
+  height: 115px;
+  left: 0;
+  min-width: 876px;
+  padding: 38.5px 20px;
+  position: absolute;
+  top: 38px;
+}
+
+.appointment-confirm .text-46 {
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.appointment-confirm .reason-for-examination {
+  color: #66686f;
+  font-family: var(--font-family-archivo);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  left: 1px;
+  letter-spacing: 0;
+  line-height: 36px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 291px;
+}
+
+.appointment-confirm .overlap-group1 {
+  height: 150px;
+  margin-top: 17px;
+  position: relative;
+  width: 876px;
+}
+
+.appointment-confirm .additional-informati {
+  color: #687281;
+  font-family: var(--font-family-archivo);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  left: 1px;
+  letter-spacing: 0;
+  line-height: 36px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 469px;
+}
+
+.appointment-confirm .textbox-1-1 {
+  align-items: flex-start;
+  background-color: var(--wild-sand);
+  border: 1px solid;
+  border-color: var(--eerie-black-2);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  left: 0;
+  min-height: 117px;
+  padding: 25px 20px;
+  position: absolute;
+  top: 33px;
+  width: 876px;
+}
+
+.appointment-confirm .respiratory-history {
+  color: #94999f;
+  font-family: var(--font-family-archivo);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.appointment-confirm .text {
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.appointment-confirm .flex-row-2 {
+  align-items: center;
+  display: flex;
+  gap: 7px;
+  margin-left: 1px;
+  margin-top: 2px;
+  min-width: 550px;
+}
+
+.appointment-confirm .overlap-group {
+  height: 96px;
+  position: relative;
+  width: 360px;
+}
+
+.appointment-confirm .there-are-prior-exam {
+  color: #63656b;
+  font-family: var(--font-family-archivo);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 36px;
+  position: absolute;
+  top: 0;
+  width: 350px;
+}
+
+.appointment-confirm .button-228 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--valencia);
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  height: 48px;
+  left: 188px;
+  overflow: hidden;
+  padding: 5px 16px;
+  position: absolute;
+  top: 36px;
+  transition: all 0.2s ease-in;
+  width: 172px;
+}
+
+.appointment-confirm .button-228:hover {
+  transform: scale(1.1);
+}
+
+.appointment-confirm .x-file {
+  color: var(--valencia);
+  font-family: var(--font-family-archivo);
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.appointment-confirm .button-229 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--valencia);
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  height: 48px;
+  margin-top: 24.0px;
+  overflow: hidden;
+  padding: 5px 16px;
+  transition: all 0.2s ease-in;
+  width: 183px;
+}
+
+.appointment-confirm .button-229:hover {
+  transform: scale(1.1);
+}
+
+.appointment-confirm .textbox-3-1 {
+  align-items: flex-start;
+  background-color: var(--wild-sand);
+  border: 1px solid;
+  border-color: var(--eerie-black-2);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  margin-top: 26px;
+  min-height: 106px;
+  padding: 15.5px 20px;
+  width: 876px;
+}
+
+.appointment-confirm .additional-informati-1 {
+  color: #888d93;
+  font-family: var(--font-family-archivo);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.appointment-confirm .etc {
+  color: var(--manatee);
+  font-family: var(--font-family-archivo);
+  font-size: 21px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.appointment-confirm .button-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 33px;
+  margin-left: 1px;
+  margin-top: 38px;
+  min-width: 861px;
+}
+
+.appointment-confirm .button-170 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--picton-blue);
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  height: 52px;
+  overflow: hidden;
+  padding: 7px 166px;
+  transition: all 0.2s ease-in;
+  width: 409px;
+}
+
+.appointment-confirm .button-170:hover {
+  transform: scale(1.1);
+}
+
+.appointment-confirm .cancel {
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-left: 1px;
+  white-space: nowrap;
+}
+
+.appointment-confirm .button-171 {
+  align-items: flex-start;
+  background-color: var(--picton-blue);
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  height: 52px;
+  overflow: hidden;
+  padding: 7px 97px;
+  transition: all 0.2s ease-in;
+  width: 419px;
+}
+
+.appointment-confirm .button-171:hover {
+  transform: scale(1.1);
+}
+
+.appointment-confirm .confirm-appointment {
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.appointment-confirm .flex-col-3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.appointment-confirm .textbox {
+  align-items: flex-start;
+  display: flex;
+}

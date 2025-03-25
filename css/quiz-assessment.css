@@ -1,0 +1,1223 @@
+/* screen - quiz-assessment */
+
+.quiz-assessment {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 2595px;
+  overflow: hidden;
+  padding: 16px 0;
+  width: 1920px;
+}
+
+.quiz-assessment .group-25 {
+  align-items: center;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: -156px;
+  margin-top: 4px;
+  min-height: 140px;
+  width: 2205px;
+}
+
+.quiz-assessment .flex-row {
+  height: 50px;
+  margin-left: 7.0px;
+  min-width: 1860px;
+}
+
+.quiz-assessment .image {
+  align-items: flex-start;
+  border: 0px none;
+  display: flex;
+  height: 40px;
+  padding: 1.9px 2.8px;
+  width: 40px;
+}
+
+.quiz-assessment .group-container-1 {
+  height: 36px;
+  position: relative;
+  width: 34px;
+}
+
+.quiz-assessment .group-3 {
+  height: 17px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 34px;
+}
+
+.quiz-assessment .group-4 {
+  height: 16px;
+  left: 0;
+  position: absolute;
+  top: 20px;
+  width: 16px;
+}
+
+.quiz-assessment .group-5 {
+  height: 16px;
+  left: 18px;
+  position: absolute;
+  top: 20px;
+  width: 16px;
+}
+
+.quiz-assessment .group-6 {
+  height: 9px;
+  left: 13px;
+  position: absolute;
+  top: 13px;
+  width: 9px;
+}
+
+.quiz-assessment .cancer-detection {
+  align-self: flex-end;
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 42px;
+  margin-left: 30px;
+  min-height: 50px;
+  transition: all 0.2s ease-in;
+  white-space: nowrap;
+  width: 250px;
+}
+
+.quiz-assessment .cancer-detection:hover {
+  transform: scale(1.1);
+}
+
+.quiz-assessment .button-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--picton-blue);
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  gap: 6px;
+  height: 40px;
+  margin-left: 1219px;
+  margin-top: 0;
+  overflow: hidden;
+  padding: 1px 35px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.quiz-assessment .button-1:hover {
+  transform: scale(1.1);
+}
+
+.quiz-assessment .group-7 {
+  height: 12px;
+  width: 9px;
+}
+
+.quiz-assessment .group-8 {
+  height: 3px;
+  margin-right: 4.23px;
+  width: 3px;
+}
+
+.quiz-assessment .button-2 {
+  align-items: flex-start;
+  background-color: var(--picton-blue);
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  gap: 6px;
+  height: 40px;
+  margin-left: 21px;
+  margin-top: 0;
+  overflow: hidden;
+  padding: 1px 30.5px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+}
+
+.quiz-assessment .button-2:hover {
+  transform: scale(1.1);
+}
+
+.quiz-assessment .log-in {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  height: 24px;
+  margin-top: 0;
+  padding: 1.5px 2.4px;
+  width: 24px;
+}
+
+.quiz-assessment .group-container-2 {
+  height: 21px;
+  position: relative;
+  width: 19px;
+}
+
+.quiz-assessment .group-9 {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 9px;
+  width: 13px;
+}
+
+.quiz-assessment .group-10 {
+  height: 12px;
+  left: 7px;
+  position: absolute;
+  top: 5px;
+  width: 7px;
+}
+
+.quiz-assessment .group-11 {
+  height: 21px;
+  left: 7px;
+  position: absolute;
+  top: 0;
+  width: 12px;
+}
+
+.quiz-assessment .container-1 {
+  align-items: flex-start;
+  background-color: var(--sail);
+  box-shadow: 0px 0px 1px #171a1f12 , 0px 0px 2px #171a1f1f;
+  margin-right: 2.0px;
+  min-width: 2203px;
+  padding: 0 127.2px;
+}
+
+.quiz-assessment .frame-8 {
+  align-items: flex-start;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  height: 80px;
+  overflow: hidden;
+  padding: 21px 134.0px;
+  transition: all 0.2s ease-in;
+  width: 336px;
+}
+
+.quiz-assessment .frame-8:hover {
+  transform: scale(1.1);
+}
+
+.quiz-assessment .place {
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.quiz-assessment .frame-9 {
+  align-items: flex-start;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  height: 80px;
+  overflow: hidden;
+  padding: 21px 134.0px;
+  transition: all 0.2s ease-in;
+  width: 388px;
+}
+
+.quiz-assessment .frame-9:hover {
+  transform: scale(1.1);
+}
+
+.quiz-assessment .frame-10 {
+  align-items: flex-start;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  height: 80px;
+  overflow: hidden;
+  padding: 21px 132.0px;
+  transition: all 0.2s ease-in;
+  width: 390px;
+}
+
+.quiz-assessment .frame-10:hover {
+  transform: scale(1.1);
+}
+
+.quiz-assessment .for-patient {
+  margin-left: 2px;
+}
+
+.quiz-assessment .frame-11 {
+  align-items: flex-start;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  height: 80px;
+  overflow: hidden;
+  padding: 21px 133.0px;
+  transition: all 0.2s ease-in;
+  width: 436px;
+}
+
+.quiz-assessment .frame-11:hover {
+  transform: scale(1.1);
+}
+
+.quiz-assessment .for-nutritionist {
+  margin-left: 1px;
+}
+
+.quiz-assessment .frame-12 {
+  align-items: flex-start;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  height: 80px;
+  overflow: hidden;
+  padding: 21px 134.0px;
+  transition: all 0.2s ease-in;
+  width: 370px;
+}
+
+.quiz-assessment .frame-12:hover {
+  transform: scale(1.1);
+}
+
+.quiz-assessment .title {
+  color: var(--black);
+  font-family: var(--font-family-archivo);
+  font-size: var(--font-size-xxxl);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 48px;
+  margin-right: 51.0px;
+  margin-top: 31px;
+  min-width: 341px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.quiz-assessment .container-2 {
+  align-items: flex-start;
+  background-color: var(--white);
+  gap: 15px;
+  height: 429px;
+  margin-top: 33px;
+  min-width: 1920px;
+  padding: 26.0px 26px;
+}
+
+.quiz-assessment .flex-col {
+  flex-direction: column;
+  gap: 40px;
+  min-height: 368px;
+  width: 1717px;
+}
+
+.quiz-assessment .flex-row-1 {
+  align-items: flex-end;
+  display: flex;
+  gap: 230px;
+  height: 322px;
+  min-width: 651px;
+}
+
+.quiz-assessment .flex-col-2 {
+  gap: 32px;
+  min-height: 322px;
+  width: 224px;
+}
+
+.quiz-assessment .age-gender {
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.quiz-assessment .what-is-your-age-group {
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.quiz-assessment .checkbox {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  min-height: 192px;
+  width: 214px;
+}
+
+.quiz-assessment .frame {
+  align-items: flex-start;
+  display: flex;
+  gap: 8px;
+  height: 28px;
+  min-width: 214px;
+}
+
+.quiz-assessment .rectangle {
+  align-self: center;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--picton-blue);
+  border-radius: 4px;
+  height: 20px;
+  width: 20px;
+}
+
+.quiz-assessment .under-30 {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: -1px;
+  width: 186px;
+}
+
+.quiz-assessment .text-5 {
+  margin-top: -1px;
+  width: 186px;
+}
+
+.quiz-assessment .text-4 {
+  margin-top: -1px;
+  width: 186px;
+}
+
+.quiz-assessment .address {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: -1px;
+  width: 186px;
+}
+
+.quiz-assessment .flex-col-3 {
+  gap: 32px;
+  margin-bottom: 0;
+  min-height: 254px;
+  width: 197px;
+}
+
+.quiz-assessment .checkbox-1 {
+  align-self: flex-end;
+  gap: 54px;
+  min-height: 192px;
+  width: 187px;
+}
+
+.quiz-assessment .frame-1 {
+  align-items: flex-start;
+  display: flex;
+  gap: 8px;
+  height: 28px;
+  min-width: 187px;
+}
+
+.quiz-assessment .female {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: -1px;
+  width: 159px;
+}
+
+.quiz-assessment .male {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: -1px;
+  width: 159px;
+}
+
+.quiz-assessment .other {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: -1px;
+  width: 159px;
+}
+
+.quiz-assessment .frame-2 {
+  align-items: flex-start;
+  background-color: var(--alice-blue-2);
+  border-radius: 3px;
+  display: flex;
+  overflow: hidden;
+  width: 1717px;
+}
+
+.quiz-assessment .rectangle-1 {
+  background-color: var(--anakiwa);
+  border: 0px none;
+  height: 6px;
+  width: 858px;
+}
+
+.quiz-assessment .button-3 {
+  align-items: flex-start;
+  align-self: flex-end;
+  background-color: var(--picton-blue);
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  height: 52px;
+  margin-bottom: 1.0px;
+  overflow: hidden;
+  padding: 10px 20px;
+  transition: all 0.2s ease-in;
+  width: 110px;
+}
+
+.quiz-assessment .button-3:hover {
+  transform: scale(1.1);
+}
+
+.quiz-assessment .arrow-right {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  height: 20px;
+  padding: 3.8px 1.7px;
+  width: 20px;
+}
+
+.quiz-assessment .group-container {
+  height: 12px;
+  margin-left: 1px;
+  position: relative;
+  width: 15px;
+}
+
+.quiz-assessment .group {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 5px;
+  width: 14px;
+}
+
+.quiz-assessment .group-1 {
+  height: 12px;
+  left: 8px;
+  position: absolute;
+  top: 0;
+  width: 7px;
+}
+
+.quiz-assessment .next {
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.quiz-assessment .container {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 0px none;
+  display: flex;
+  gap: 15px;
+  height: 429px;
+  justify-content: flex-end;
+  min-width: 1920px;
+  padding: 26.0px 26px;
+}
+
+.quiz-assessment .flex-row-2 {
+  align-items: flex-end;
+  display: flex;
+  gap: 205px;
+  height: 322px;
+  min-width: 701px;
+}
+
+.quiz-assessment .flex-col-4 {
+  gap: 32px;
+  min-height: 322px;
+  width: 249px;
+}
+
+.quiz-assessment .body-mass-index-bmi {
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.quiz-assessment .checkbox-2 {
+  align-self: center;
+  gap: 24px;
+  margin-right: 5.0px;
+  min-height: 192px;
+  width: 224px;
+}
+
+.quiz-assessment .frame-3 {
+  align-items: flex-start;
+  display: flex;
+  gap: 8px;
+  height: 30px;
+  min-width: 224px;
+}
+
+.quiz-assessment .under-5-ft-150-cm {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: -1px;
+  white-space: nowrap;
+}
+
+.quiz-assessment .x555-ft-150165-cm {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: -1px;
+  white-space: nowrap;
+}
+
+.quiz-assessment .x556-ft-165183-cm {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: -1px;
+  white-space: nowrap;
+}
+
+.quiz-assessment .over-6-ft-183-cm {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: -1px;
+  white-space: nowrap;
+}
+
+.quiz-assessment .flex-col-5 {
+  gap: 32px;
+  margin-bottom: 0;
+  min-height: 254px;
+  width: 247px;
+}
+
+.quiz-assessment .what-is-your-weight-range {
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.quiz-assessment .checkbox-3 {
+  align-self: flex-end;
+  gap: 24px;
+  min-height: 192px;
+  width: 237px;
+}
+
+.quiz-assessment .frame-4 {
+  align-items: flex-start;
+  display: flex;
+  gap: 8px;
+  height: 30px;
+  min-width: 237px;
+}
+
+.quiz-assessment .under-50-kg-110-lbs {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: -1px;
+  white-space: nowrap;
+}
+
+.quiz-assessment .x5070-kg-110154-lbs {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: -1px;
+  white-space: nowrap;
+}
+
+.quiz-assessment .x7090-kg-154198-lbs {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: -1px;
+  white-space: nowrap;
+}
+
+.quiz-assessment .over-90-kg-198-lbs {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: -1px;
+  white-space: nowrap;
+}
+
+.quiz-assessment .button {
+  align-items: flex-start;
+  align-self: flex-end;
+  background-color: var(--picton-blue);
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  gap: 6px;
+  height: 52px;
+  margin-bottom: 1.0px;
+  overflow: hidden;
+  padding: 10px 21px;
+  transition: all 0.2s ease-in;
+  width: 110px;
+}
+
+.quiz-assessment .button:hover {
+  transform: scale(1.1);
+}
+
+.quiz-assessment .flex-col-1 {
+  min-height: 368px;
+  width: 1717px;
+}
+
+.quiz-assessment .smoking-history {
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.quiz-assessment .x-you {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: 32px;
+  white-space: nowrap;
+}
+
+.quiz-assessment .checkbox-4 {
+  gap: 24px;
+  margin-left: 10px;
+  margin-top: 32px;
+  min-height: 192px;
+  width: 199px;
+}
+
+.quiz-assessment .frame-5 {
+  align-items: flex-start;
+  display: flex;
+  gap: 8px;
+  height: 30px;
+  min-width: 199px;
+}
+
+.quiz-assessment .never-smoked {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: -1px;
+  white-space: nowrap;
+}
+
+.quiz-assessment .former-smoker {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: -1px;
+  white-space: nowrap;
+}
+
+.quiz-assessment .occasional-smoker {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: -1px;
+  white-space: nowrap;
+}
+
+.quiz-assessment .regular-smoker {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: -1px;
+  white-space: nowrap;
+}
+
+.quiz-assessment .frame-6 {
+  align-items: flex-start;
+  background-color: var(--alice-blue-2);
+  border-radius: 3px;
+  display: flex;
+  margin-top: 40px;
+  overflow: hidden;
+  width: 1717px;
+}
+
+.quiz-assessment .family-history {
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.quiz-assessment .checkbox-5 {
+  gap: 51px;
+  margin-left: 10px;
+  margin-top: 32px;
+  min-height: 192px;
+  width: 470px;
+}
+
+.quiz-assessment .frame-7 {
+  align-items: flex-start;
+  display: flex;
+  gap: 8px;
+  height: 30px;
+  min-width: 470px;
+}
+
+.quiz-assessment .yes-one-or-more-clo {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: -1px;
+  white-space: nowrap;
+}
+
+.quiz-assessment .yes-distant-relatives {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: -1px;
+  white-space: nowrap;
+}
+
+.quiz-assessment .place-1 {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: -1px;
+  white-space: nowrap;
+}
+
+.quiz-assessment .container-3 {
+  align-items: center;
+  background-color: var(--white);
+  gap: 15px;
+  height: 512px;
+  min-width: 1920px;
+  padding: 18px 26px;
+}
+
+.quiz-assessment .flex-col-6 {
+  min-height: 460px;
+  width: 1724px;
+}
+
+.quiz-assessment .existing-medical-conditions {
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-left: 7px;
+  white-space: nowrap;
+}
+
+.quiz-assessment .have-you-been-diagno {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 7px;
+  margin-top: 32px;
+  white-space: nowrap;
+}
+
+.quiz-assessment .checkbox-6 {
+  gap: 13px;
+  margin-left: 7px;
+  margin-top: 32px;
+  min-height: 290px;
+  width: 470px;
+}
+
+.quiz-assessment .rectangle-2 {
+  align-self: center;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--black-coral-pearl);
+  border-radius: 4px;
+  height: 20px;
+  width: 20px;
+}
+
+.quiz-assessment .copd-chronic-obstru {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: -1px;
+  width: 442px;
+}
+
+.quiz-assessment .type-2-diabetes {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: -1px;
+  width: 442px;
+}
+
+.quiz-assessment .anaemia-low-hb-levels {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: -1px;
+  width: 442px;
+}
+
+.quiz-assessment .endometrial-hyperplasia-polyp {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: -1px;
+  width: 442px;
+}
+
+.quiz-assessment .chronic-pancreatitis {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: -1px;
+  width: 442px;
+}
+
+.quiz-assessment .venous-thromboembolism {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: -1px;
+  width: 442px;
+}
+
+.quiz-assessment .none-of-the-above {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: -1px;
+  width: 442px;
+}
+
+.quiz-assessment .frame-13 {
+  align-items: flex-start;
+  background-color: var(--alice-blue-2);
+  border-radius: 3px;
+  display: flex;
+  margin-top: 34px;
+  overflow: hidden;
+  width: 1724px;
+}
+
+.quiz-assessment .rectangle-3 {
+  background-color: var(--anakiwa);
+  border: 0px none;
+  height: 6px;
+  width: 569px;
+}
+
+.quiz-assessment .button-4 {
+  align-items: flex-start;
+  align-self: flex-end;
+  background-color: var(--picton-blue);
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  height: 52px;
+  overflow: hidden;
+  padding: 10px 20px;
+  transition: all 0.2s ease-in;
+  width: 110px;
+}
+
+.quiz-assessment .button-4:hover {
+  transform: scale(1.1);
+}
+
+.quiz-assessment .check {
+  align-items: flex-end;
+  align-self: center;
+  display: flex;
+  height: 20px;
+  padding: 3.8px 1.7px;
+  width: 20px;
+}
+
+.quiz-assessment .group-12 {
+  height: 12px;
+  width: 17px;
+}
+
+.quiz-assessment .flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 3.0px;
+  margin-top: 27px;
+  min-width: 463px;
+}
+
+.quiz-assessment .button-container {
+  height: 52px;
+  position: relative;
+  width: 99px;
+}
+
+.quiz-assessment .button-228 {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  height: 52px;
+  left: 0;
+  overflow: hidden;
+  padding: 11px 13px;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease-in;
+  width: 52px;
+}
+
+.quiz-assessment .button-228:hover {
+  transform: scale(1.1);
+}
+
+.quiz-assessment .chevron-left-large {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  height: 24px;
+  margin-left: 1px;
+  margin-top: 0;
+  padding: 0 6px;
+  width: 24px;
+}
+
+.quiz-assessment .group-13 {
+  background-image: url(../img/group-486@2x.png);
+  background-size: 100% 100%;
+  height: 18px;
+  width: 11px;
+}
+
+.quiz-assessment .text {
+  color: var(--mako);
+  font-family: var(--font-family-archivo);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.quiz-assessment .button-236 {
+  align-items: flex-start;
+  background-color: var(--picton-blue);
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6px;
+  display: flex;
+  height: 52px;
+  left: 50px;
+  overflow: hidden;
+  padding: 11px 19px;
+  position: absolute;
+  top: 0;
+  width: 49px;
+}
+
+.quiz-assessment .number {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-left: 1px;
+  white-space: nowrap;
+}
+
+.quiz-assessment .button-container-1 {
+  height: 52px;
+  margin-left: 2px;
+  position: relative;
+  width: 143px;
+}
+
+.quiz-assessment .button-229 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--mercury);
+  border-radius: 6px;
+  display: flex;
+  height: 52px;
+  left: 0;
+  overflow: hidden;
+  padding: 11px 19px;
+  position: absolute;
+  top: 0;
+  width: 50px;
+}
+
+.quiz-assessment .button-230 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--mercury);
+  border-radius: 6px;
+  display: flex;
+  height: 52px;
+  left: 47px;
+  overflow: hidden;
+  padding: 11px 19px;
+  position: absolute;
+  top: 0;
+  width: 50px;
+}
+
+.quiz-assessment .button-231 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--mercury);
+  border-radius: 6px;
+  display: flex;
+  height: 52px;
+  left: 93px;
+  overflow: hidden;
+  padding: 11px 20px;
+  position: absolute;
+  top: 0;
+  width: 50px;
+}
+
+.quiz-assessment .button-232 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--mercury);
+  border-radius: 6px;
+  display: flex;
+  height: 52px;
+  overflow: hidden;
+  padding: 11px 13px;
+  width: 52px;
+}
+
+.quiz-assessment .menu-5 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  gap: 2px;
+  height: 24px;
+  margin-left: 1px;
+  margin-top: 0;
+  padding: 9.2px 1.5px;
+  width: 24px;
+}
+
+.quiz-assessment .group-2 {
+  height: 6px;
+  width: 6px;
+}
+
+.quiz-assessment .text-1 {
+  white-space: nowrap;
+}
+
+.quiz-assessment .button-233 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--mercury);
+  border-radius: 6px;
+  display: flex;
+  height: 52px;
+  margin-left: 2px;
+  overflow: hidden;
+  padding: 11px 19px;
+  width: 50px;
+}
+
+.quiz-assessment .button-234 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--mercury);
+  border-radius: 6px;
+  display: flex;
+  height: 52px;
+  margin-left: 7px;
+  overflow: hidden;
+  padding: 11px 20px;
+  width: 50px;
+}
+
+.quiz-assessment .button-235 {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  height: 52px;
+  margin-left: 6px;
+  overflow: hidden;
+  padding: 11px 13px;
+  transition: all 0.2s ease-in;
+  width: 52px;
+}
+
+.quiz-assessment .button-235:hover {
+  transform: scale(1.1);
+}
+
+.quiz-assessment .chevron-right-large {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  height: 24px;
+  margin-left: 1px;
+  margin-top: 0;
+  padding: 0 6.4px;
+  width: 24px;
+}
+
+.quiz-assessment .group-14 {
+  background-image: url(../img/group-490@2x.png);
+  background-size: 100% 100%;
+  height: 18px;
+  margin-left: 1px;
+  width: 11px;
+}
+
+.quiz-assessment .checkbox-7 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.quiz-assessment .container-4 {
+  border: 0px none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.quiz-assessment .flex {
+  align-items: flex-start;
+  display: flex;
+}
+
+.quiz-assessment .flex-col-7 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.quiz-assessment .next-5 {
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.quiz-assessment .number-3 {
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.quiz-assessment .text-2 {
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.quiz-assessment .what-is-your {
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}

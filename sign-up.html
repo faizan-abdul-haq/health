@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=1920, maximum-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="css/sign-up.css" />
+  <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+  <link rel="stylesheet" type="text/css" href="css/globals.css" />
+</head>
+
+<body style="margin: 0; background: #daecfa">
+  <input type="hidden" id="anPageName" name="page" value="sign-up" />
+  <div class="container-center-horizontal">
+    <div class="sign-up screen">
+      <div class="image">
+        <div class="group-container">
+          <img class="group" src="img/group-479@2x.png" alt="Group" />
+          <img class="group-1" src="img/group-461@2x.png" alt="Group" />
+          <img class="group-2" src="img/group-462@2x.png" alt="Group" />
+          <img class="group-3" src="img/group-463@2x.png" alt="Group" />
+        </div>
+      </div>
+      <div class="cancer-detection archivo-bold-picton-blue-28px" onclick="window.location.href='cancer-types.html';">
+        Cancer Detection</div>
+      <div class="container-2 container">
+        <h1 class="title">Sign up</h1>
+        <div class="container-1 container">
+          <div class="google-1">
+            <div class="group-4"></div>
+          </div>
+          <div class="textbox-2">
+            <div class="sign-in-with-google">Sign in with Google</div>
+          </div>
+        </div>
+        <div class="textbox-1">
+          <div class="user-name archivo-bold-eerie-black-24px">User name</div>
+          <div class="textfield"><input type="text" class="user-name-input david-lee archivo-normal-eerie-black-20px" />
+          </div>
+        </div>
+        <div class="textbox-1-1 textbox-1-3">
+          <div class="email archivo-bold-eerie-black-24px">Email</div>
+          <div class="textfield-1 textfield-3"><input type="email"
+              class="email-input user-name-input david-lee archivo-normal-eerie-black-20px" /></div>
+        </div>
+        <div class="textbox-1-2 textbox-1-3">
+          <div class="password archivo-bold-eerie-black-24px">Password</div>
+          <div class="textfield-2 textfield-3"><input type="password"
+              class="password-input david-lee archivo-normal-eerie-black-20px" />
+          </div>
+        </div>
+
+        <!-- User Type Selection (using select dropdown) -->
+        <div class="textbox-1-3">
+          <div class="archivo-bold-eerie-black-24px">Select User Type</div>
+          <div class="textfield">
+            <select class="user-type-select archivo-normal-eerie-black-20px">
+              <option value="">Select a type</option>
+              <option value="Doctor">Doctor</option>
+              <option value="Patient">Patient</option>
+              <option value="Nutritionist">Nutritionist</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="checkbox-1">
+          <div class="rectangle"></div>
+          <p class="agree-with-term-and-privacy archivo-normal-eerie-black-20px">Agree with Term and Privacy</p>
+        </div>
+
+        <div class="button-1">
+          <div class="sign-up-1 archivo-normal-white-24px">Sign up</div>
+        </div>
+        <div class="already-have-an-account">Already have an account?</div>
+        <div class="button-1-1" onclick="window.location.href='login.html';">
+          <div class="sign-in archivo-normal-picton-blue-24px">Sign in</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    window.onload = function () {
+      const signUpBtn = document.querySelector('.sign-up-1'); // Make sure this matches your button's class
+
+      signUpBtn.addEventListener('click', function (event) {
+        event.preventDefault(); // Prevent the form from submitting the default way
+
+        // Retrieve the values from the input fields
+        const userName = document.querySelector('.user-name-input').value.trim(); // User name input field
+        const email = document.querySelector('.email-input').value.trim(); // Email input field
+        const password = document.querySelector('.password-input').value.trim(); // Password input field
+
+        // Get the selected user type from the dropdown
+        const userType = document.querySelector('.user-type-select').value; // Selected user type
+
+        if (userName && email && password && userType) {
+          // Prepare the user data object
+          const newUser = {
+            userName: userName,
+            email: email,
+            password: password,
+            userType: userType,  // Store the selected user type
+          };
+
+          // Get the existing users array from localStorage or initialize it
+          const users = JSON.parse(localStorage.getItem('users')) || [];
+
+          // Add the new user to the array
+          users.push(newUser);
+
+          // Save the updated array back to localStorage
+          localStorage.setItem('users', JSON.stringify(users));
+
+          // Show a confirmation alert
+          alert('Sign-up successful!');
+
+          // Redirect to the login page (or any page you'd like to redirect after successful signup)
+          window.location.href = 'login.html'; // Replace with the actual page
+        } else {
+          // If any field is empty, show an error alert
+          alert('Please fill in all fields and select a user type.');
+        }
+      });
+    };
+  </script>
+
+</body>
+
+</html>
