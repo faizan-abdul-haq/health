@@ -1645,7 +1645,7 @@
   align-items: flex-start;
   align-self: center;
   display: flex;
-  height: 451px;
+  /* height: 451px; */
   margin-left: 2.0px;
   margin-top: 6px;
   min-width: 1530px;

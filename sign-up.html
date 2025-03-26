@@ -68,7 +68,7 @@
           <p class="agree-with-term-and-privacy archivo-normal-eerie-black-20px">Agree with Term and Privacy</p>
         </div>
 
-        <div class="button-1">
+        <div class="button-1" id="sign-up">
           <div class="sign-up-1 archivo-normal-white-24px">Sign up</div>
         </div>
         <div class="already-have-an-account">Already have an account?</div>
@@ -81,7 +81,7 @@
 
   <script>
     window.onload = function () {
-      const signUpBtn = document.querySelector('.sign-up-1'); // Make sure this matches your button's class
+      const signUpBtn = document.querySelector('.sign-up'); // Make sure this matches your button's class
 
       signUpBtn.addEventListener('click', function (event) {
         event.preventDefault(); // Prevent the form from submitting the default way

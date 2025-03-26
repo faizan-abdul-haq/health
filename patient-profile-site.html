@@ -266,77 +266,22 @@
                 </div>
               </div>
             </div>
+
+            <!-- Display Comments -->
+
             <div class="container-323">
               <div class="nutritionist-comments archivo-bold-picton-blue-24px">Nutritionist Comments</div>
-              <div class="container-276">
-                <div class="flex-row-6">
-                  <div class="avatar-62 avatar">
-                    <img class="rectangle" src="img/rectangle-7@2x.png" alt="Rectangle" />
-                  </div>
-                  <div class="dr-ann dr archivo-bold-eerie-black-20px">Dr Ann</div>
-                  <div class="x1050-am archivo-normal-eerie-black-18px">10:50 AM</div>
-                </div>
-                <p class="meal-plan-suggestion archivo-normal-eerie-black-18px">
-                  Meal Plan Suggestions:<br />Focus on Whole Foods: Incorporate a variety of fruits, vegetables, whole
-                  grains, and lean proteins into your meals. Aim for a colorful plate to ensure you&#39;re getting a
-                  wide range of nutrients.<br />High-Antioxidant Foods: Include foods like berries, spinach, kale,
-                  broccoli, and carrots, which are rich in antioxidants to support your immune system.<br />Lean
-                  Proteins: Opt for fish, chicken, eggs, legumes, and plant-based proteins like tofu or lentils to
-                  support muscle repair and recovery.<br />Healthy Fats: Add sources of omega-3 fatty acids, such as
-                  salmon, walnuts, flaxseeds, and avocados, to help reduce inflammation.<br />Hydration: Drink plenty
-                  of water throughout the day to stay hydrated. Herbal teas and clear broths are also good options.
-                </p>
-              </div>
-              <div class="container-277">
-                <div class="avatar-63 avatar">
-                  <img class="rectangle" src="img/rectangle-8@2x.png" alt="Rectangle" />
-                </div>
-                <div class="dr-min dr archivo-bold-eerie-black-20px">Dr Min</div>
-                <div class="x1050-am-1 x1050-am-4 archivo-normal-eerie-black-18px">10:50 AM</div>
-              </div>
-              <p class="lifestyle-and-habit archivo-normal-eerie-black-18px">
-                Lifestyle and Habit Suggestions:<br />Regular Physical Activity: Engage in light activities such as
-                walking, yoga, or stretching, as tolerated, to boost energy and improve overall well-being.<br />Mindful
-                Eating: Eat slowly and in a calm environment to aid digestion and improve your appetite.<br />Manage
-                Stress: Practice relaxation techniques like deep breathing, meditation, or journaling to reduce stress
-                and support emotional health.<br />Adequate Rest: Ensure you&#39;re getting enough sleep and rest to
-                allow your body to recover and heal.<br />Limit Alcohol and Caffeine: Minimize consumption to avoid
-                additional stress on your body.
-              </p>
+              <div id="nutritionistCommentsContainer"></div>
             </div>
+
             <div class="container-323-1">
               <div class="doctor-comments archivo-bold-picton-blue-24px">Doctor Comments</div>
-              <div class="container-276-1">
-                <div class="avatar-62 avatar">
-                  <img class="rectangle" src="img/rectangle-7@2x.png" alt="Rectangle" />
-                </div>
-                <div class="name-1 name-4 archivo-bold-eerie-black-20px">Olivia Martinez</div>
-                <div class="x1050-am-2 x1050-am-4">10:50 AM</div>
-              </div>
-              <p class="medical-recommendati archivo-normal-tuna-18px">
-                Medical Recommendations:<br /><br />The patient may require [specific recommendations, e.g., time off
-                work, modified duties, or additional rest periods] due to the physical and emotional demands of
-                treatment.<br />Nutritional and physical support is highly recommended to improve treatment efficacy
-                and overall well-being. A tailored meal plan, hydration, and light physical activity (as tolerated)
-                should be incorporated into daily routines.<br />Follow-up appointments are scheduled on [insert
-                dates], and the patient may need assistance with travel or support during these visits.
-              </p>
-              <div class="container-277-1">
-                <div class="avatar-63-1"><img class="rectangle" src="img/rectangle-8@2x.png" alt="Rectangle" /></div>
-                <div class="name-2 name-4 archivo-bold-eerie-black-20px">Ashley Adams</div>
-                <div class="x1050-am-3 x1050-am-4">10:50 AM</div>
-              </div>
-              <p class="prescribed-medicatio archivo-normal-tuna-18px">
-                Prescribed Medications:<br />Recommend [specific drug name], an approved medication for slowing the
-                progression of metastatic cancer.<br />Emphasize the importance of adhering to prescribed dosages to
-                ensure effectiveness.<br />Targeted Therapy:<br />Suggest the use of targeted therapy medications,
-                which aim to block the growth and spread of cancer by targeting specific molecules involved in tumor
-                growth.<br />Hormonal Therapy (if applicable):<br />For hormone-sensitive cancers, recommend hormonal
-                therapies to block or lower the hormones that promote cancer cell growth.
-              </p>
+              <div id="doctorCommentsContainer"></div>
             </div>
           </div>
         </div>
+
+        
         <div class="container-215">
           <div class="profile-details archivo-semi-bold-eerie-black-24px">Profile Details</div>
         </div>
@@ -486,6 +431,87 @@
     }
 
   </script>
+
+  <script>
+    // Function to load comments from localStorage and display them
+    function loadComments() {
+      // Get comments from localStorage (or set to an empty array if not found)
+      const doctorComments = JSON.parse(localStorage.getItem('doctorComments')) || [];
+      const nutritionistComments = JSON.parse(localStorage.getItem('nutritionistComments')) || [];
+
+      // Get the containers to display comments
+      const doctorCommentsContainer = document.getElementById('doctorCommentsContainer');
+      const nutritionistCommentsContainer = document.getElementById('nutritionistCommentsContainer');
+
+      // Clear existing comments in both containers
+      doctorCommentsContainer.innerHTML = '';
+      nutritionistCommentsContainer.innerHTML = '';
+
+      // Function to render comments for a given container
+      function renderComments(comments, container) {
+        if (comments.length === 0) {
+          const noComments = document.createElement('p');
+          noComments.className = 'archivo-normal-eerie-black-18px';
+          noComments.textContent = 'No comments yet.';
+          container.appendChild(noComments);
+          return;
+        }
+
+        comments.forEach((comment) => {
+          // Create the comment structure
+          const commentDiv = document.createElement('div');
+          commentDiv.className = 'container-276';
+
+          const flexRow = document.createElement('div');
+          flexRow.className = 'flex-row-7';
+
+          const avatarDiv = document.createElement('div');
+          avatarDiv.className = 'avatar-62 avatar';
+          const avatarImg = document.createElement('img');
+          avatarImg.className = 'rectangle';
+          avatarImg.src = 'img/rectangle-7@2x.png'; // You can replace with a default avatar image
+          avatarImg.alt = 'Avatar';
+          avatarDiv.appendChild(avatarImg);
+
+          const nameDiv = document.createElement('div');
+          nameDiv.className = 'dr-ann dr archivo-bold-eerie-black-20px';
+          nameDiv.textContent = comment.userName || 'Anonymous';
+
+          const timeDiv = document.createElement('div');
+          timeDiv.className = 'x1050-am archivo-normal-eerie-black-18px';
+          timeDiv.textContent = comment.timestamp || 'Just now';
+
+          // Append name and timestamp to the flex row
+          flexRow.appendChild(avatarDiv);
+          flexRow.appendChild(nameDiv);
+          flexRow.appendChild(timeDiv);
+
+          // Create comment text
+          const commentText = document.createElement('p');
+          commentText.className = 'meal-plan-suggestion archivo-normal-eerie-black-18px';
+          commentText.textContent = comment.text;
+
+          // Append the comment content to the comment div
+          commentDiv.appendChild(flexRow);
+          commentDiv.appendChild(commentText);
+
+          // Append the comment to the container
+          container.appendChild(commentDiv);
+        });
+      }
+
+      // Render Nutritionist Comments
+      renderComments(nutritionistComments, nutritionistCommentsContainer);
+
+      // Render Doctor Comments
+      renderComments(doctorComments, doctorCommentsContainer);
+    }
+
+    // Load comments when the page loads
+    window.onload = loadComments;
+  </script>
+
+
 </body>
 <script>
 

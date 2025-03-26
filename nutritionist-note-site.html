@@ -452,7 +452,7 @@
 
     // Function to load existing comments from localStorage
     function loadComments() {
-      const comments = JSON.parse(localStorage.getItem('comments')) || [];
+      const comments = JSON.parse(localStorage.getItem('nutritionistComments')) || [];
       commentsContainer.innerHTML = ''; // Clear the existing comments before rendering new ones
 
       // Create a header for the comments section
@@ -542,13 +542,13 @@
         };
 
         // Get the existing comments from localStorage
-        const comments = JSON.parse(localStorage.getItem('comments')) || [];
+        const comments = JSON.parse(localStorage.getItem('nutritionistComments')) || [];
 
         // Add the new comment to the array
         comments.push(newComment);
 
         // Save the updated array back to localStorage
-        localStorage.setItem('comments', JSON.stringify(comments));
+        localStorage.setItem('nutritionistComments', JSON.stringify(comments));
 
         // Clear the input field
         commentInput.value = '';
