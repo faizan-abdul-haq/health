@@ -80,19 +80,20 @@
   </div>
 
   <script>
-    window.onload = function () {
-      const signUpBtn = document.querySelector('.sign-up'); // Make sure this matches your button's class
+   window.onload = function () {
+      const signUpBtn = document.getElementById('sign-up'); // Select the sign-up button
 
       signUpBtn.addEventListener('click', function (event) {
-        event.preventDefault(); // Prevent the form from submitting the default way
+        event.preventDefault(); // Prevent the default action
+        event.stopPropagation(); // Stop the event from propagating
 
         // Retrieve the values from the input fields
-        const userName = document.querySelector('.user-name-input').value.trim(); // User name input field
-        const email = document.querySelector('.email-input').value.trim(); // Email input field
-        const password = document.querySelector('.password-input').value.trim(); // Password input field
+        const userName = document.querySelector('.user-name-input').value.trim();
+        const email = document.querySelector('.email-input').value.trim();
+        const password = document.querySelector('.password-input').value.trim();
 
         // Get the selected user type from the dropdown
-        const userType = document.querySelector('.user-type-select').value; // Selected user type
+        const userType = document.querySelector('.user-type-select').value;
 
         if (userName && email && password && userType) {
           // Prepare the user data object
@@ -100,7 +101,7 @@
             userName: userName,
             email: email,
             password: password,
-            userType: userType,  // Store the selected user type
+            userType: userType,
           };
 
           // Get the existing users array from localStorage or initialize it
@@ -115,14 +116,15 @@
           // Show a confirmation alert
           alert('Sign-up successful!');
 
-          // Redirect to the login page (or any page you'd like to redirect after successful signup)
-          window.location.href = 'login.html'; // Replace with the actual page
+          // Redirect to the login page
+          window.location.href = 'login.html';
         } else {
           // If any field is empty, show an error alert
           alert('Please fill in all fields and select a user type.');
         }
       });
     };
+
   </script>
 
 </body>
