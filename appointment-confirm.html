@@ -26,47 +26,56 @@
         </div>
         <div class="flex-col-1 flex-col-3">
           <div class="textbox-2 textbox">
-            <div class="patientinformation">Patientinformation</div>
+            <div class="patientinformation">Patient Information</div>
             <div class="textfield">
-              <div class="name archivo-normal-manatee-24px">emily</div>
+              <label>Name</label>
+              <input class="name archivo-normal-manatee-24px" type="text" />
             </div>
           </div>
           <div class="flex-row">
+            <label>Gender </label>
             <div class="radio-btn-checked-1">
-              <div class="group"></div>
+              <input type="radio" id="male" name="gender" class="group" checked>
             </div>
-            <div class="male">Male</div>
-            <div class="o-female">O Female</div>
+            <label for="male" class="male">Male</label>
+            <div class="radio-btn-checked-1">
+              <input type="radio" id="female" name="gender" class="group">
+            </div>
+            <label for="female" class="o-female">Female</label>
           </div>
           <div class="flex-row-1">
             <div class="textarea-5">
               <div class="doctor-jenifer-1600-25112020 archivo-bold-eerie-black-24px">
-                Doctor-Jenifer<br />16:00-17:00<br />25/11/2020
+                Doctor-Jenifer<br /><span id="appointment-time"></span><br /><span id="appointment-date"></span>
               </div>
             </div>
             <div class="flex-col-2 flex-col-3">
+              <label>Phone Number</label>
               <div class="textbox-3 textbox">
-                <div class="phone archivo-normal-manatee-24px">14374567945</div>
+                <input type="tel" class="phone archivo-normal-manatee-24px" value="14374567945" />
               </div>
+              <label>Email</label>
               <div class="textbox-6 textbox">
-                <div class="abcgmailca">abc@gmail.ca</div>
+                <input type="email" class="abcgmailca" value="abc@gmail.ca" />
               </div>
+              <label>Year Of Birth</label>
               <div class="textbox-4 textbox">
-                <div class="number">1981</div>
+                <input type="date" class="number" value="1981" />
               </div>
+              <label>Address</label>
               <div class="textbox-5 textbox">
-                <div class="place">halifax</div>
+                <input type="text" class="place" value="halifax" />
               </div>
               <div class="overlap-group2">
                 <div class="textbox-1 textbox">
-                  <div class="text-46 archivo-normal-eerie-black-24px">....</div>
+                  <input type="text" class="text-46 archivo-normal-eerie-black-24px" placeholder="...." />
                 </div>
                 <div class="reason-for-examination">Reason for examination:</div>
               </div>
               <div class="overlap-group1">
                 <div class="additional-informati">Additional information (optional) (View)</div>
                 <div class="textbox-1-1">
-                  <p class="respiratory-history">Respiratory history note (if applicable)</p>
+                  <textarea class="respiratory-history">Respiratory history note (if applicable)</textarea>
                   <div class="text archivo-normal-eerie-black-18px"></div>
                 </div>
               </div>
@@ -74,7 +83,7 @@
                 <div class="overlap-group">
                   <p class="there-are-prior-exam">There are prior examinations:<br />Upload images</p>
                   <div class="button-228">
-                    <div class="x-file">Choose Files</div>
+                    <input type="file" class="x-file" />
                   </div>
                 </div>
                 <div class="button-229">
@@ -82,8 +91,9 @@
                 </div>
               </div>
               <div class="textbox-3-1">
-                <p class="additional-informati-1">Additional information,if any (doctor,place of examination,</p>
-                <div class="etc">etc.)</div>
+                <textarea class="additional-informati-1">
+                  Additional information,if any (doctor,place of examination, etc.)
+                </textarea>
               </div>
               <div class="button-container">
                 <div class="button-170" onclick="window.location.href='patient.html';">
@@ -99,50 +109,86 @@
       </div>
     </div>
   </div>
+
   <script>
     window.onload = function () {
-      // Retrieve the data from localStorage
-      const patientData = JSON.parse(localStorage.getItem('patients')) || [];
+      const currentPatient = JSON.parse(localStorage.getItem('currentPatient'));
+      const dateAndTime = JSON.parse(localStorage.getItem('pendingAppointmentTime'));
+      const appointments = JSON.parse(localStorage.getItem('selectedAppointments')) || [];
 
-      // Check if there is any patient data in the array
-      if (patientData.length > 0) {
-        const data = patientData[0]; // Assuming you are displaying data for the first patient in the array
+      // Populate form with patient data if available
+      if (currentPatient) {
+        document.querySelector('.name').value = currentPatient.name || '';
+        document.querySelector('.phone').value = currentPatient.Phone || '';
+        document.querySelector('.abcgmailca').value = currentPatient.email || '';
+        document.querySelector('.number').value = currentPatient.yearOfBirth || currentPatient.date?.split('-')[0] || '';
+        document.querySelector('.place').value = currentPatient.city || '';
 
-        // Populate the fields dynamically with the data from localStorage
-        document.querySelector('.name').textContent = data.name || 'N/A';  // Patient Name
-        document.querySelector('.male').textContent = data.gender === 'male' ? 'Male' : 'Female';  // Gender
-        document.querySelector('.phone').textContent = data.Phone || 'N/A';  // Phone Number
-        document.querySelector('.abcgmailca').textContent = data.email || 'N/A';  // Email
-        document.querySelector('.number').textContent = data.date || 'N/A';
-        document.querySelector('.place').textContent = data.city || 'N/A';  // City
+        const gender = currentPatient.gender?.toLowerCase();
+        if (gender === 'female') {
+          document.getElementById('female').checked = true;
+        } else {
+          document.getElementById('male').checked = true;
+        }
 
-        // Reason for examination
-        document.querySelector('.reason-for-examination').textContent = data.reasonForExamination || 'N/A';
-
-        // Additional information (optional)
-        document.querySelector('.respiratory-history').textContent = data.additionalinformation || 'No additional information';
-
-        // Appointment time and doctor details
-        document.querySelector('.doctor-jenifer-1600-25112020').textContent = `${data.doctorName || 'Doctor Name'}\n${data.appointmentTime || '00:00'}\n${data.appointmentDate || 'DD/MM/YYYY'}`;
-
-        // Prior examinations (just a placeholder for now)
-        document.querySelector('.there-are-prior-exam').textContent = data.file ? 'There are prior examinations: ' + data.file : 'No prior examinations';
+        document.querySelector('.text-46').value = currentPatient.reasonForExamination || '';
+        document.querySelector('.respiratory-history').value = currentPatient.additionalinformation || '';
       }
 
-      // Handle form submission
-      const submitBtn = document.querySelector('.confirm-appointment'); // Make sure this matches the submit button class
-      submitBtn.addEventListener('click', function (event) {
-        event.preventDefault(); // Prevent the default form submission action (if it's a form)
+      // Display appointment time and date dynamically
+      if (dateAndTime) {
+        document.getElementById('appointment-time').innerText = `${dateAndTime.time}`;
+        document.getElementById('appointment-date').innerText = `${dateAndTime.date}`;
+      }
 
-        // Show an alert to notify the user
-        alert('Appointment confirmed successfully!');
+      // Handle confirm appointment
+      document.querySelector('.button-171').addEventListener('click', function (event) {
+        event.preventDefault();
 
-        // Redirect back to the patient page
-        window.location.href = 'patient.html'; // Replace with the actual URL of your patient page
+        const name = document.querySelector('.name').value;
+        if (!name) {
+          alert('Please enter patient name');
+          return;
+        }
+
+        const patientData = {
+          patientName: name,
+          gender: document.querySelector('input[name="gender"]:checked')?.id || 'male',
+          phone: document.querySelector('.phone').value,
+          email: document.querySelector('.abcgmailca').value,
+          yearOfBirth: document.querySelector('.number').value,
+          city: document.querySelector('.place').value,
+          reason: document.querySelector('.text-46').value,
+          additionalInfo: document.querySelector('.respiratory-history').value,
+          doctorNote: document.querySelector('.doctor-jenifer-1600-25112020')?.innerText || '',
+          confirmationDate: new Date().toISOString()
+        };
+
+        const fullAppointment = {
+          dateAndTime,
+          patientData
+        };
+
+        appointments.push(fullAppointment);
+        localStorage.setItem('selectedAppointments', JSON.stringify(appointments));
+
+        // Clean up temporary storage
+        localStorage.removeItem('pendingAppointmentTime');
+        localStorage.removeItem('currentPatient');
+
+        alert('Booking is confirmed!');
+        window.location.href = 'index.html';
+      });
+
+      document.querySelector('.button-170').addEventListener('click', function (event) {
+        event.preventDefault();
+        window.location.href = 'index.html';
       });
     };
-
   </script>
+
+
+
 </body>
 
 </html>

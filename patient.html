@@ -457,7 +457,7 @@
                   <div class="group-13"></div>
                 </div>
               </div>
-              <div class="table">
+              <!-- <div class="table">
                 <div class="overlap-group-container">
                   <div class="frame-container">
                     <div class="frame">
@@ -621,10 +621,32 @@
                     </div>
                   </div>
                 </div>
+              </div> -->
+
+              <!-- Date Selection -->
+              <div class="textbox-5">
+                <div class="date-of-birth archivo-bold-eerie-black-20px">Select Appointment Date</div>
+                <div class="textfield-2 textfield-8">
+                  <input id="appointment-date" class="archivo-normal-eerie-black-20px" type="date" />
+                </div>
               </div>
+
+              <!-- Time Selection -->
+              <div class="textbox-5">
+                <div class="time-of-appointment archivo-bold-eerie-black-20px">Select Appointment Time</div>
+                <div class="textfield-2 textfield-8">
+                  <input id="appointment-time" class="archivo-normal-eerie-black-20px" type="time" />
+                </div>
+              </div>
+
+              <!-- Confirm Button -->
+              <div class="button-3" onclick="confirmAppointment()">
+                <div class="confirm archivo-normal-white-20px">Confirm</div>
+              </div>
+
             </div>
           </div>
-          <div class="flex-col-4 flex-col-9 archivo-normal-eerie-black-20px">
+          <!-- <div class="flex-col-4 flex-col-9 archivo-normal-eerie-black-20px">
             <div class="container-2-1">
               <div class="x0900-am">09:00 AM</div>
               <div class="unavailable">Unavailable</div>
@@ -673,7 +695,7 @@
             <div class="container-2-5">
               <div class="x0500-pm archivo-normal-eerie-black-20px">05:00 PM</div>
             </div>
-          </div>
+          </div> -->
         </div>
         <div class="container-235">
           <div class="flex-col-5 flex-col-9">
@@ -941,6 +963,25 @@
         });
       });
     </script>
+
+<script>
+  function confirmAppointment() {
+    const selectedDate = document.getElementById('appointment-date').value;
+    const selectedTime = document.getElementById('appointment-time').value;
+
+    if (selectedDate && selectedTime) {
+      const newDateTime = { date: selectedDate, time: selectedTime };
+
+      // Temporarily store it until confirmation step
+      localStorage.setItem('pendingAppointmentTime', JSON.stringify(newDateTime));
+
+      // Redirect to confirmation page
+      window.location.href = 'appointment-confirm.html';
+    } else {
+      alert("Please select both a date and time.");
+    }
+  }
+</script>
 
 
 </body>
