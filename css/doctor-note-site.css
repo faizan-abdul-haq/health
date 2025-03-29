@@ -1,5 +1,29 @@
 /* screen - doctor-note-site */
 
+
+.doctor-note-site {
+    width: 1440px; /* Your base design width */
+    transform-origin: top left; /* Keeps scaling from top-left */
+}
+
+@media (max-width: 1280px) {
+    .doctor-note-site {
+        transform: scale(0.89);
+    }
+}
+
+@media (max-width: 1024px) {
+    .doctor-note-site {
+        transform: scale(0.71);
+    }
+}
+
+@media (max-width: 768px) {
+    .doctor-note-site {
+        transform: scale(0.53);
+    }
+}
+
 .doctor-note-site {
   align-items: flex-start;
   background-color: var(--white);
